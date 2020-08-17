@@ -1,8 +1,8 @@
 ## Implemente o que se pede abaixo.
 
-1. Implemente as classes _Casa_ e _Sapato_ em conformidade com as restrições seguintes.
+1. Implemente as classes _A_ e _B_ nos arquivos **A.java** e **B.java**. Estas classes são criadas inicialmente sem atributos, sem métodos. Compile-as.
 
-1. Conforme boa prática de programação, cada classe é fornecida em seu próprio arquivo. Ou seja, para estas duas classes teremos dois arquivos: **Casa.java** e **Sapato.java**.
+1. Crie a classe _UsaAB_. Compile-a e a execute. Nenhum resultado deverá ser observado. Em tempo, uma classe executável em Java tem que conter o método cuja assinatura é `public static void main(String[] args)`.
 
 1. Acrescente pelo menos 5 (cinco) propriedades, também denominadas de atributos ou membros de dados, para cada uma destas classes. Seja cuidadoso, um atributo típico de sapato é o número (tamanho), por exemplo. Há muitos outros, por outro lado, não faz sentido "nome do usuário", por exemplo. Para uma casa, um atributo típico é a área construída. Pergunte-se, para auxiliar a identificar atributos relevantes, o que você gostaria de saber sobre um dado sapato e que é atribuição ou responsabilidade dele saber ou realizar? O que você gostaria de saber sobre uma casa? Desenvolver software orientado a objetos é, de certa forma, favorecer a perspectiva do "mundo real".
 
