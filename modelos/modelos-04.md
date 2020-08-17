@@ -12,25 +12,25 @@ Toda árvore possui um elemento denominado raiz, conforme o modelo abaixo. Em co
 
 ### Árvore 2
 
-3. Nesta proposta observe que cada elemento pode ou não possuir um ancestral (pai), assim como também pode ou não possuir um irmão (irmão). Se um elemento é filho único, então não possui irmãos. Se um elemento é a raiz, então não possui ancestral. Se tivermos um elemento da árvore que possui vários descendentes, então cada um deles irá indicar este elemento como pai e, além disso, todos os irmãos formarão uma lista circular. Cada irmão indica o seguinte formando esta lista.
+Nesta proposta observe que cada elemento pode ou não possuir um ancestral (pai), assim como também pode ou não possuir um irmão (irmão). Se um elemento é filho único, então não possui irmãos. Se um elemento é a raiz, então não possui ancestral. Se tivermos um elemento da árvore que possui vários descendentes, então cada um deles irá indicar este elemento como pai e, além disso, todos os irmãos formarão uma lista circular. Cada irmão indica o seguinte formando esta lista.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349819-82198d80-e011-11ea-9bc9-f0d77c4099b2.png)
 
 ### Grafo
 
-4. Um grafo dirigido pode ser modelado como abaixo. Para cada aresta tem-se um nó que funciona como origem e outro como destino. Se fosse desejável adicionar pesos a cada uma das arestas, seria suficiente definir um atributo para a classe Aresta.
+Um grafo dirigido pode ser modelado como abaixo. Para cada aresta tem-se um nó que funciona como origem e outro como destino. Se fosse desejável adicionar pesos a cada uma das arestas, seria suficiente definir um atributo para a classe Aresta.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349841-92316d00-e011-11ea-81eb-c19eeb63c6fe.png)
 
 ### FIFO
 
-5. A fila FIFO (first-in first-out) pode ser modelada conforme abaixo. Observe a presença de um primeiro elemento e, deste, todos os demais na fila, em ordem bem definida pela associação que indica o anterior e o próximo.
+A fila FIFO (first-in first-out) pode ser modelada conforme abaixo. Observe a presença de um primeiro elemento e, deste, todos os demais na fila, em ordem bem definida pela associação que indica o anterior e o próximo.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349860-a1b0b600-e011-11ea-9907-ab044c52dc6f.png)
 
 ### Pilha
 
-6. A estrutura de pilha permite o acesso somente ao elemento do topo da pilha. Dado o elemento do topo, o próximo elemento que se tem acesso é o que desempenha o papel de anterior na associação de Elemento para Elemento.
+A estrutura de pilha permite o acesso somente ao elemento do topo da pilha. Dado o elemento do topo, o próximo elemento que se tem acesso é o que desempenha o papel de anterior na associação de Elemento para Elemento.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349873-b12fff00-e011-11ea-9980-b58218479f58.png)
 
