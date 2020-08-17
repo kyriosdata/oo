@@ -34,7 +34,7 @@ Toda árvore possui um elemento denominado raiz, conforme o modelo abaixo. Em co
 
 ![image](https://user-images.githubusercontent.com/1735792/90349873-b12fff00-e011-11ea-9980-b58218479f58.png)
 
-### 7. ista duplamente encadeada.
+### Lista duplamente encadeada.
 
 Uma lista duplamente encadeada apenas permite, dado um determinado elemento, a definição imediata do sucessor e do anterior, caso estes existam. Uma modelo correspondente é apresentado abaixo. Uma peculiaridade desta estrutura pode ser observada na cardinalidade da associação de anterior e próximo. Ambas são 1, indicando que, dado um elemento desta lista, necessariamente há um anterior e um elemento próximo, mesmo que seja o próprio elemento. Esta é uma característica comum de listas ditas duplamente encadeadas.
 
