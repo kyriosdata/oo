@@ -2,4 +2,4 @@
 
 - Tópicos: [01](topicos/01.md)
 
-![](media/flyier-poo.png | width=200)
+<img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
