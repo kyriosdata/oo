@@ -1,8 +1,7 @@
 ## Bem-vindo à Programação Orientada a Objetos
 
-### Momento síncrono
-
-https://meet.google.com/lookup/awkznsp2o3
+O plano da disciplina está disponível [aqui](./media/plano-poo.pdf). Os
+momentos síncronos ocorrerão às terças-feiras, das 19h às 20h, em sala [virtual](https://meet.google.com/lookup/awkznsp2o3).
 
 ### Tópicos
 
