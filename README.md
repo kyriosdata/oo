@@ -6,5 +6,6 @@ momentos síncronos ocorrerão às terças-feiras, das 19h às 20h, em sala [vir
 ### Tópicos
 
 - [01](topicos/01.md) (01/09/2020 - 04/09/2020)
+- [02](topicos/02.md) (01/09/2020 - 11/09/2020)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
