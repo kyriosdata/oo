@@ -1,6 +1,6 @@
 ## Bem-vindo à Programação Orientada a Objetos
 
-O plano da disciplina está disponível [aqui](./media/plano-poo.pdf). Os
+O plano da disciplina está disponível [aqui](./media/plano-poo.pdf). Recomendações sobre direitos autorais [aqui](./media/recomendacao-prograd.pdf). Os
 momentos síncronos ocorrerão às terças-feiras, das 19h às 20h, em sala [virtual](https://meet.google.com/lookup/awkznsp2o3).
 
 ### Tópicos
