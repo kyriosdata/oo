@@ -5,6 +5,6 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 
 ### Tópicos
 
-- [01](topicos/01.md) (01/09/2020 - 04/09/2020)
+- T[01](topicos/01.md) (01/09/2020 - 04/09/2020)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
