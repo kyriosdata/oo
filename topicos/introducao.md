@@ -121,10 +121,6 @@ suficiente representar a classe \java{Pessoa} sem o detalhamento dos atributos
 e dos métodos, enquanto em outros pode ser imprescindível a descrição destes
 elementos.
 
-\figeps{uml-pessoa-detalhes}
-{Versões equivalentes sem o detalhamento de atributos e
-métodos.}{fig-uml-pessoa-detalhes}
-
 ![img](../media/uml-pessoa-detalhes.png)
 
 ### Atributos de classe
@@ -142,6 +138,8 @@ em outras classes, que desconhecem a existência de \java{dia}, \java{mes} e
 \java{ano}.
 
 \figeps{uml-atributos}{Declaração de atributos de uma classe em Java e a versão correspondente em UML. Observe o sinal \java{-} representando o modificador de acesso privado e o sinal \protect\java{+} representando o modificador de acesso público, enquanto \protect\java{/} indica que o atributo em questão é derivado.}{fig-uml-atributos}
+
+![img](../media/uml-atributos.png)
 
 Os atributos são do tipo \java{Integer}, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido \java{short} são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido \java{Short}, que representa um inteiro de dois bytes.
 
