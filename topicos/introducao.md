@@ -290,9 +290,13 @@ Uma dependência é um relacionamento no qual uma das partes é exigida para a e
 
 \figeps{uml-dependencia}{Se alguma alteração ocorrer com a classe \java{Data} ou a classe \java{String}, então a classe \java{Pessoa} terá que ser analisada à procura de mudança decorrente da anterior e que se faça necessária.}{fig-uml-dependencia}
 
+![img](../media/uml-dependencia.png)
+
 Embora o diagrama da figura \ref{fig-uml-dependencia} esteja correto, é mais comum encontrar a relação entre estas classes conforme a figura \ref{fig-uml-java-pds}. De fato, na versão à esquerda, apenas a classe \java{Pessoa} esta presente. Quando se imagina que para um determinado contexto \java{Data} e \java{String} são conceitos periféricos, sem tanta relevância, é recomendado que não sejam representados como classes, conforme exibido no lado direito da figura \ref{fig-uml-java-pds}.
 
 \figeps{uml-java-pds}{Dois modelos equivalentes. Muitos preferem a versão da esquerda por simplicidade. Observe como os papéis da versão da direita coincidem com os identificadores dos atributos da outra versão.}{fig-uml-java-pds}
+
+![img](../media/uml-java-pds.png)
 
 Outra alternativa, também válida, mas neste ponto reconhecido como uma proposta de menor qualidade, é a versão do lado direito. Neste caso optou-se por uma representação explícita de todas as classes. Observe que nesta versão são fornecidos os papéis. Por exemplo, a instância de \java{Data} associada a uma instância de \java{Pessoa} desempenha o papel de \java{nascimento}, conforme o diagrama. De forma análoga, a instância de \java{String} desempenha o papel de \java{nome}.
 
@@ -312,17 +316,23 @@ A figura \ref{fig-uml-interface} mostra a interface \java{Identificação} conte
 
 \figeps{uml-interface}{Interfaces descrevem coleções de serviços a serem oferecidos por quem se propuser a implementá-los. A versão da esquerda é adequada para se especificar o contrato registrado pela interface, enquanto a outra para estabelecer relacionamentos com quem implementa e quem faz uso da interface.}{fig-uml-interface}
 
+![img](../media/uml-interface.png)
+
 Qualquer classe que se propuser a implementar esta interface terá que implementar o método \java{getNome}, que não recebe nenhum argumento como entrada e retorna uma \java{String}. Convém ressaltar que uma interface não oferece serviços, apenas os especifica, ou seja, este método só poderá ser usufruído com uma implementação que não é fornecida na interface. Em tempo, não é possível criar instâncias de interfaces!
 
 Continuando nossos exemplos extraídos do meio de ensino, podemos estar interessados na identificação de uma avaliação ou instância da classe \java{Prova}, de tal forma que pudéssemos enviar a mensagem \java{getNome} para objetos desta classe. Para tal, indicamos, conforme a figura \ref{fig-uml-implements}, que a classe \java{Prova} implementa a interface \java{Identificacao}.
 
 \figeps{uml-implements}{Uma interface seria de pouca utilidade se não fosse implementada. Acima a classe \java{Prova} implementa a interface \java{Identificação}.}{fig-uml-implements}
 
+![img](../media/uml-implements.png)
+
 Embora a classe \java{Prova} não inclua explicitamente o método \java{getNome}, sabemos que o relacionamento entre esta classe e a interface \java{Identificação} faz com que esta classe possua, entre seus métodos, uma implementação para \java{getNome} conforme descrito na interface.
 
 Outro exemplo é apresentado na figura \ref{fig-uml-interface-compara}. A classe \java{Nota} implementa a interface \java{Compara}, cujo único método \java{compareCom}, recebe como argumento uma instância de \java{Object} e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de \java{Nota}, que não é um tipo primitivo conhecido e, em conseqüência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
 
 \figeps{uml-interface-compara}{A classe \java{Nota} implementa a interface \java{Compara}.}{fig-uml-interface-compara}
+
+![img](../media/uml-interface-compara.png)
 
 Suponha que você esteja interessado em implementar um algoritmo de ordenação baseado em comparações -- nem sempre é preciso fazer comparações para ordenar. Você também não gostaria que o seu algoritmo ordenasse apenas números inteiros, mas também valores em ponto flutuante, assim como as notas de alunos, referências bibliográficas com base no título destas referências e assim por diante.
 
