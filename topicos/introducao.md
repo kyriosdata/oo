@@ -107,8 +107,6 @@ terá um estado correspondentes a um ser humano, por exemplo, ``José da Silva''
 nascido em 01/02/1967. A modelagem correspondente em que foram omitidos os
 atributos e os métodos da classe \java{Pessoa} é fornecida abaixo.
 
-\figeps{uml-pessoa}{Classe \java{Pessoa} em UML.}{fig-uml-pessoa}
-
 ![img](../media/uml-pessoa.png)
 
 A figura \ref{fig-uml-pessoa} faz uso da modelagem de uma classe empregando
@@ -126,6 +124,8 @@ elementos.
 \figeps{uml-pessoa-detalhes}
 {Versões equivalentes sem o detalhamento de atributos e
 métodos.}{fig-uml-pessoa-detalhes}
+
+![img](../media/uml-pessoa-detalhes.png)
 
 ### Atributos de classe
 
