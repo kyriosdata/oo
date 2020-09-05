@@ -175,7 +175,7 @@ As instâncias de uma associação são denominadas de ligações. Ou seja, o mo
 
 \figeps{uml-association}{Relacionamento semântico entre classes registrado através de uma associação.}{fig-uml-association}
 
-![img](../media/association.png)
+![img](../media/uml-association.png)
 
 Para que uma associação seja utilizada por um objeto é necessário a existência de atributos que implementem a associação. Por exemplo, sabemos que um curso é formado por zero ou mais alunos, ou seja, dado um curso, desejamos saber quais os alunos correspondentes. Uma possibilidade de realização da associação é manter um atributo que seja uma coleção de alunos. No modelo UML, contudo, nem sempre uma associação é descrita juntamente com os atributos correspondentes.
 
