@@ -109,6 +109,8 @@ atributos e os métodos da classe \java{Pessoa} é fornecida abaixo.
 
 \figeps{uml-pessoa}{Classe \java{Pessoa} em UML.}{fig-uml-pessoa}
 
+![img](../media/uml-pessoa.png)
+
 A figura \ref{fig-uml-pessoa} faz uso da modelagem de uma classe empregando
 três compartimentos: (a) nome da classe, (b) atributos e (c) métodos. Apenas o
 nome da classe, primeiro compartimento, foi fornecido nesta figura. Os outros
