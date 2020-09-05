@@ -50,18 +50,11 @@ Quando se define uma classe, também é definido tudo que um cliente precisa sab
 trata-se da interface que esta classe oferece para que o mundo externo entre em contatos com instâncias desta classe. Não confunda o conceito interface, como foi aqui empregado, com o mecanismo que linguagens de programação
 oferecem para definir um contrato.
 
-\figeps{defobjeto}{Um objeto caracteriza-se por encapsular dados e métodos. O
-acesso aos serviços oferecidos por um objeto estão restritos à interface do
-objeto.}{fig-defobjeto}
-
 ![img](../media/defobjeto.png)
 
 De uma classe podem ser criadas zero ou mais instâncias. Classes não reagem a
 mensagens, pois não se pode enviar mensagens a uma classe. Quem recebe
-mensagens são objetos. Uma classe define um conjunto de métodos, mas são os
-objetos, entidades ``com vida'', que podem receber mensagens através da
-interface definida na classe. Classe não possui estado, mas define o conjunto
-de atributos cujos valores formam o estado de um objeto.
+mensagens são objetos. Uma classe define um conjunto de métodos, mas são os objetos, entidades "com vida", que podem receber mensagens através da interface definida na classe. Classe não possui estado, mas define o conjunto de atributos cujos valores formam o estado de um objeto.
 
 ### Interação entre objetos
 
@@ -76,6 +69,8 @@ por um objeto e oferecida por outro.
 um objeto servidor através do envio de uma mensagem. A requisição pode partir
 de qualquer ponto do objeto que requisita, enquanto o destino necessariamente
 é parte da interface do objeto servidor.}{fig-defmensagem}
+
+![img](../media/defmensagem)
 
 A cooperação se dá através de mensagens. Para que um objeto usufrua de
 responsabilidade\dica{Mensagem:\\comunicação entre objetos.} oferecida por
