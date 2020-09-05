@@ -5,23 +5,16 @@ empregar alguma forma de projeto. A perspectiva orientada a objetos, uma das
 mais empregadas tanto pela indústria quanto pela academia para a atividade de
 projeto de software (_software design_), é comentada abaixo.
 
-Pensar em código da perspectiva orientada a objetos é pensar na interação
-entre objetos. O que pressupõe a identificação dos objetos e a distribuição de
-responsabilidades entre eles, o que torna a interação obrigatória.
+Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória.
 
-Código orientado a objeto em execução é um conjunto de objetos que cooperam
-entre si. Empregar esta abordagem exige o domínio de vários conceitos,
-apresentados logo após uma breve discussão acerca de como registrar modelos
+Código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
 conforme esta tecnologia.
 
 ### Modelagem
 
-Orientação a objetos é uma forma de pensar, uma perspectiva de observação.
-Aplicá-la é contemplar um determinado cenário desta perspectiva.
+Orientação a objetos é uma forma de pensar, uma perspectiva de observação de um alvo concreto (matéria) ou abstrato (ideia). Aplicá-la é contemplar um determinado cenário desta perspectiva.
 
-Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la.  
-Sem registro a história é curta, não há o que compartilhar com membros de uma
-equipe, e torna praticamente impossível qualquer tipo de averiguação.
+Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la. Sem registro a história é curta, não há o que compartilhar com membros de uma equipe, e torna praticamente impossível qualquer tipo de averiguação.
 Felizmente há várias propostas de registro da visão orientada a objetos.
 
 A _Unified Modeling Language_, ou UML por simplicidade, tem mostrado
