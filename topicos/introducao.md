@@ -1,4 +1,4 @@
-### Orientação a Objetos
+## Orientação a Objetos
 
 Por mais simples que seja um problema a ser implementado, será preciso
 empregar alguma forma de projeto. A perspectiva orientada a objetos, uma das
@@ -10,7 +10,7 @@ Pensar em código da perspectiva orientada a objetos é pensar na interação en
 Código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
 conforme esta tecnologia.
 
-### Modelagem
+## Modelagem
 
 Orientação a objetos é uma forma de pensar, uma perspectiva de observação de um alvo concreto (matéria) ou abstrato (ideia). Aplicá-la é contemplar um determinado cenário desta perspectiva.
 
@@ -24,12 +24,14 @@ visualizar e documentar artefatos de software da perspectiva orientada a
 objetos. Esta é a linguagem empregada neste texto, apresentada juntamente com
 termos típicos do mundo orientado a objetos. Um resumo da UML pode ser obtido [aqui](http://umich.edu/~eecs381/handouts/UMLNotationSummary.pdf).
 
-### Conceitos
+## Conceitos
 
-\emph{Objeto} é uma abstração que pode representar tanto uma entidade física
-quanto um conceito. A entidade objeto possui uma identidade única, além de um
-estado (dados) e de comportamento (métodos). A reunião de dados e métodos
-forma um objeto.\dicafig{yinyang} Por exemplo, em um sistema que controla o
+_Objeto_ é uma abstração que pode representar tanto uma entidade física quanto um conceito, que pode existir concretamente ou apenas na forma de ideia. A entidade objeto possui uma identidade única, além de um estado (dados) e de comportamento (métodos). A reunião de dados e métodos
+forma um objeto.
+
+![img](../media/yinyang.png)
+
+Por exemplo, em um sistema que controla o
 patrimônio da sua empresa provavelmente há um objeto correspondente ao
 computador que você faz uso. O estado deste objeto indica a freqüência da CPU,
 a quantidade de memória disponível e outros atributos. Este objeto também
