@@ -189,6 +189,8 @@ Em uma associação reflexiva os extremos da associação são uma mesma classe 
 
 \figeps{uml-pessoa2}{Duas associações reflexivas anônimas. Os papéis são denominados de \java{pai} e \java{mae}, ambos \java{private}. Estas associações definem o parentesco de uma pessoa. Para cada pessoa teremos uma instância de \java{Pessoa} que representa o pai e outra para a mãe.}{fig-uml-pessoa2}
 
+![img](../media/uml-pessoa2.png)
+
 Uma instância da classe \java{Pessoa} pode estar ligada a várias instâncias desta classe, pois há um extremo de uma associação cuja cardinalidade não é explicitamente fornecida. Neste caso, o padrão é \java{_}, ou seja, zero ou mais.\footnote{Em \emph{UML 2.0 Infrastructure Specification}, seção 8.2.2, lê-se claramente: ``a multiplicidade de um extremo de uma associação é omitido se é _ (valor padrão na UML)''.}
 
 Quando uma associação possui uma seta em uma das extremidades a orientação da seta indica a navegabilidade. Noutras palavras, de uma instância de pessoa é possível identificar o pai e a mãe da pessoa em questão, caso sejam estabelecidos. Por outro lado, dada uma pessoa, mesmo que esta possua vários filhos, não é possível identificar com facilidade a prole do indivíduo.
@@ -217,6 +219,8 @@ losango, conforme ilustra a figura \ref{fig-uml-festa-convidado}.
 ``boa praça'' pode ser estar presente em várias
 festas.}{fig-uml-festa-convidado}
 
+![img](../media/uml-festa-convidado.png)
+
 Outro exemplo segue na figura \ref{fig-uml-aggregation}. Uma \java{União} pode
 dar origem a vários filhos, cada um uma instância de \java{Pessoa}. O
 relacionamento denominado de \java{Prole} captura esta semântica. O
@@ -226,6 +230,8 @@ pessoas. Impossível mais romantismo, devidamente registrado no modelo.
 \figeps{uml-aggregation}{Visão romântica para a atualidade. Uma prole é fruto
 de uma união, e um casamento é uma união entre apenas duas pessoas,
 supostamente de sexos opostos.}{fig-uml-aggregation}
+
+![img](../media/uml-aggregation.png)
 
 Neste modelo as associações não são bidirecionais. Ou seja, dado um objeto da
 classe \java{Pessoa}, não é fácil identificarmos se o ser humano
@@ -237,6 +243,8 @@ informações possam ser obtidas.
 Composição é uma associação do tipo todo/parte, à semelhança de uma agregação. Em uma composição, contudo, quando o todo é criado, as partes correspondentes são criadas, quando o todo é destruído, as partes deste todo são destruídas. Por exemplo, na figura \ref{fig-uml-composition}, observa-se que \java{Religião} é uma composição de \java{Devoto}, o que é denotado pelo losango hachurado.
 
 \figeps{uml-composition}{Uma composição é uma relação do tipo todo/parte rigorosa, no sentido em que a parte não existe sem o todo, assim como os membros de um corpo estão para o corpo humano correspondente. Conforme a figura, se há fiel, então é porque existe religião, uma composição de fiéis.}{fig-uml-composition}
+
+![img](../media/uml-composition.png)
 
 Neste exemplo, há um relacionamento entre instâncias de \java{Devoto} e de \java{Religião}. Em particular, dado o fato de se tratar de uma composição, o modelo ressalta que não existe instância de \java{Devoto} sem uma correspondente instância de \java{Religião}. Uma instância de \java{Religião} pode estar ligada a vários devotos e, em particular, talvez nenhum devoto. Conforme o modelo, se a religião de alguns devotos desaparecer, então estes devotos desaparecem junto.
 
@@ -250,6 +258,8 @@ conforme ilustra a figura \ref{fig-uml-composition-exemplos}.
 
 \figeps{uml-composition-exemplos}{\protect\java{Roupa} é uma composição de vários elementos. \protect\java{Reunião} é uma agregação de pelo menos duas pessoas.}{fig-uml-composition-exemplos}
 
+![img](../media/uml-composition-exemplos.png)
+
 ### Pacote
 
 Se um modelo é composto de um conjunto relativamente pequeno de classes, então possivelmente até sejamos capazes de citar todas elas. Contudo, nem sempre o cenário é tão simples. Mesmo que seja, à medida que o tempo passar, outras classes serão criadas até o momento que será impossível gerenciar o imenso conjunto resultante.
@@ -262,9 +272,13 @@ Na figura \ref{fig-uml-package} vemos o pacote \java{ensino}. É natural procura
 
 \figeps{uml-package}{Pacote é o recurso empregado para organizar classes. Sistemas complexos podem ser compostos de grande número delas, o que força a existência de um mecanismo de classificação.}{fig-uml-package}
 
+![img](../media/uml-package.png)
+
 Em uma instituição de ensino será natural fragmentar o nosso modelo orientado a objetos, composto por dezenas de classes ou mais, em pacotes que representam componentes semânticos do problema. Por exemplo, aquilo que diretamente diz respeito ao ensino pode ser depositado em um pacote de nome \java{ensino}. Elementos gerais, por outro lado, podem ser depositados no pacote \java{escola}. Esta organização pode ser modelada conforme a figura \ref{fig-uml-package2} ilustra.
 
 \figeps{uml-package2}{Pacotes e uma dependência entre eles.}{fig-uml-package2}
+
+![img](../media/uml-package2.png)
 
 Nesta figura vemos dois pacotes. O pacote \java{escola} depende do pacote \java{ensino}. Isto significa que uma mudança em \java{ensino} pode provocar uma alteração em \java{escola}. Dependência é tema da seção seguinte. Aqui, o relevante é observar a divisão do nosso modelo em dois pacotes e que um deles depende do outro.
 
