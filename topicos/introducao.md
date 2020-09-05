@@ -70,7 +70,7 @@ um objeto servidor através do envio de uma mensagem. A requisição pode partir
 de qualquer ponto do objeto que requisita, enquanto o destino necessariamente
 é parte da interface do objeto servidor.}{fig-defmensagem}
 
-![img](../media/defmensagem)
+![img](../media/defmensagem.png)
 
 A cooperação se dá através de mensagens. Para que um objeto usufrua de
 responsabilidade\dica{Mensagem:\\comunicação entre objetos.} oferecida por
