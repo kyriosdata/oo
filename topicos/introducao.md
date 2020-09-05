@@ -32,39 +32,29 @@ forma um objeto.
 ![img](../media/yinyang.png)
 
 Por exemplo, em um sistema que controla o
-patrimônio da sua empresa provavelmente há um objeto correspondente ao
-computador que você faz uso. O estado deste objeto indica a freqüência da CPU,
-a quantidade de memória disponível e outros atributos. Este objeto também
-poderá reagir a mensagens (envio de métodos). Um método típico para este
-objeto é \java{getCPU}, que retorna o nome do fabricante da CPU.
+patrimônio da sua empresa provavelmente há um objeto correspondente ao computador que você faz uso. O estado deste objeto indica a freqüência da CPU, a quantidade de memória disponível e outros atributos. Este objeto também poderá reagir a mensagens (envio de métodos). Um método típico para este objeto é _getCPU_, que retorna o nome do fabricante da CPU.
 
-A identidade permite distinguir um objeto dentre os demais, mesmo que estes
-possuem um estado semelhante.
+A identidade permite distinguir um objeto dentre os demais, mesmo que estes possuem um estado semelhante.
 
 O estado de um objeto é descrito pelos valores do correspondente conjunto de
-\emph{atributos}, ou propriedades que são encapsuladas pelo objeto. O
-comportamento é definido através de \emph{métodos}. Um objeto interage com
-outro objeto através do envio de uma \emph{mensagem} ao destinatário, o que é
+_atributos_, ou propriedades que são encapsuladas pelo objeto. O comportamento é definido através de _métodos_. Um objeto interage com outro objeto através do envio de uma
+_mensagem_ ao destinatário, o que é
 realizado pela chamada de um método. Um objeto pode, por exemplo, requisitar o
 valor de um atributo de um determinado objeto através do envio de uma mensagem
 para este determinado objeto.
 
-Os atributos de um objeto e os métodos através dos quais este objeto pode
-receber mensagens são descritos por uma \emph{classe}. Classe é uma espécie de
-forma (ô) através da qual os objetos são criados. Em tempo, objeto é uma
-\emph{instância} de uma classe.
+Os atributos de um objeto e os métodos através dos quais este objeto pode receber mensagens são descritos por uma \emph{classe}. Classe é uma espécie de forma (ô) através da qual os objetos são criados. Em tempo, objeto é uma
+_instância_ de uma classe.
 
-Quando se define uma classe, também é definido tudo que um cliente precisa
-saber a respeito desta classe. Esta definição captura a visão externa da
-classe, ou o que será oferecido para clientes desta classe. Noutras palavras,
-trata-se da interface que esta classe oferece para que o mundo externo entre
-em contatos com instâncias desta classe. Não confunda o conceito interface,
-como foi aqui empregado, com o mecanismo que linguagens de programação
-oferecem para definir um contrato. Detalhes na seção \ref{sec-interface}.
+Quando se define uma classe, também é definido tudo que um cliente precisa saber a respeito desta classe. Esta definição captura a visão externa da classe, ou o que será oferecido para clientes desta classe. Noutras palavras,
+trata-se da interface que esta classe oferece para que o mundo externo entre em contatos com instâncias desta classe. Não confunda o conceito interface, como foi aqui empregado, com o mecanismo que linguagens de programação
+oferecem para definir um contrato.
 
 \figeps{defobjeto}{Um objeto caracteriza-se por encapsular dados e métodos. O
 acesso aos serviços oferecidos por um objeto estão restritos à interface do
 objeto.}{fig-defobjeto}
+
+![img](../media/defobjeto.png)
 
 De uma classe podem ser criadas zero ou mais instâncias. Classes não reagem a
 mensagens, pois não se pode enviar mensagens a uma classe. Quem recebe
