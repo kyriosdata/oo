@@ -153,7 +153,7 @@ Uma classe é a união de atributos, que descrevem o domínio dos estados dos ob
 
 \figeps{uml-prova}{A classe \java{Prova} contém três membros: um atributo e dois métodos para manipulação deste atributo. Para cada atributo pode ser definido um método \java{get} e um método \java{set}. (Alguns sofisticados preferem empregar as denominações de \textsl{accessors} e \textsl{mutators}, respectivamente.)}{fig-uml-prova}
 
-![img](../medida/uml-prova.png)
+![img](../media/uml-prova.png)
 
 Para que este atributo privado possa ser manipulado, dois métodos foram fornecidos com o modificador de acesso público.
 
@@ -167,11 +167,15 @@ Uma associação é um relacionamento entre classes. Associação é um meio de 
 
 \figeps{uml-association-line}{Notação de uma associação em detalhes. O nome da associação elucida o significado da relação. A cardinalidade estabelece quantidades de instâncias que podem participar da relação. Objetos ligados pela associação desempenham papéis que podem ser esclarecidos, caso considerado conveniente.}{fig-uml-association-line}
 
+![img](../media/uml-association-line.png)
+
 No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome \java{Matrícula} ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe \java{Curso}, podem existir zero ou mais instâncias da classe \java{Aluno} associados.
 
 As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe \java{Curso} está ligado a vários objetos da classe \java{Aluno}. Nesta ligação, os objetos da classe \java{Alunos} desempenham o papel \java{alunos}, enquanto o objeto da classe \java{Curso} desempenha o papel \java{curso}. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
 
 \figeps{uml-association}{Relacionamento semântico entre classes registrado através de uma associação.}{fig-uml-association}
+
+![img](../media/association.png)
 
 Para que uma associação seja utilizada por um objeto é necessário a existência de atributos que implementem a associação. Por exemplo, sabemos que um curso é formado por zero ou mais alunos, ou seja, dado um curso, desejamos saber quais os alunos correspondentes. Uma possibilidade de realização da associação é manter um atributo que seja uma coleção de alunos. No modelo UML, contudo, nem sempre uma associação é descrita juntamente com os atributos correspondentes.
 
