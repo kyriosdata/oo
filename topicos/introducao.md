@@ -153,6 +153,8 @@ Uma classe é a união de atributos, que descrevem o domínio dos estados dos ob
 
 \figeps{uml-prova}{A classe \java{Prova} contém três membros: um atributo e dois métodos para manipulação deste atributo. Para cada atributo pode ser definido um método \java{get} e um método \java{set}. (Alguns sofisticados preferem empregar as denominações de \textsl{accessors} e \textsl{mutators}, respectivamente.)}{fig-uml-prova}
 
+![img](../medida/uml-prova.png)
+
 Para que este atributo privado possa ser manipulado, dois métodos foram fornecidos com o modificador de acesso público.
 
 O método \java{getNumQuestoes} é dito um método \java{get}. Retorna o valor do atributo em questão. A construção do nome deste tipo de método é formado pela concatenação de \java{get} com o identificador do atributo. Todas as iniciais de nomes que formam o identificador do atributo são fornecidas em maiúsculas. Esta convenção é a mesma empregada pela especificação da UML.
