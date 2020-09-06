@@ -23,7 +23,7 @@ A _Unified Modeling Language_, ou [UML](http://uml.org) por simplicidade, tem mo
 _Objeto_ é uma abstração que pode representar tanto uma entidade física quanto um conceito, que pode existir concretamente ou apenas na forma de ideia. A entidade objeto possui uma identidade única, além de um estado (dados) e de comportamento (métodos). A reunião de dados e métodos
 forma um objeto.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/yinyang.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/yinyang.png" width="100px">
 
 Por exemplo, em um sistema que controla o
 patrimônio da sua empresa provavelmente há um objeto correspondente ao computador que você faz uso. O estado deste objeto indica a frequência da CPU, a quantidade de memória disponível e outros atributos. Este objeto também poderá reagir a mensagens (envio de métodos). Um método típico para este objeto é _getCPU_, que retorna o nome do fabricante da CPU.
@@ -44,7 +44,7 @@ Quando se define uma classe, também é definido tudo que um cliente precisa sab
 trata-se da interface que esta classe oferece para que o mundo externo entre em contatos com instâncias desta classe. Não confunda o conceito interface, como foi aqui empregado, com o mecanismo que linguagens de programação
 oferecem para definir um contrato.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/defobjeto.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/defobjeto.png" width="500px">
 
 De uma classe podem ser criadas zero ou mais instâncias. Classes não reagem a
 mensagens, pois não se pode enviar mensagens a uma classe. Quem recebe
@@ -59,7 +59,7 @@ si. Ter uma tarefa realizada em um modelo orientado a objetos é fazer com que
 os objetos cooperem uns com os outros, conforme a responsabilidade necessitada
 por um objeto e oferecida por outro.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/defmensagem.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/defmensagem.png" width="500px">
 
 A cooperação se dá através de mensagens. Para que um objeto usufrua de
 responsabilidade oferecida por
@@ -96,7 +96,7 @@ terá um estado correspondentes a um ser humano, por exemplo, "José da Silva"
 nascido em 01/02/1967. A modelagem correspondente em que foram omitidos os
 atributos e os métodos da classe _Pessoa_ é fornecida abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa.png" width="200px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa.png" width="220px">
 
 A figura \ref{fig-uml-pessoa} faz uso da modelagem de uma classe empregando
 três compartimentos: (a) nome da classe, (b) atributos e (c) métodos. Apenas o
@@ -110,7 +110,7 @@ suficiente representar a classe _Pessoa_ sem o detalhamento dos atributos
 e dos métodos, enquanto em outros pode ser imprescindível a descrição destes
 elementos.
 
-![img](../media/uml-pessoa-detalhes.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa-detalhes.png" width="400px">
 
 ### Atributos de classe
 
@@ -126,7 +126,7 @@ corpo da classe, enquanto _idade_ é declarado público, ou seja, é visível
 em outras classes, que desconhecem a existência de _dia_, _mes_ e
 _ano_.
 
-![img](../media/uml-atributos.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-atributos.png" width="200px">
 
 Os atributos são do tipo _Integer_, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido _short_ são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido _short_, que representa um inteiro de dois bytes.
 
