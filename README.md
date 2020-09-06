@@ -8,5 +8,6 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T01](topicos/01.md) (01/09/2020 - 04/09/2020)
 - [T02](topicos/02.md) (05/09/2020 - 11/09/2020)
 - [T03](topicos/03.md) (05/09/2020 - 18/08/2020)
+- [T05](topicos/04.md) (06/09/2020 - 14/08/2020)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
