@@ -424,3 +424,13 @@ este código. \emph{Drivers} que permitem o acesso a bancos de dados, por
 exemplo, podem ocultar os detalhes de funcionamento de um banco de dados
 através de classes abstratas que deverão ser implementadas pelo fabricante do
 banco.
+
+## Mapeamento Java para UML (e vice-versa)
+
+![img](../media/uml-java-pessoa.png)
+
+![img](../media/uml-java-objeto.png)
+![img](../media/uml-java-abstract-pessoa.png)
+![img](../media/uml-java-abstract-pessoa-pfj.png)
+
+![img](../media/uml-java-aggregation.png)
