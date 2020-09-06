@@ -1,26 +1,22 @@
 ## Orientação a Objetos: Fundamentos
 
 Por mais simples que seja um problema a ser implementado, será preciso
-empregar alguma forma de projeto (_software design_). A perspectiva orientada a objetos, uma das mais empregadas tanto pela indústria quanto pela academia para a atividade de projeto de software (_software design_), é comentada abaixo.
+empregar alguma forma de projeto (_software design_). A perspectiva orientada a objetos, uma das mais empregadas tanto pela indústria quanto pela academia para a atividade de projeto de software, é comentada abaixo.
 
-> Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória.
+> Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória. Dito de outra forma, código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. 
 
-Dito de outra forma, código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
-conforme esta tecnologia.
+Antes de prosseguir convém ressaltar que orientação a objetos é uma ferramenta e, portanto, é preciso saber quando usá-la e como usá-la. 
+O quando e o como ainda devem ser precedidos do conhecimento e ambientação
+com os elementos que fazem parte da orientação a objetos, ou conceitos.
 
 ## Modelagem
 
 Orientação a objetos é uma forma de pensar, uma perspectiva de observação de um alvo concreto (matéria) ou abstrato (ideia). Aplicá-la é contemplar um determinado cenário desta perspectiva.
 
-Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la. Sem registro a história é curta, não há o que compartilhar com membros de uma equipe, e torna praticamente impossível qualquer tipo de averiguação.
-Felizmente há várias propostas de registro da visão orientada a objetos.
+Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la. Sem registro a história é curta, não há o que compartilhar com membros de uma equipe, e torna praticamente impossível qualquer tipo de averiguação ou análise. Felizmente há várias propostas para registro 
+da "visão" orientada a objetos.
 
-A _Unified Modeling Language_, ou UML por simplicidade, tem mostrado
-força no meio industrial e se tornou um padrão de fato para o registro de
-artefatos orientados a objetos. A UML possui construções para especificar,
-visualizar e documentar artefatos de software da perspectiva orientada a
-objetos. Esta é a linguagem empregada neste texto, apresentada juntamente com
-termos típicos do mundo orientado a objetos. Um resumo da UML pode ser obtido [aqui](http://umich.edu/~eecs381/handouts/UMLNotationSummary.pdf).
+A _Unified Modeling Language_, ou [UML](http://uml.org) por simplicidade, tem mostrado força no meio industrial e se tornou um padrão de fato para o registro de artefatos orientados a objetos. A UML possui construções para especificar, visualizar e documentar artefatos de software da perspectiva orientada a objetos. Esta é a linguagem empregada neste texto, apresentada juntamente com termos típicos do mundo orientado a objetos. Um resumo da UML pode ser obtido [aqui](http://umich.edu/~eecs381/handouts/UMLNotationSummary.pdf).
 
 ## Conceitos
 
