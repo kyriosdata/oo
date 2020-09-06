@@ -1,9 +1,13 @@
 ## Mapeamento Java para UML (e vice-versa)
 
-![img](../media/uml-java-pessoa.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="300px">
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-abstract-pessoa.png" width="343px">
+
+# Aqui
 
 ![img](../media/uml-java-objeto.png)
-![img](../media/uml-java-abstract-pessoa.png)
+
 ![img](../media/uml-java-abstract-pessoa-pfj.png)
 
 ![img](../media/uml-java-aggregation.png)
