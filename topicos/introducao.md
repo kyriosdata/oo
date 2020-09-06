@@ -228,8 +228,7 @@ relacionamento denominado de \java{Prole} captura esta semântica. O
 pessoas. Impossível mais romantismo, devidamente registrado no modelo.
 
 \figeps{uml-aggregation}{Visão romântica para a atualidade. Uma prole é fruto
-de uma união, e um casamento é uma união entre apenas duas pessoas,
-supostamente de sexos opostos.}{fig-uml-aggregation}
+de uma união, e um casamento é uma união entre apenas duas pessoas.}{fig-uml-aggregation}
 
 ![img](../media/uml-aggregation.png)
 
@@ -342,6 +341,8 @@ A independência entre algoritmos de ordenação e elementos que se deseja orden
 
 \figeps{uml-interface-qs}{A classe \java{QuickSort} faz uso da interface \java{Compara} para classificar elementos, quaisquer que sejam estes, que implementam esta interface. A classe \java{Nota} implementa tal interface. Não há nenhum erro com a notação acima. Quando se usa o círculo, a classe que implementa a interface é indicada por um traço contínuo.}{fig-uml-interface-qs}
 
+![img](../media/uml-interface-qs.png)
+
 ### Herança
 
 Objeto é criado a partir da definição de uma classe, que reúne atributos e comportamentos. Herança é o mecanismo por meio do qual uma nova classe pode ser definida em função de outra existente. A nova classe estende a classe existente. A nova classe reutiliza a classe existente.
@@ -350,11 +351,15 @@ Os atributos e comportamentos de uma classe \java{Base} tornam-se automaticament
 
 \figeps{uml-heranca-simples}{\java{Derivada} é subclasse de \java{Base} que também é conhecida por superclasse. Tanto \java{atributo} quanto \java{metodo}, embora não definidos em \java{Derivada}, são herdados de \java{Base}.}{fig-uml-heranca-simples}
 
+![img](../media/uml-heranca-simples.png)
+
 Uma subclasse pode substituir o comportamento fornecido na superclasse assim como também pode acrescentar outros atributos e comportamentos.
 
 Observe o exemplo da figura \ref{fig-uml-heranca}. A classe \java{Pessoa} representa um ser humano com data de nascimento, cor dos olhos e outros atributosh, que foram omitidos por simplicidade. Todos os seus barulhentos vizinhos também são representados por instâncias desta classe. Você, contudo, estuda em uma universidade, é aluno. Da perspectiva orientada a objetos, um aluno pode ser representado por uma instância da classe \java{Aluno}.
 
 \figeps{uml-heranca}{A classe \java{Aluno} estende a classe \java{Pessoa} modelando o fato de que todo aluno é uma pessoa, ou seja, tudo que se aplicar a pessoa também se aplica a um aluno.}{fig-uml-heranca}
+
+![img](../media/uml-heranca.png)
 
 Queira você ou não, contudo, enquanto seres humanos você e seus vizinhos compartilham atributos. São todos seres humanos! Mas há motivo para orgulho: todo aluno possui um código. Um código só seu. Em toda a universidade não há outro igual. De fato, nem os seus vizinhos, nenhum deles possui este código que está associado a você. Este código é um atributo da classe \java{Aluno}. A classe \java{Pessoa} não possui este atributo. Não poderia ser diferente, contudo, e quanto aos atributos em comum? Teremos que repetir toda a definição destes na classe \java{Aluno}? A resposta é não, desde que você faça uso de herança.
 
@@ -369,9 +374,13 @@ Dessa forma, o ``Fulano da Silva Sauro'', seu amigo de infância, é representad
 
 \figeps{uml-mundo-objeto}{A ilha e a instância anônima da classe \java{Ilha}. O presente identificado pelo objeto \java{natal} da classe \java{Presente}. A aranha \java{a}. A medalha e uma instância anônima correspondente. O ônibus representado pelo objeto \java{ônibus} cuja classe não é fornecida. A bicicleta \java{caloi} é instância da classe especificada.}{fig-uml-mundo-objeto}
 
+![img](../media/uml-mundo-objeto.png)
+
 Da figura anterior é fácil reconhecer três formas básicas de registros de objetos mostradas na figura \ref{fig-uml-objeto}.
 
 \figeps{uml-objeto}{Um objeto identificado por \java{pf}, um objeto anônimo da classe \java{Prova} e o objeto \java{prova} da classe \java{Prova}.}{fig-uml-objeto}
+
+![img](../media/uml-objeto.png)
 
 Em que casos é desejada a criação de diagramas contendo objetos? Um objeto é uma ilustração ou exemplo de uma entidade modelada de um sistema. Isto em um instante específico de tempo. Ou ainda, reflete uma possibilidade na qual o sistema modelado pode se encontrar em determinado instante. Em conseqüência, diagramas contendo objetos e ligações entre eles são mais empregados quando a complexidade das classes subjacentes exigir um modelo que ilustre instâncias destas classes em um instante de tempo.
 
@@ -390,6 +399,8 @@ pessoa sem que esta seja física ou jurídica. O modelo da figura
 \ref{fig-uml-abstract} ilustra este cenário.
 
 \figeps{uml-abstract}{Classe abstrata \java{Pessoa} estendida pelas classes concretas \java{PessoaFísica} e \java{PessoaJurídica}. O nome de uma classe abstrata na UML é fornecido em itálico.}{fig-uml-abstract}
+
+![img](../media/uml-abstract.png)
 
 A classe \java{Pessoa} contém dois atributos: \java{nome} e
 \java{endereço}. Toda pessoa, seja física ou jurídica possui tais atributos,
@@ -413,9 +424,3 @@ este código. \emph{Drivers} que permitem o acesso a bancos de dados, por
 exemplo, podem ocultar os detalhes de funcionamento de um banco de dados
 através de classes abstratas que deverão ser implementadas pelo fabricante do
 banco.
-
-#### Atividade A03.1 (data limite: **18/09/2020 23h59min59s**):
-
-#### Artefatos
-
-1. Issue de título "Estruturas" criada pela conta do estudante no projeto https://github.com/kyriosdata/oo para responder as questões acima.
