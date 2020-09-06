@@ -6,13 +6,13 @@
 
 A classe _Pessoa_, nenhum atributo, nenhum método e, portanto, corpo omitido.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="350px">
 
 ### Classe com atributos
 
 Os membros de dados _dia_, _mes_ e _ano_, todos do tipo _short_, todos privados (_private_) em Java e a correspondente versão na UML.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-4.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-4.png" width="350px">
 
 ### Classe com atributo e métodos
 
@@ -25,22 +25,27 @@ valor para o total de questões de uma prova menor que 1.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-5.png" width="400px">
 
-Uma consideração adicional é feita abaixo para os métodos _get_ e _set_. Observe o que é chamado de "assinatura" dos métodos, o que inclui o tipo de retorno, parâmetros e nome do método.
+Uma consideração adicional é feita abaixo para os métodos _get_ e _set_. Observe a assinatura dos métodos, ou seja o tipo de retorno, parâmetros e nome do método.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-6.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-6.png" width="350px">
 
 ### Classe com membros
 
 A classe _Pessoa_ com dois membros de dados, também chamados de propriedades, ou ainda atributos, além de duas associações com ela própria. As associações dão origem a dois membros de dados, _pai_ e _mae_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-8.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-8.png" width="350px">
 
 ### Classe _Object_
 
 A classe _Object_ é a classe base de toda e qualquer classe em Java. Noutras
 palavras, todo e qualquer objeto em Java possui os métodos citados abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-object.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-object.png" width="350px">
+
+Em consequência, apesar de correto, não é usual nem o código nem o 
+diagrama abaixo, embora ambos estejam corretos.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro-objeto.png" width="300px">
 
 ### Objeto
 
@@ -50,9 +55,7 @@ Uma aplicação trivial que cria uma instância da classe _Prova_. Nem a aplica�
 
 ### Classe abstrata
 
-A classe _Pessoa_, contudo, agora abstrata. Ou seja, uma classe da qual não é
-possível criar uma instância. Este tipo de classe é criada para ser estendida.
-Em tempo, extensão aqui tem o mesmo significado que herança (vista adiante).
+A classe _Pessoa_, contudo, agora abstrata. Ou seja, uma classe da qual não é possível criar uma instância. Este tipo de classe é criada para ser estendida. Em tempo, extensão aqui tem o mesmo significado que herança (vista adiante).
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-abstract-pessoa.png" width="343px">
 
@@ -60,7 +63,7 @@ Em tempo, extensão aqui tem o mesmo significado que herança (vista adiante).
 
 Uma _Festa_ possui pelo menos um _Convidado_ que, por sua vez, pode ser convidado de várias festas.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/festa-convidado.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/festa-convidado.png" width="350px">
 
 ### Agregação e associação
 
@@ -72,23 +75,21 @@ A classe _Uniao_ está associada a duas instâncias de _Pessoa_ pela associaçã
 
 Um aluno pode estar matriculado em vários cursos e, naturalmente, cada curso pode ter vários alunos matriculados.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association.png" width="370px">
 
 ### Algoritmo para Java
 
 Tradução do algoritmo da esquerda para a versão correspondente em Java.
-Embora a correspondência esteja correta, em Java não é usual métodos possuírem
-inicial maiúscula, como ocorre com C#. Estas convenções devem ser observadas
-visando melhor interação entre membros de uma equipe.
+Embora a correspondência esteja correta, em Java não é usual métodos possuírem inicial maiúscula, como ocorre com C#. Estas convenções devem ser observadas visando melhor interação entre membros de uma equipe.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-1.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-1.png" width="350px">
 
 ### Aplicação Java
 
 Aplicação que exibe todas possíveis da cadeia de caracteres fornecida na entrada.
 Observe que uma instância anônima de _String_ e o parâmetro fornecido via linha de comandos são fornecidos para o método _Permutacao_ no método _main_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-permuta.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-permuta.png" width="350px">
 
 ### Composição
 
@@ -97,18 +98,18 @@ faz uso de uma lista. Convém ressaltar que conjunto não admite duplicidade,
 o que talvez seja mais natural, contudo, uma lista em Java admite duplicidade.
 Adicionalmente, nesta implementação, a _Religiao_ conhece cada _Devoto_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-composicao.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-composicao.png" width="350px">
 
 ### Composição (associação bidirecional)
 
 _Religiao_ possui devotos (_Devoto_), contudo, cada _Devoto_ sabe qual
 a _Religicao_ correspondente, e cada _Religia_ conhece seus devotos.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-composition.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-composition.png" width="350px">
 
 ### Dependências explícitas
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="350px">
 
 ### Herança
 
@@ -125,13 +126,13 @@ A classe que herda é dita _derivada_. A classe herdada é dita _base_. Também
 
 ### _Revista_ herda de _Referência_
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-revista-referencia.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-revista-referencia.png" width="350px">
 
 ### Herança de classe abstrata
 
 Uma classe abstrata herdada pelas classes _PessoaFísica_ e _PessoaJurídica_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-abstract-pessoa-pfj.png" width="200px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-abstract-pessoa-pfj.png" width="300px">
 
 ### Herança (pessoa)
 
@@ -143,22 +144,38 @@ A classe abstrata _Pessoa_ modela o cenário onde existe instância de _PessoaF�
 
 Não se confunde com herança. Quando uma classe implementa uma interface, então esta classe possui métodos que permitem se comportar conforme definido na interface. Herança, por outro lado, é o tipo "mais forte" de relacionamento entre duas classes.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="350px">
 
 ### Interface
 
 A interface _Identificacao_ para indicar que, qualquer classe que a implementa,
 pode receber a mensagem _getNome_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-interface.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-interface.png" width="350px">
+
+### Interface _Comparable_
+Em Java, pode-se ordenar instâncias de objetos via [Collections](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#sort(java.util.List)). Como é possível estar implementada a ordenação de objetos 
+de uma dada classe que nem era conhecida quando a ordenação foi implementada? Há alternativas em Java, a clássica é implementar a interface
+[Comparable](https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html), conforme ilustrado abaixo.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-interface-nota-comparable.png" width="300px">
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-interface-nota-comparable2.png" width="300px">
+Abaixo segue uma representação alternativa àquela acima.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-interface-nota-comparable2.png" width="200px">
+
+### Package
+A orientação a objetos oferece o conceito de classe para decompor software.
+Alguns domínios, contudo, são extensos e várias classes podem ser necessárias para registrar parte do domínio em questão. Em Java, várias
+classes "coesas" podem ser agrupadas usando a noção de _package_. Abaixo segue a ilustração de um _package_.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package.png" width="300px">
 
+No domínio acadêmico, por exemplo, várias classes pertinentes ao ensino, em geral, podem estar no _package_ denominado _ensino_, conforme abaixo. Em tal _package_ são esperadas classes como _Aluno_, _Avaliação_ e outras. No _package_ denominado _escola_, por outro lado, que depende de _ensino_, ou seja, faz uso de classes deste _package_, são esperadas classes como
+_Colaborador_, _Diretoria_ e outras.
+
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package2.png" width="300px">
+
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
 
@@ -174,4 +191,3 @@ pode receber a mensagem _getNome_.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="300px">
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro-objeto.png" width="300px">
