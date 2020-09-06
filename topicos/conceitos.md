@@ -3,9 +3,9 @@
 Por mais simples que seja um problema a ser implementado, será preciso
 empregar alguma forma de projeto (_software design_). A perspectiva orientada a objetos, uma das mais empregadas tanto pela indústria quanto pela academia para a atividade de projeto de software, é comentada abaixo.
 
-> Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória. Dito de outra forma, código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. 
+> Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória. Dito de outra forma, código orientado a objeto em execução é um conjunto de objetos que cooperam entre si.
 
-Antes de prosseguir convém ressaltar que orientação a objetos é uma ferramenta e, portanto, é preciso saber quando usá-la e como usá-la. 
+Antes de prosseguir convém ressaltar que orientação a objetos é uma ferramenta e, portanto, é preciso saber quando usá-la e como usá-la.
 O quando e o como ainda devem ser precedidos do conhecimento e ambientação
 com os elementos que fazem parte da orientação a objetos, ou conceitos.
 
@@ -13,7 +13,7 @@ com os elementos que fazem parte da orientação a objetos, ou conceitos.
 
 Orientação a objetos é uma forma de pensar, uma perspectiva de observação de um alvo concreto (matéria) ou abstrato (ideia). Aplicá-la é contemplar um determinado cenário desta perspectiva.
 
-Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la. Sem registro a história é curta, não há o que compartilhar com membros de uma equipe, e torna praticamente impossível qualquer tipo de averiguação ou análise. Felizmente há várias propostas para registro 
+Esta perspectiva seria de pouca utilidade se não fosse possível registrá-la. Sem registro a história é curta, não há o que compartilhar com membros de uma equipe, e torna praticamente impossível qualquer tipo de averiguação ou análise. Felizmente há várias propostas para registro
 da "visão" orientada a objetos.
 
 A _Unified Modeling Language_, ou [UML](http://uml.org) por simplicidade, tem mostrado força no meio industrial e se tornou um padrão de fato para o registro de artefatos orientados a objetos. A UML possui construções para especificar, visualizar e documentar artefatos de software da perspectiva orientada a objetos. Esta é a linguagem empregada neste texto, apresentada juntamente com termos típicos do mundo orientado a objetos. Um resumo da UML pode ser obtido [aqui](http://umich.edu/~eecs381/handouts/UMLNotationSummary.pdf).
@@ -158,9 +158,9 @@ Uma associação é um relacionamento entre classes. Associação é um meio de 
 
 ![img](../media/uml-association-line.png)
 
-No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome \java{Matrícula} ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe \java{Curso}, podem existir zero ou mais instâncias da classe \java{Aluno} associados.
+No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome \java{Matrícula} ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe \java{Curso}, podem existir zero ou mais instâncias da classe _Aluno_ associados.
 
-As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe \java{Curso} está ligado a vários objetos da classe \java{Aluno}. Nesta ligação, os objetos da classe \java{Alunos} desempenham o papel \java{alunos}, enquanto o objeto da classe \java{Curso} desempenha o papel \java{curso}. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
+As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe \java{Curso} está ligado a vários objetos da classe _Aluno_. Nesta ligação, os objetos da classe \java{Alunos} desempenham o papel \java{alunos}, enquanto o objeto da classe \java{Curso} desempenha o papel \java{curso}. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
 
 \figeps{uml-association}{Relacionamento semântico entre classes registrado através de uma associação.}{fig-uml-association}
 
@@ -178,7 +178,7 @@ Em uma associação reflexiva os extremos da associação são uma mesma classe 
 
 ![img](../media/uml-pessoa2.png)
 
-Uma instância da classe _Pessoa_ pode estar ligada a várias instâncias desta classe, pois há um extremo de uma associação cuja cardinalidade não é explicitamente fornecida. Neste caso, o padrão é  zero ou mais. Em _UML 2.0 Infrastructure Specification_, seção 8.2.2, lê-se claramente: "a multiplicidade de um extremo de uma associação é omitido se é _ (valor padrão na UML)".
+Uma instância da classe _Pessoa_ pode estar ligada a várias instâncias desta classe, pois há um extremo de uma associação cuja cardinalidade não é explicitamente fornecida. Neste caso, o padrão é zero ou mais. Em _UML 2.0 Infrastructure Specification_, seção 8.2.2, lê-se claramente: "a multiplicidade de um extremo de uma associação é omitido se é \_ (valor padrão na UML)".
 
 Quando uma associação possui uma seta em uma das extremidades a orientação da seta indica a navegabilidade. Noutras palavras, de uma instância de pessoa é possível identificar o pai e a mãe da pessoa em questão, caso sejam estabelecidos. Por outro lado, dada uma pessoa, mesmo que esta possua vários filhos, não é possível identificar com facilidade a prole do indivíduo.
 
@@ -306,19 +306,15 @@ Continuando nossos exemplos extraídos do meio de ensino, podemos estar interess
 
 Embora a classe \java{Prova} não inclua explicitamente o método \java{getNome}, sabemos que o relacionamento entre esta classe e a interface \java{Identificação} faz com que esta classe possua, entre seus métodos, uma implementação para \java{getNome} conforme descrito na interface.
 
-Outro exemplo é apresentado na figura \ref{fig-uml-interface-compara}. A classe \java{Nota} implementa a interface \java{Compara}, cujo único método \java{compareCom}, recebe como argumento uma instância de \java{Object} e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de \java{Nota}, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
-
-\figeps{uml-interface-compara}{A classe \java{Nota} implementa a interface \java{Compara}.}{fig-uml-interface-compara}
+Outro exemplo é apresentado na figura \ref{fig-uml-interface-compara}. A classe \java{Nota} implementa a interface _Compara_, cujo único método \java{compareCom}, recebe como argumento uma instância de \java{Object} e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de \java{Nota}, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
 
 ![img](../media/uml-interface-compara.png)
 
 Suponha que você esteja interessado em implementar um algoritmo de ordenação baseado em comparações -- nem sempre é preciso fazer comparações para ordenar. Você também não gostaria que o seu algoritmo ordenasse apenas números inteiros, mas também valores em ponto flutuante, assim como as notas de alunos, referências bibliográficas com base no título destas referências e assim por diante.
 
-Observe que para ordernarmos um conjunto de elementos não precisamos saber o que estamos ordenando, desde que seja possível obter dois elementos do conjunto que se deseja ordenar, quaisquer que sejam eles, e perguntar para um deles qual a relação com o outro. O que precisamos para isto? Dois itens: (a) um \emph{array} para guardar os elementos do conjunto que se deseja ordenar e (b) que as instâncias depositadas neste \emph{array} sejam de uma classe que implementa a interface \java{Compara}. Isto é suficiente!
+Observe que para ordernarmos um conjunto de elementos não precisamos saber o que estamos ordenando, desde que seja possível obter dois elementos do conjunto que se deseja ordenar, quaisquer que sejam eles, e perguntar para um deles qual a relação com o outro. O que precisamos para isto? Dois itens: (a) um _array_ para guardar os elementos do conjunto que se deseja ordenar e (b) que as instâncias depositadas neste _array_ sejam de uma classe que implementa a interface _Compara_. Isto é suficiente!
 
-A independência entre algoritmos de ordenação e elementos que se deseja ordenar é um grande benefício. Não apenas para este caso. O que se tornou independente foi a implementação de um serviço, neste caso, qualquer classe. Mesmo aquelas que ainda não foram construídas no momento em que você estiver lendo este texto poderão ser ordenadas por código já disponível. Afinal, este código depende apenas de uma interface e não de quem a implementa. Como ressaltar esta dependência? A figura \ref{fig-uml-interface-qs} ilustra uma classe que depende de e uma classe que implementa uma interface.
-
-\figeps{uml-interface-qs}{A classe \java{QuickSort} faz uso da interface \java{Compara} para classificar elementos, quaisquer que sejam estes, que implementam esta interface. A classe \java{Nota} implementa tal interface. Não há nenhum erro com a notação acima. Quando se usa o círculo, a classe que implementa a interface é indicada por um traço contínuo.}{fig-uml-interface-qs}
+A independência entre algoritmos de ordenação e elementos que se deseja ordenar é um grande benefício. Não apenas para este caso. O que se tornou independente foi a implementação de um serviço, neste caso, qualquer classe. Mesmo aquelas que ainda não foram construídas no momento em que você estiver lendo este texto poderão ser ordenadas por código já disponível. Afinal, este código depende apenas de uma interface e não de quem a implementa. Como ressaltar esta dependência? A figura abaixo ilustra uma classe que depende de e uma classe que implementa uma interface.
 
 ![img](../media/uml-interface-qs.png)
 
@@ -326,38 +322,30 @@ A independência entre algoritmos de ordenação e elementos que se deseja orden
 
 Objeto é criado a partir da definição de uma classe, que reúne atributos e comportamentos. Herança é o mecanismo por meio do qual uma nova classe pode ser definida em função de outra existente. A nova classe estende a classe existente. A nova classe reutiliza a classe existente.
 
-Os atributos e comportamentos de uma classe \java{Base} tornam-se automaticamente disponíveis na classe \java{Derivada} quando esta herda da anterior conforme ilustrado na figura \ref{fig-uml-heranca-simples}. Ou seja, \java{atributo} e \java{metodo()} também são membros de \java{Derivada}, herdados de \java{Base}. Outros termos comumente empregados para identificar as classes que participam deste relacionamento são ancestral/descendente e superclasse/subclasse.
-
-\figeps{uml-heranca-simples}{\java{Derivada} é subclasse de \java{Base} que também é conhecida por superclasse. Tanto \java{atributo} quanto \java{metodo}, embora não definidos em \java{Derivada}, são herdados de \java{Base}.}{fig-uml-heranca-simples}
+Os atributos e comportamentos de uma classe _Base_ tornam-se automaticamente disponíveis na classe _Derivada_ quando esta herda da anterior conforme ilustrado na figura \ref{fig-uml-heranca-simples}. Ou seja, _atributo_ e _metodo()_ também são membros de _Derivada_, herdados de _Base_. Outros termos comumente empregados para identificar as classes que participam deste relacionamento são ancestral/descendente e superclasse/subclasse.
 
 ![img](../media/uml-heranca-simples.png)
 
 Uma subclasse pode substituir o comportamento fornecido na superclasse assim como também pode acrescentar outros atributos e comportamentos.
 
-Observe o exemplo da figura \ref{fig-uml-heranca}. A classe _Pessoa_ representa um ser humano com data de nascimento, cor dos olhos e outros atributosh, que foram omitidos por simplicidade. Todos os seus barulhentos vizinhos também são representados por instâncias desta classe. Você, contudo, estuda em uma universidade, é aluno. Da perspectiva orientada a objetos, um aluno pode ser representado por uma instância da classe \java{Aluno}.
-
-\figeps{uml-heranca}{A classe \java{Aluno} estende a classe _Pessoa_ modelando o fato de que todo aluno é uma pessoa, ou seja, tudo que se aplicar a pessoa também se aplica a um aluno.}{fig-uml-heranca}
+Observe o exemplo da figura abaixo. A classe _Pessoa_ representa um ser humano com data de nascimento, cor dos olhos e outros atributos, que foram omitidos por simplicidade. Todos os seus barulhentos vizinhos também são representados por instâncias desta classe. Você, contudo, estuda em uma universidade, é aluno. Da perspectiva orientada a objetos, um aluno pode ser representado por uma instância da classe _Aluno_.
 
 ![img](../media/uml-heranca.png)
 
-Queira você ou não, contudo, enquanto seres humanos você e seus vizinhos compartilham atributos. São todos seres humanos! Mas há motivo para orgulho: todo aluno possui um código. Um código só seu. Em toda a universidade não há outro igual. De fato, nem os seus vizinhos, nenhum deles possui este código que está associado a você. Este código é um atributo da classe \java{Aluno}. A classe _Pessoa_ não possui este atributo. Não poderia ser diferente, contudo, e quanto aos atributos em comum? Teremos que repetir toda a definição destes na classe \java{Aluno}? A resposta é não, desde que você faça uso de herança.
+Queira você ou não, contudo, enquanto seres humanos você e seus vizinhos compartilham atributos. São todos seres humanos! Mas há motivo para orgulho: todo aluno possui um código. Um código só seu. Em toda a universidade não há outro igual. De fato, nem os seus vizinhos, nenhum deles possui este código que está associado a você. Este código é um atributo da classe _Aluno_. A classe _Pessoa_ não possui este atributo. Não poderia ser diferente, contudo, e quanto aos atributos em comum? Teremos que repetir toda a definição destes na classe _Aluno_? A resposta é não, desde que você faça uso de herança.
 
-Ao fazer com que a classe \java{Aluno} herde da classe _Pessoa_, todos os atributos e comportamentos de _Pessoa_ são herdados em \java{Aluno}. Ou seja, não será preciso redefini-los, não será preciso copiá-los. A herança estabelece um forte vínculo entre \java{Aluno} e _Pessoa_. Quando uma instância de \java{Aluno} for criada, esta instância poderá ser tratada como uma intância de _Pessoa_, afinal, todo aluno é uma pessoa, foi assim que foi modelado através da herança.
+Ao fazer com que a classe _Aluno_ herde da classe _Pessoa_, todos os atributos e comportamentos de _Pessoa_ são herdados em _Aluno_. Ou seja, não será preciso redefini-los, não será preciso copiá-los. A herança estabelece um forte vínculo entre _Aluno_ e _Pessoa_. Quando uma instância de _Aluno_ for criada, esta instância poderá ser tratada como uma intância de _Pessoa_, afinal, todo aluno é uma pessoa, foi assim que foi modelado através da herança.
 
 ### Objeto
 
 Objeto é uma entidade com a qual outros objetos trocam mensagens com o propósito de realizar determinada tarefa. Estas trocas de mensagens provocam mudanças nos estados destes objetos.
 Em sistemas orientados a objetos, um objeto representa, em geral, uma entidade do mundo real.
 
-Dessa forma, o ``Fulano da Silva Sauro'', seu amigo de infância, é representado por um objeto, uma instância da classe _Pessoa_. A figura \ref{fig-uml-mundo-objeto} fornece outros exemplos de entidades do mundo real e objetos correspondentes. Esta figura também introduz as notações que podem ser empregadas para se registrar objetos.
-
-\figeps{uml-mundo-objeto}{A ilha e a instância anônima da classe \java{Ilha}. O presente identificado pelo objeto \java{natal} da classe \java{Presente}. A aranha \java{a}. A medalha e uma instância anônima correspondente. O ônibus representado pelo objeto \java{ônibus} cuja classe não é fornecida. A bicicleta \java{caloi} é instância da classe especificada.}{fig-uml-mundo-objeto}
+Dessa forma, o "Fulano da Silva Sauro", seu amigo de infância, é representado por um objeto, uma instância da classe _Pessoa_. A figura abaixo fornece outros exemplos de entidades do mundo real e objetos correspondentes. Esta figura também introduz as notações que podem ser empregadas para se registrar objetos.
 
 ![img](../media/uml-mundo-objeto.png)
 
-Da figura anterior é fácil reconhecer três formas básicas de registros de objetos mostradas na figura \ref{fig-uml-objeto}.
-
-\figeps{uml-objeto}{Um objeto identificado por \java{pf}, um objeto anônimo da classe \java{Prova} e o objeto \java{prova} da classe \java{Prova}.}{fig-uml-objeto}
+Da figura anterior é fácil reconhecer três formas básicas de registros de objetos mostradas na figura abaixo.
 
 ![img](../media/uml-objeto.png)
 
@@ -375,18 +363,16 @@ existe uma entidade no mundo real equivalente. Por exemplo, podemos dividir as
 pessoas do mundo em dois grupos: aquelas físicas e aquelas jurídicas. Ou seja,
 toda pessoa do mundo não é apenas uma pessoa, neste modelo, pois não existe
 pessoa sem que esta seja física ou jurídica. O modelo da figura
-\ref{fig-uml-abstract} ilustra este cenário.
-
-\figeps{uml-abstract}{Classe abstrata _Pessoa_ estendida pelas classes concretas \java{PessoaFísica} e \java{PessoaJurídica}. O nome de uma classe abstrata na UML é fornecido em itálico.}{fig-uml-abstract}
+abaixo ilustra este cenário.
 
 ![img](../media/uml-abstract.png)
 
-A classe _Pessoa_ contém dois atributos: \java{nome} e
-\java{endereço}. Toda pessoa, seja física ou jurídica possui tais atributos,
-que são herdados pelas classes \java{PessoaFísica} e
-\java{PessoaJurídica}. Estas classes contemplam as especificidades das
+A classe _Pessoa_ contém dois atributos: _nome_ e
+_endereço_. Toda pessoa, seja física ou jurídica possui tais atributos,
+que são herdados pelas classes _PessoaFísica_ e
+_PessoaJurídica_. Estas classes contemplam as especificidades das
 entidades do mundo real que representam. Por exemplo, na primeira delas vê-se
-o atributo \java{cpf}, enquanto na segunda o \java{cnpj}. Estas duas classes
+o atributo _cpf_, enquanto na segunda o _cnpj_. Estas duas classes
 são concretas, ou seja, delas podemos diretamente criar instâncias, pois
 representam entidades que existem no mundo real e desejamos vê-las tratadas
 via software. Por outro lado, a classe _Pessoa_ não possui correspondente
@@ -394,12 +380,12 @@ no mundo real conforme a intenção do modelo e, dessa forma, foi declarada
 abstrata.
 
 Classes abstratas também são empregadas em outros cenários com menos apelo
-real e mais apelo computacional. O que denominamos de \emph{frameworks}, por
+real e mais apelo computacional. O que denominamos de _frameworks_, por
 exemplo, exige a existência de várias classes que são definidas por quem for
 fazer uso desta ferramenta. De forma ainda mais geral, qualquer código que faz
 uso de uma classe abstrata com o propósito de não impor uma implementação
 específica da classe, mesmo porque isto pode ser impossível para quem escreve
-este código. \emph{Drivers} que permitem o acesso a bancos de dados, por
+este código. _Drivers_ que permitem o acesso a bancos de dados, por
 exemplo, podem ocultar os detalhes de funcionamento de um banco de dados
 através de classes abstratas que deverão ser implementadas pelo fabricante do
 banco.
