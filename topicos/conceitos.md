@@ -142,7 +142,7 @@ Uma classe é a união de atributos, que descrevem o domínio dos estados dos ob
 
 Para que este atributo privado possa ser manipulado, dois métodos foram fornecidos com o modificador de acesso público.
 
-O método _getNumQuestoes é dito um método \_get_. Retorna o valor do atributo em questão. A construção do nome deste tipo de método é formado pela concatenação de _get_ com o identificador do atributo. Todas as iniciais de nomes que formam o identificador do atributo são fornecidas em maiúsculas. Esta convenção é a mesma empregada pela especificação da UML.
+O método _getNumQuestoes_ é dito um método _get_. Retorna o valor do atributo em questão. A construção do nome deste tipo de método é formado pela concatenação de _get_ com o identificador do atributo. Todas as iniciais de nomes que formam o identificador do atributo são fornecidas em maiúsculas. Esta convenção é a mesma empregada pela especificação da UML.
 
 A formação do nome do método _set_ é similar à formação para o nome do método _get_. Enquanto o primeiro não recebe um valor do tipo _Byte_, o segundo retorna um valor deste tipo.
 
@@ -234,39 +234,31 @@ Pacote é uma proposta que permite dividir classes em subconjuntos quando o conj
 
 Um pacote se assemelha a um escaninho. Se há organização, então existem vários escaninhos e cada um deles tem o seu propósito, o que resulta em um cenário onde encontrar uma classe desejada, por exemplo, é uma tarefa onde primeiro se identifica o pacote (escaninho) e, no interior deste, a classe de interesse.
 
-Na figura \ref{fig-uml-package} vemos o pacote \java{ensino}. É natural procurar por uma classe \java{Estudante} no pacote \java{ensino}. Contudo, a classe \java{NotaFiscal} definitivamente não deveria fazer parte deste pacote. (Seria como colocar o delicioso marrom-glacê no mesmo compartimento dos produtos de higiene, junto com detergentes e o sabão neutro de coco em barra.)
-
-\figeps{uml-package}{Pacote é o recurso empregado para organizar classes. Sistemas complexos podem ser compostos de grande número delas, o que força a existência de um mecanismo de classificação.}{fig-uml-package}
+Na figura abaixo vemos o pacote _ensino_. É natural procurar por uma classe _Estudante_ no pacote _ensino_. Contudo, a classe _NotaFiscal_ definitivamente não deveria fazer parte deste pacote. (Seria como colocar o delicioso marrom-glacê no mesmo compartimento dos produtos de higiene, junto com detergentes e o sabão neutro de coco em barra.)
 
 ![img](../media/uml-package.png)
 
-Em uma instituição de ensino será natural fragmentar o nosso modelo orientado a objetos, composto por dezenas de classes ou mais, em pacotes que representam componentes semânticos do problema. Por exemplo, aquilo que diretamente diz respeito ao ensino pode ser depositado em um pacote de nome \java{ensino}. Elementos gerais, por outro lado, podem ser depositados no pacote \java{escola}. Esta organização pode ser modelada conforme a figura \ref{fig-uml-package2} ilustra.
-
-\figeps{uml-package2}{Pacotes e uma dependência entre eles.}{fig-uml-package2}
+Em uma instituição de ensino será natural fragmentar o nosso modelo orientado a objetos, composto por dezenas de classes ou mais, em pacotes que representam componentes semânticos do problema. Por exemplo, aquilo que diretamente diz respeito ao ensino pode ser depositado em um pacote de nome _ensino_. Elementos gerais, por outro lado, podem ser depositados no pacote _escola_. Esta organização pode ser modelada conforme a figura abaixo ilustra.
 
 ![img](../media/uml-package2.png)
 
-Nesta figura vemos dois pacotes. O pacote \java{escola} depende do pacote \java{ensino}. Isto significa que uma mudança em \java{ensino} pode provocar uma alteração em \java{escola}. Dependência é tema da seção seguinte. Aqui, o relevante é observar a divisão do nosso modelo em dois pacotes e que um deles depende do outro.
+Nesta figura vemos dois pacotes. O pacote _escola_ depende do pacote _ensino_. Isto significa que uma mudança em _ensino_ pode provocar uma alteração em _escola_. Dependência é tema da seção seguinte. Aqui, o relevante é observar a divisão do nosso modelo em dois pacotes e que um deles depende do outro.
 
 Embora nossa discussão tenha se restringido a pacote como um depósito de classes, um pacote pode conter qualquer outro elemento de uma modelagem, por exemplo, diagramas de interação e, inclusive, outros pacotes.
 
 ### Dependências
 
-Uma dependência é um relacionamento no qual uma das partes é exigida para a especificação ou implementação da outra. Consequentemente, o elemento dependente deste relacionamente terá, provavelmente, que ser alterado quando ocorrer uma mudança no outro elemento. Por exemplo, na figura \ref{fig-uml-dependencia} a classe _Pessoa_ depende das classes \java{Data} e \java{String}.
-
-\figeps{uml-dependencia}{Se alguma alteração ocorrer com a classe \java{Data} ou a classe \java{String}, então a classe _Pessoa_ terá que ser analisada à procura de mudança decorrente da anterior e que se faça necessária.}{fig-uml-dependencia}
+Uma dependência é um relacionamento no qual uma das partes é exigida para a especificação ou implementação da outra. Consequentemente, o elemento dependente deste relacionamente terá, provavelmente, que ser alterado quando ocorrer uma mudança no outro elemento. Por exemplo, na figura \ref{fig-uml-dependencia} a classe _Pessoa_ depende das classes _Data_ e \_String).
 
 ![img](../media/uml-dependencia.png)
 
-Embora o diagrama da figura \ref{fig-uml-dependencia} esteja correto, é mais comum encontrar a relação entre estas classes conforme a figura \ref{fig-uml-java-pds}. De fato, na versão à esquerda, apenas a classe _Pessoa_ esta presente. Quando se imagina que para um determinado contexto \java{Data} e \java{String} são conceitos periféricos, sem tanta relevância, é recomendado que não sejam representados como classes, conforme exibido no lado direito da figura \ref{fig-uml-java-pds}.
-
-\figeps{uml-java-pds}{Dois modelos equivalentes. Muitos preferem a versão da esquerda por simplicidade. Observe como os papéis da versão da direita coincidem com os identificadores dos atributos da outra versão.}{fig-uml-java-pds}
+Embora o diagrama da figura \ref{fig-uml-dependencia} esteja correto, é mais comum encontrar a relação entre estas classes conforme a figura \ref{fig-uml-java-pds}. De fato, na versão à esquerda, apenas a classe _Pessoa_ esta presente. Quando se imagina que para um determinado contexto _Data_ e \_String) são conceitos periféricos, sem tanta relevância, é recomendado que não sejam representados como classes, conforme exibido no lado direito da figura \ref{fig-uml-java-pds}.
 
 ![img](../media/uml-java-pds.png)
 
-Outra alternativa, também válida, mas neste ponto reconhecido como uma proposta de menor qualidade, é a versão do lado direito. Neste caso optou-se por uma representação explícita de todas as classes. Observe que nesta versão são fornecidos os papéis. Por exemplo, a instância de \java{Data} associada a uma instância de _Pessoa_ desempenha o papel de \java{nascimento}, conforme o diagrama. De forma análoga, a instância de \java{String} desempenha o papel de \java{nome}.
+Outra alternativa, também válida, mas neste ponto reconhecido como uma proposta de menor qualidade, é a versão do lado direito. Neste caso optou-se por uma representação explícita de todas as classes. Observe que nesta versão são fornecidos os papéis. Por exemplo, a instância de _Data_ associada a uma instância de _Pessoa_ desempenha o papel de _nascimento_, conforme o diagrama. De forma análoga, a instância de _String_ desempenha o papel de _nome_.
 
-Que não fiquem dúvidas: todas estas alternativas estão corretas. A versão da esquerda da figura \ref{fig-uml-java-pds} oferece vantagens. Primeiro, não ressalta dependências entre classes de domínios diferentes. A classe _Pessoa_ é um conceito relevante do contexto. As classes \java{Data} e \java{String} são apenas acessórias. Por último, os relacionamentos ressaltados nos demais casos não acrescentam nenhuma informação relevante nem tornam o modelo mais atrativo e, portanto, podem ser preteridas em nome da simplicidade.
+Que não fiquem dúvidas: todas estas alternativas estão corretas. A versão da esquerda da figura abaixo oferece vantagens. Primeiro, não ressalta dependências entre classes de domínios diferentes. A classe _Pessoa_ é um conceito relevante do contexto. As classes _Data_ e _String_ são apenas acessórias. Por último, os relacionamentos ressaltados nos demais casos não acrescentam nenhuma informação relevante nem tornam o modelo mais atrativo e, portanto, podem ser preteridas em nome da simplicidade.
 
 ### Interface
 
@@ -274,27 +266,23 @@ O termo interface já foi empregado para designar a visão externa de uma classe
 
 A classe que faz uso de uma interface pode usufruir destes serviços sem depender de quem os implementa, o que assegura uma independência entre quem precisa dos serviços e quem os oferece. Em consequência, a implementação dos serviços pode ser alterada sem que ocorra alteração no cliente, desde que a interface (o contrato) seja mantido.
 
-Outra vantagem seria oferecer implementações distintas para ambientes distintos. Uma interface que contém o serviço \java{abreArquivo}, por exemplo, possui uma implementação para o ambiente Linux distinta daquela de outros ambientes. Isto permite que a classe que faz uso deste serviço não precise ser modificada caso seja utilizada em outro ambiente distinto do Linux. Neste caso, apenas a implementação da interface terá que ser adequada para o novo ambiente.
+Outra vantagem seria oferecer implementações distintas para ambientes distintos. Uma interface que contém o serviço _abreArquivo_, por exemplo, possui uma implementação para o ambiente Linux distinta daquela de outros ambientes. Isto permite que a classe que faz uso deste serviço não precise ser modificada caso seja utilizada em outro ambiente distinto do Linux. Neste caso, apenas a implementação da interface terá que ser adequada para o novo ambiente.
 
 Em resmo, através de uma interface um objeto pode requisitar o serviço oferecido por outro objeto sem que haja uma dependência explícita entre eles. De fato, apenas a classe do primeiro depende da interface, que pode possuir várias implementações.
 
-A figura \ref{fig-uml-interface} mostra a interface \java{Identificação} contendo um único método. Observe o estereótipo \java{$<<$Interface$>>$} indicando que a notação de classe é para ser interpretada como uma interface. Alternativamente pode-se empregar a notação da direita. Esta última, contudo, não é tão adequada quanto a anterior quando se deseja especificar os serviços oferecidos pela interface.
-
-\figeps{uml-interface}{Interfaces descrevem coleções de serviços a serem oferecidos por quem se propuser a implementá-los. A versão da esquerda é adequada para se especificar o contrato registrado pela interface, enquanto a outra para estabelecer relacionamentos com quem implementa e quem faz uso da interface.}{fig-uml-interface}
+A figura abaixo mostra a interface _Identificação_ contendo um único método. Observe o estereótipo <<_Interface_>> indicando que a notação de classe é para ser interpretada como uma interface. Alternativamente pode-se empregar a notação da direita. Esta última, contudo, não é tão adequada quanto a anterior quando se deseja especificar os serviços oferecidos pela interface.
 
 ![img](../media/uml-interface.png)
 
-Qualquer classe que se propuser a implementar esta interface terá que implementar o método \java{getNome}, que não recebe nenhum argumento como entrada e retorna uma \java{String}. Convém ressaltar que uma interface não oferece serviços, apenas os especifica, ou seja, este método só poderá ser usufruído com uma implementação que não é fornecida na interface. Em tempo, não é possível criar instâncias de interfaces!
+Qualquer classe que se propuser a implementar esta interface terá que implementar o método _gtNome_, que não recebe nenhum argumento como entrada e retorna uma _String_. Convém ressaltar que uma interface não oferece serviços, apenas os especifica, ou seja, este método só poderá ser usufruído com uma implementação que não é fornecida na interface. Em tempo, não é possível criar instâncias de interfaces!
 
-Continuando nossos exemplos extraídos do meio de ensino, podemos estar interessados na identificação de uma avaliação ou instância da classe \java{Prova}, de tal forma que pudéssemos enviar a mensagem \java{getNome} para objetos desta classe. Para tal, indicamos, conforme a figura \ref{fig-uml-implements}, que a classe \java{Prova} implementa a interface \java{Identificacao}.
-
-\figeps{uml-implements}{Uma interface seria de pouca utilidade se não fosse implementada. Acima a classe \java{Prova} implementa a interface \java{Identificação}.}{fig-uml-implements}
+Continuando nossos exemplos extraídos do meio de ensino, podemos estar interessados na identificação de uma avaliação ou instância da classe _Prova_, de tal forma que pudéssemos enviar a mensagem _gtNome_ para objetos desta classe. Para tal, indicamos, conforme a figura abaixo, que a classe _Prova_implementa a interface \_Identificação_.
 
 ![img](../media/uml-implements.png)
 
-Embora a classe \java{Prova} não inclua explicitamente o método \java{getNome}, sabemos que o relacionamento entre esta classe e a interface \java{Identificação} faz com que esta classe possua, entre seus métodos, uma implementação para \java{getNome} conforme descrito na interface.
+Embora a classe _Prova_não inclua explicitamente o método \_gtNome_, sabemos que o relacionamento entre esta classe e a interface _Identificação_ faz com que esta classe possua, entre seus métodos, uma implementação para _gtNome_ conforme descrito na interface.
 
-Outro exemplo é apresentado na figura \ref{fig-uml-interface-compara}. A classe \java{Nota} implementa a interface _Compara_, cujo único método \java{compareCom}, recebe como argumento uma instância de \java{Object} e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de \java{Nota}, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
+Outro exemplo é apresentado na figura abaixo. A classe _Nota_ implementa a interface _Compara_, cujo único método _compareTo_, recebe como argumento uma instância de _Object_ e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de _Nota_, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
 
 ![img](../media/uml-interface-compara.png)
 
