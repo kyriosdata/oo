@@ -272,19 +272,19 @@ Em resmo, através de uma interface um objeto pode requisitar o serviço ofereci
 
 A figura abaixo mostra a interface _Identificação_ contendo um único método. Observe o estereótipo <<_Interface_>> indicando que a notação de classe é para ser interpretada como uma interface. Alternativamente pode-se empregar a notação da direita. Esta última, contudo, não é tão adequada quanto a anterior quando se deseja especificar os serviços oferecidos pela interface.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface.png" width="350px">
 
 Qualquer classe que se propuser a implementar esta interface terá que implementar o método _gtNome_, que não recebe nenhum argumento como entrada e retorna uma _String_. Convém ressaltar que uma interface não oferece serviços, apenas os especifica, ou seja, este método só poderá ser usufruído com uma implementação que não é fornecida na interface. Em tempo, não é possível criar instâncias de interfaces!
 
 Continuando nossos exemplos extraídos do meio de ensino, podemos estar interessados na identificação de uma avaliação ou instância da classe _Prova_, de tal forma que pudéssemos enviar a mensagem _gtNome_ para objetos desta classe. Para tal, indicamos, conforme a figura abaixo, que a classe _Prova_ implementa a interface _Identificação_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-implements.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-implements.png" width="350px">
 
 Embora a classe _Prova_ não inclua explicitamente o método _gtNome_, sabemos que o relacionamento entre esta classe e a interface _Identificação_ faz com que esta classe possua, entre seus métodos, uma implementação para _getNome_ conforme descrito na interface.
 
 Outro exemplo é apresentado na figura abaixo. A classe _Nota_ implementa a interface _Compara_, cujo único método _compareTo_, recebe como argumento uma instância de _Object_ e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de _Nota_, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-compara.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-compara.png" width="250px">
 
 Suponha que você esteja interessado em implementar um algoritmo de ordenação baseado em comparações -- nem sempre é preciso fazer comparações para ordenar. Você também não gostaria que o seu algoritmo ordenasse apenas números inteiros, mas também valores em ponto flutuante, assim como as notas de alunos, referências bibliográficas com base no título destas referências e assim por diante.
 
@@ -292,7 +292,7 @@ Observe que para ordernarmos um conjunto de elementos não precisamos saber o qu
 
 A independência entre algoritmos de ordenação e elementos que se deseja ordenar é um grande benefício. Não apenas para este caso. O que se tornou independente foi a implementação de um serviço, neste caso, qualquer classe. Mesmo aquelas que ainda não foram construídas no momento em que você estiver lendo este texto poderão ser ordenadas por código já disponível. Afinal, este código depende apenas de uma interface e não de quem a implementa. Como ressaltar esta dependência? A figura abaixo ilustra uma classe que depende de e uma classe que implementa uma interface.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-qs.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-qs.png" width="350px">
 
 ### Herança
 
@@ -300,7 +300,7 @@ Objeto é criado a partir da definição de uma classe, que reúne atributos e c
 
 Os atributos e comportamentos de uma classe _Base_ tornam-se automaticamente disponíveis na classe _Derivada_ quando esta herda da anterior conforme ilustrado na figura abaixo. Ou seja, _atributo_ e _metodo()_ também são membros de _Derivada_, herdados de _Base_. Outros termos comumente empregados para identificar as classes que participam deste relacionamento são ancestral/descendente e superclasse/subclasse.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-heranca-simples.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-heranca-simples.png" width="350px">
 
 Uma subclasse pode substituir o comportamento fornecido na superclasse assim como também pode acrescentar outros atributos e comportamentos.
 
@@ -341,7 +341,7 @@ toda pessoa do mundo não é apenas uma pessoa, neste modelo, pois não existe
 pessoa sem que esta seja física ou jurídica. O modelo da figura
 abaixo ilustra este cenário.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-abstract.png" width="250px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-abstract.png" width="300px">
 
 A classe _Pessoa_ contém dois atributos: _nome_ e
 _endereço_. Toda pessoa, seja física ou jurídica possui tais atributos,
