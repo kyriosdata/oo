@@ -84,7 +84,7 @@ Uma aplicação trivial que cria uma instância da classe _Prova_. Nem a aplica�
 Observe a classe _Casa_ e seu construtor. Em tempo, construtor é a 
 operação executada quando se cria uma instância da classe. 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa.png" width="400px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa.png" width="450px">
 
 Abaixo a classe _Casa_ é estendida com o método _main_, o que a torna
 "executável". Em geral classes não são "executáveis" no sentido em 
@@ -93,14 +93,14 @@ específica para tal e que usa outras classes. De qualquer forma, veja
 abaixo como uma instância da própria classe é criada por meio do
 operador _new_, que dispara a execução do construtor. 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-construtor.png" width="400px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-construtor.png" width="450px">
 
 Na figura abaixo, para que não persista dúvida, antes do uso do 
 operador _new_ não há instância da classe _Casa_. Após a execução
 satisfatória do construtor, por outro lado, uma instância é criada, o
 objeto correspondente é referenciado por _c_. 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa-nascimento.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa-nascimento.png" width="400px">
 
 
 ### Classe abstrata
