@@ -201,7 +201,7 @@ relacionamento denominado de _Prole_ captura esta semântica. O
 _Casamento_, por outro lado, pode ser visto como uma agregação de duas
 pessoas. Impossível mais romantismo, devidamente registrado no modelo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-aggregation.png" width="250px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-aggregation.png" width="350px">
 
 Neste modelo as associações não são bidirecionais. Ou seja, dado um objeto da
 classe _Pessoa_, não é fácil identificarmos se o ser humano
@@ -224,7 +224,7 @@ faria sentido ser uma composição. Por outro lado, _Roupa_ pode ser
 modelada como uma composição de _Botão_, _Tecido_ e outras partes
 conforme ilustra a figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition-exemplos.png" width="450px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition-exemplos.png" width="550px">
 
 ### Pacote
 
@@ -254,7 +254,7 @@ Uma dependência é um relacionamento no qual uma das partes é exigida para a e
 
 Embora o diagrama da figura acima esteja correto, é mais comum encontrar a relação entre estas classes conforme a figura abaixo. De fato, na versão à esquerda, apenas a classe _Pessoa_ esta presente. Quando se imagina que para um determinado contexto _Data_ e _String_ são conceitos periféricos, sem tanta relevância, é recomendado que não sejam representados como classes, conforme exibido no lado direito da figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="450px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="500px">
 
 Outra alternativa, também válida, mas neste ponto reconhecido como uma proposta de menor qualidade, é a versão do lado direito. Neste caso optou-se por uma representação explícita de todas as classes. Observe que nesta versão são fornecidos os papéis. Por exemplo, a instância de _Data_ associada a uma instância de _Pessoa_ desempenha o papel de _nascimento_, conforme o diagrama. De forma análoga, a instância de _String_ desempenha o papel de _nome_.
 
@@ -272,19 +272,19 @@ Em resmo, através de uma interface um objeto pode requisitar o serviço ofereci
 
 A figura abaixo mostra a interface _Identificação_ contendo um único método. Observe o estereótipo <<_Interface_>> indicando que a notação de classe é para ser interpretada como uma interface. Alternativamente pode-se empregar a notação da direita. Esta última, contudo, não é tão adequada quanto a anterior quando se deseja especificar os serviços oferecidos pela interface.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface.png" width="450px">
 
 Qualquer classe que se propuser a implementar esta interface terá que implementar o método _gtNome_, que não recebe nenhum argumento como entrada e retorna uma _String_. Convém ressaltar que uma interface não oferece serviços, apenas os especifica, ou seja, este método só poderá ser usufruído com uma implementação que não é fornecida na interface. Em tempo, não é possível criar instâncias de interfaces!
 
 Continuando nossos exemplos extraídos do meio de ensino, podemos estar interessados na identificação de uma avaliação ou instância da classe _Prova_, de tal forma que pudéssemos enviar a mensagem _gtNome_ para objetos desta classe. Para tal, indicamos, conforme a figura abaixo, que a classe _Prova_ implementa a interface _Identificação_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-implements.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-implements.png" width="450px">
 
 Embora a classe _Prova_ não inclua explicitamente o método _gtNome_, sabemos que o relacionamento entre esta classe e a interface _Identificação_ faz com que esta classe possua, entre seus métodos, uma implementação para _getNome_ conforme descrito na interface.
 
 Outro exemplo é apresentado na figura abaixo. A classe _Nota_ implementa a interface _Compara_, cujo único método _compareTo_, recebe como argumento uma instância de _Object_ e retorna um inteiro. A nota fornece a semântica do método. Em resumo, esta implementação torna possível ordenar instâncias de _Nota_, que não é um tipo primitivo conhecido e, em consequência, só quem o cria pode dizer se é possível ordernar valores deste tipo e, caso seja, como. A implementação deste modelo torna possível a ordenação de notas por algoritmos que sequer sabem o que uma nota significa.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-compara.png" width="250px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-interface-compara.png" width="350px">
 
 Suponha que você esteja interessado em implementar um algoritmo de ordenação baseado em comparações -- nem sempre é preciso fazer comparações para ordenar. Você também não gostaria que o seu algoritmo ordenasse apenas números inteiros, mas também valores em ponto flutuante, assim como as notas de alunos, referências bibliográficas com base no título destas referências e assim por diante.
 
@@ -319,11 +319,11 @@ Em sistemas orientados a objetos, um objeto representa, em geral, uma entidade d
 
 Dessa forma, o "Fulano da Silva Sauro", seu amigo de infância, é representado por um objeto, uma instância da classe _Pessoa_. A figura abaixo fornece outros exemplos de entidades do mundo real e objetos correspondentes. Esta figura também introduz as notações que podem ser empregadas para se registrar objetos.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-mundo-objeto.png" width="450px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-mundo-objeto.png" width="500px">
 
 Da figura anterior é fácil reconhecer três formas básicas de registros de objetos mostradas na figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-objeto.png" width="250px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-objeto.png" width="300px">
 
 Em que casos é desejada a criação de diagramas contendo objetos? Um objeto é uma ilustração ou exemplo de uma entidade modelada de um sistema. Isto em um instante específico de tempo. Ou ainda, reflete uma possibilidade na qual o sistema modelado pode se encontrar em determinado instante. Em consequência, diagramas contendo objetos e ligações entre eles são mais empregados quando a complexidade das classes subjacentes exigir um modelo que ilustre instâncias destas classes em um instante de tempo.
 
