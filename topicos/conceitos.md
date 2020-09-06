@@ -23,7 +23,7 @@ A _Unified Modeling Language_, ou [UML](http://uml.org) por simplicidade, tem mo
 _Objeto_ é uma abstração que pode representar tanto uma entidade física quanto um conceito, que pode existir concretamente ou apenas na forma de ideia. A entidade objeto possui uma identidade única, além de um estado (dados) e de comportamento (métodos). A reunião de dados e métodos
 forma um objeto.
 
-![img](../media/yinyang.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/yinyang.png" width="300px">
 
 Por exemplo, em um sistema que controla o
 patrimônio da sua empresa provavelmente há um objeto correspondente ao computador que você faz uso. O estado deste objeto indica a frequência da CPU, a quantidade de memória disponível e outros atributos. Este objeto também poderá reagir a mensagens (envio de métodos). Um método típico para este objeto é _getCPU_, que retorna o nome do fabricante da CPU.
