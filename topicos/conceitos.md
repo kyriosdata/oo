@@ -115,54 +115,46 @@ elementos.
 ### Atributos de classe
 
 O estado de um objeto é determinado pelos valores dos atributos da classe
-correspondente. No exemplo da figura \ref{fig-uml-atributos}, a classe
+correspondente. No exemplo da figura abaixo, a classe
 _Pessoa_ é declarada com quatro atributos. São os valores destes quatros
 atributos para uma dada instância que irão determinar o estado desta instância
 em determinado instante.
 
 Observe que nenhum método é fornecido na declaração desta classe. Três dos
 atributos são privados, o que significa que são visíveis exclusivamente no
-corpo da classe, enquanto \java{idade} é declarado público, ou seja, é visível
-em outras classes, que desconhecem a existência de \java{dia}, \java{mes} e
-\java{ano}.
-
-\figeps{uml-atributos}{Declaração de atributos de uma classe em Java e a versão correspondente em UML. Observe o sinal \java{-} representando o modificador de acesso privado e o sinal \protect\java{+} representando o modificador de acesso público, enquanto \protect\java{/} indica que o atributo em questão é derivado.}{fig-uml-atributos}
+corpo da classe, enquanto _idade_ é declarado público, ou seja, é visível
+em outras classes, que desconhecem a existência de _dia_, _mes_ e
+_ano_.
 
 ![img](../media/uml-atributos.png)
 
-Os atributos são do tipo \java{Integer}, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido \java{short} são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido \java{Short}, que representa um inteiro de dois bytes.
+Os atributos são do tipo \java{Integer}, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido _short_ são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido _short_, que representa um inteiro de dois bytes.
 
-A classe na figura \ref{fig-uml-atributos} possui um atributo derivado. Um atributo derivado é aquele que pode ser obtido dos demais. A versão UML faz uso de uma barra \java{/} para identificar um atributo derivado.
+A classe na figura acima possui um atributo derivado. Um atributo derivado é aquele que pode ser obtido dos demais. A versão UML faz uso de uma barra / para identificar um atributo derivado.
 
-Esta barra indica que o atributo \java{idade} é derivado. Os demais atributos, \java{dia}, \java{mes} e \java{ano} identificam a data de nascimento da pessoa em questão e, portanto, o valor do atributo \java{idade} pode ser obtido dos valores dos demais atributos.
+Esta barra indica que o atributo _idade_ é derivado. Os demais atributos, _dia_, _mes_ e _ano_ identificam a data de nascimento da pessoa em questão e, portanto, o valor do atributo _idade_ pode ser obtido dos valores dos demais atributos.
 
 ### Métodos de classe
 
-Uma classe é a união de atributos, que descrevem o domínio dos estados dos objetos criados a partir desta classe, e métodos, que descrevem o comportamento. Os métodos são descritos no terceiro compartimento de um classe em UML, conforme a ilustração na figura \ref{fig-uml-prova}.
-
-\figeps{uml-prova}{A classe \java{Prova} contém três membros: um atributo e dois métodos para manipulação deste atributo. Para cada atributo pode ser definido um método \java{get} e um método \java{set}. (Alguns sofisticados preferem empregar as denominações de \textsl{accessors} e \textsl{mutators}, respectivamente.)}{fig-uml-prova}
+Uma classe é a união de atributos, que descrevem o domínio dos estados dos objetos criados a partir desta classe, e métodos, que descrevem o comportamento. Os métodos são descritos no terceiro compartimento de um classe em UML, conforme a ilustração na figura abaixo.
 
 ![img](../media/uml-prova.png)
 
 Para que este atributo privado possa ser manipulado, dois métodos foram fornecidos com o modificador de acesso público.
 
-O método \java{getNumQuestoes} é dito um método \java{get}. Retorna o valor do atributo em questão. A construção do nome deste tipo de método é formado pela concatenação de \java{get} com o identificador do atributo. Todas as iniciais de nomes que formam o identificador do atributo são fornecidas em maiúsculas. Esta convenção é a mesma empregada pela especificação da UML.
+O método _getNumQuestoes é dito um método \_get_. Retorna o valor do atributo em questão. A construção do nome deste tipo de método é formado pela concatenação de _get_ com o identificador do atributo. Todas as iniciais de nomes que formam o identificador do atributo são fornecidas em maiúsculas. Esta convenção é a mesma empregada pela especificação da UML.
 
-A formação do nome do método \java{set} é similar à formação para o nome do método \java{get}. Enquanto o primeiro não recebe um valor do tipo \java{Byte}, o segundo retorna um valor deste tipo.
+A formação do nome do método _set_ é similar à formação para o nome do método _get_. Enquanto o primeiro não recebe um valor do tipo _Byte_, o segundo retorna um valor deste tipo.
 
 ### Associações entre classes
 
-Uma associação é um relacionamento entre classes. Associação é um meio de comunicação entre objetos das classes envolvidas. O objetivo de uma associação é descrever a relação semântica existente entre instâncias destas classes. Uma associação é representada por uma linha sólida entre as classes envolvidas no relacionamento, conforme a figura \ref{fig-uml-association-line}.
-
-\figeps{uml-association-line}{Notação de uma associação em detalhes. O nome da associação elucida o significado da relação. A cardinalidade estabelece quantidades de instâncias que podem participar da relação. Objetos ligados pela associação desempenham papéis que podem ser esclarecidos, caso considerado conveniente.}{fig-uml-association-line}
+Uma associação é um relacionamento entre classes. Associação é um meio de comunicação entre objetos das classes envolvidas. O objetivo de uma associação é descrever a relação semântica existente entre instâncias destas classes. Uma associação é representada por uma linha sólida entre as classes envolvidas no relacionamento, conforme a figura abaixo.
 
 ![img](../media/uml-association-line.png)
 
-No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome \java{Matrícula} ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe \java{Curso}, podem existir zero ou mais instâncias da classe _Aluno_ associados.
+No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome _Matrícula_ ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe _Curso_, podem existir zero ou mais instâncias da classe _Aluno_ associados.
 
-As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe \java{Curso} está ligado a vários objetos da classe _Aluno_. Nesta ligação, os objetos da classe \java{Alunos} desempenham o papel \java{alunos}, enquanto o objeto da classe \java{Curso} desempenha o papel \java{curso}. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
-
-\figeps{uml-association}{Relacionamento semântico entre classes registrado através de uma associação.}{fig-uml-association}
+As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe _Curso_ está ligado a vários objetos da classe _Aluno_. Nesta ligação, os objetos da classe _Alunos_ desempenham o papel _alunos_, enquanto o objeto da classe _Curso_ desempenha o papel _Curso_. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
 
 ![img](../media/uml-association.png)
 
@@ -218,23 +210,19 @@ informações possam ser obtidas.
 
 ### Composição
 
-Composição é uma associação do tipo todo/parte, à semelhança de uma agregação. Em uma composição, contudo, quando o todo é criado, as partes correspondentes são criadas, quando o todo é destruído, as partes deste todo são destruídas. Por exemplo, na figura \ref{fig-uml-composition}, observa-se que \java{Religião} é uma composição de \java{Devoto}, o que é denotado pelo losango hachurado.
-
-\figeps{uml-composition}{Uma composição é uma relação do tipo todo/parte rigorosa, no sentido em que a parte não existe sem o todo, assim como os membros de um corpo estão para o corpo humano correspondente. Conforme a figura, se há fiel, então é porque existe religião, uma composição de fiéis.}{fig-uml-composition}
+Composição é uma associação do tipo todo/parte, à semelhança de uma agregação. Em uma composição, contudo, quando o todo é criado, as partes correspondentes são criadas, quando o todo é destruído, as partes deste todo são destruídas. Por exemplo, na figura abaixo, observa-se que _Religião_ é uma composição de _Devoto_, o que é denotado pelo losango hachurado.
 
 ![img](../media/uml-composition.png)
 
-Neste exemplo, há um relacionamento entre instâncias de \java{Devoto} e de \java{Religião}. Em particular, dado o fato de se tratar de uma composição, o modelo ressalta que não existe instância de \java{Devoto} sem uma correspondente instância de \java{Religião}. Uma instância de \java{Religião} pode estar ligada a vários devotos e, em particular, talvez nenhum devoto. Conforme o modelo, se a religião de alguns devotos desaparecer, então estes devotos desaparecem junto.
+Neste exemplo, há um relacionamento entre instâncias de _Devoto_ e de _Religião_. Em particular, dado o fato de se tratar de uma composição, o modelo ressalta que não existe instância de _Devoto_ sem uma correspondente instância de _Religião_. Uma instância de _Religião_ pode estar ligada a vários devotos e, em particular, talvez nenhum devoto. Conforme o modelo, se a religião de alguns devotos desaparecer, então estes devotos desaparecem junto.
 
 Observe que a opção entre agregação e composição pode não oferecer, em alguns
 casos, informação semântica de valor e, portanto, simplesmente faça opção pelo
 relacionamento que considerar mais natural. Por outro lado, há casos onde não
-deve pairar dúvidas. \java{Reunião} é uma agregação de _Pessoa_ e não
-faria sentido ser uma composição. Por outro lado, \java{Roupa} pode ser
-modelada como uma composição de \java{Botão}, \java{Tecido} e outras partes
-conforme ilustra a figura \ref{fig-uml-composition-exemplos}.
-
-\figeps{uml-composition-exemplos}{\protect\java{Roupa} é uma composição de vários elementos. \protect\java{Reunião} é uma agregação de pelo menos duas pessoas.}{fig-uml-composition-exemplos}
+deve pairar dúvidas. _Reunião_ é uma agregação de _Pessoa_ e não
+faria sentido ser uma composição. Por outro lado, _Roupa_ pode ser
+modelada como uma composição de _Botão_, _Tecido_ e outras partes
+conforme ilustra a figura abaixo.
 
 ![img](../media/uml-composition-exemplos.png)
 
