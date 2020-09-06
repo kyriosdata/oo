@@ -13,12 +13,16 @@ A relação entre esta classe e o código Java correspondente.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="350px">
 
+Outro exemplo de relação entre código em Java e classe na UML.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="350px">
+
 Outras versões alternativas para representação de uma classe. 
 Em tempo, qual usar? Dependendo do contexto será relevante registrar
 um membro de dados, por exemplo, enquanto noutro, tal informação
 pode não ser necessária. 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="350px">
 
 ### Classe com atributos
 
@@ -29,7 +33,12 @@ Os membros de dados _dia_, _mes_ e _ano_, todos do tipo _short_, todos privados 
 Membros de dados, em geral, quando referenciam "tipos" clássicos, conforme
 ilustrados abaixo, são representados sem a indicação explícita das associações.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="350px">
+
+Ainda é possível a opção abaixo.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="350px">
+
 
 ### Classe com atributo e métodos
 
@@ -69,6 +78,30 @@ diagrama abaixo, embora ambos estejam corretos.
 Uma aplicação trivial que cria uma instância da classe _Prova_. Nem a aplicação nem a classe _Prova_ são exibidas no modelo. Nenhum uso é feito desta classe, apenas o construtor é executado. O objeto criado não é anônimo. Ao contrário, é referenciado por _pf_.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-objeto.png" width="350px">
+
+### Como se cria um objeto?
+
+Observe a classe _Casa_ e seu construtor. Em tempo, construtor é a 
+operação executada quando se cria uma instância da classe. 
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa.png" width="300px">
+
+Abaixo a classe _Casa_ é estendida com o método _main_, o que a torna
+"executável". Em geral classes não são "executáveis" no sentido em 
+dão origem a programas. Em geral, um programa ou aplicação cria classe
+específica para tal e que usa outras classes. De qualquer forma, veja
+abaixo como uma instância da própria classe é criada por meio do
+operador _new_, que dispara a execução do construtor. 
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-construtor.png" width="350px">
+
+Na figura abaixo, para que não persista dúvida, antes do uso do 
+operador _new_ não há instância da classe _Casa_. Após a execução
+satisfatória do construtor, por outro lado, uma instância é criada, o
+objeto correspondente é referenciado por _c_. 
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa-nascimento.png" width="300px">
+
 
 ### Classe abstrata
 
@@ -124,10 +157,6 @@ a _Religicao_ correspondente, e cada _Religia_ conhece seus devotos.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-composition.png" width="350px">
 
-### Dependências explícitas
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="350px">
-
 ### Herança
 
 Neste caso, diz-que _Aluno_ estende _Pessoa_. Noutras palavras, _Aluno_ **é** uma _Pessoa_. Esta herança, contudo, talvez possa ser melhor expressa como "aluno é uma atribuição de uma pessoa", ou ainda "uma pessoa, ao longo da vida, desempenha várias atividades, inclusive de ensino".
@@ -161,7 +190,7 @@ A classe abstrata _Pessoa_ modela o cenário onde existe instância de _PessoaF�
 
 Não se confunde com herança. Quando uma classe implementa uma interface, então esta classe possui métodos que permitem se comportar conforme definido na interface. Herança, por outro lado, é o tipo "mais forte" de relacionamento entre duas classes.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="400px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="450px">
 
 ### Interface
 
@@ -191,16 +220,6 @@ classes "coesas" podem ser agrupadas usando a noção de _package_. Abaixo segue
 No domínio acadêmico, por exemplo, várias classes pertinentes ao ensino, em geral, podem estar no _package_ denominado _ensino_, conforme abaixo. Em tal _package_ são esperadas classes como _Aluno_, _Avaliação_ e outras. No _package_ denominado _escola_, por outro lado, que depende de _ensino_, ou seja, faz uso de classes deste _package_, são esperadas classes como
 _Colaborador_, _Diretoria_ e outras.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package2.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package2.png" width="400px">
 
-
-
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa-nascimento.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-construtor.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="300px">
 
