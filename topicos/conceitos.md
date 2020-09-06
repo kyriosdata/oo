@@ -83,7 +83,7 @@ classe, é algo similar à criação de uma variável.
 Uma variável de um tipo primitivo, contudo, possui um domínio de valores e um
 conjunto de operações predefinidas pela linguagem. Por exemplo, em algumas
 linguagens é possível realizar _x + y_ onde os operandos são sequências
-de caracteres, enquanto \java{x \* y} envolve um operador não permitido para o
+de caracteres, enquanto _x \* y_ envolve um operador não permitido para o
 tipo sequência de caracteres.
 
 Uma classe, ao contrário de tipos predefinidos, inclui dados e métodos
@@ -92,7 +92,7 @@ exista nenhuma linguagem de programação que possua o tipo predefinido
 _Pessoa_, mas uma linguagem de programação orientada a objetos permitirá
 a criação da classe _Pessoa_. A existência desta classe torna possível a
 criação de instâncias que representam seres humanos. Uma instância, ou objeto,
-terá um estado correspondentes a um ser humano, por exemplo, ``José da Silva''
+terá um estado correspondentes a um ser humano, por exemplo, "José da Silva"
 nascido em 01/02/1967. A modelagem correspondente em que foram omitidos os
 atributos e os métodos da classe _Pessoa_ é fornecida abaixo.
 
@@ -128,7 +128,7 @@ _ano_.
 
 ![img](../media/uml-atributos.png)
 
-Os atributos são do tipo \java{Integer}, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido _short_ são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido _short_, que representa um inteiro de dois bytes.
+Os atributos são do tipo _Integer_, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido _short_ são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido _short_, que representa um inteiro de dois bytes.
 
 A classe na figura acima possui um atributo derivado. Um atributo derivado é aquele que pode ser obtido dos demais. A versão UML faz uso de uma barra / para identificar um atributo derivado.
 
@@ -190,8 +190,8 @@ denominada de agregação. Ou seja, um objeto é parte lógica de outro objeto.
 
 Em uma festa convencional vários convidados estão presentes. Imagine que há
 festa desde que venha pelo menos um convidado. A classe _Festa_ está
-associada à classe \java{Convidado} por uma agregação, denotada por um
-losango, conforme ilustra a figura \ref{fig-uml-festa-convidado}.
+associada à classe _Convidado_ por uma agregação, denotada por um
+losango, conforme ilustra a figura abaixo.
 
 ![img](../media/uml-festa-convidado.png)
 
