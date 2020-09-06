@@ -35,6 +35,13 @@ A classe _Pessoa_ com dois membros de dados, também chamados de propriedades, o
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-8.png" width="300px">
 
+### Classe _Object_
+
+A classe _Object_ é a classe base de toda e qualquer classe em Java. Noutras
+palavras, todo e qualquer objeto em Java possui os métodos citados abaixo.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-object.png" width="300px">
+
 ### Objeto
 
 Uma aplicação trivial que cria uma instância da classe _Prova_. Nem a aplicação nem a classe _Prova_ são exibidas no modelo. Nenhum uso é feito desta classe, apenas o construtor é executado. O objeto criado não é anônimo. Ao contrário, é referenciado por _pf_.
@@ -67,7 +74,7 @@ Um aluno pode estar matriculado em vários cursos e, naturalmente, cada curso po
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association.png" width="350px">
 
-### Programa em Java
+### Algoritmo para Java
 
 Tradução do algoritmo da esquerda para a versão correspondente em Java.
 Embora a correspondência esteja correta, em Java não é usual métodos possuírem
@@ -75,6 +82,13 @@ inicial maiúscula, como ocorre com C#. Estas convenções devem ser observadas
 visando melhor interação entre membros de uma equipe.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-1.png" width="300px">
+
+### Aplicação Java
+
+Aplicação que exibe todas possíveis da cadeia de caracteres fornecida na entrada.
+Observe que uma instância anônima de _String_ e o parâmetro fornecido via linha de comandos são fornecidos para o método _Permutacao_ no método _main_.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-permuta.png" width="300px">
 
 ### Composição
 
@@ -108,6 +122,10 @@ A classe que herda é dita _derivada_. A classe herdada é dita _base_. Também
 é usual e correto o uso de _ancestral_ para a classe _base_ e _derivada_ para a classe _derivada_. Adicionalmente, observe que há uma _especialização_ da classe _base_ para a classe _derivada_. No sentido oposto, ocorre a _generalização_.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-heranca-simples.png" width="300px">
+
+### _Revista_ herda de _Referência_
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-revista-referencia.png" width="300px">
 
 ### Herança de classe abstrata
 
@@ -157,9 +175,3 @@ pode receber a mensagem _getNome_.
 <img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="300px">
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro-objeto.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-object.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-permuta.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-revista-referencia.png" width="300px">
