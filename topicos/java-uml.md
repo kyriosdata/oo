@@ -4,21 +4,32 @@
 
 ### Classe
 
-A classe _Pessoa_, nenhum atributo, nenhum método e, portanto, corpo omitido.
+A classe _Pessoa_, nenhum atributo, nenhum método em uma representação na
+UML onde tais elementos não foram considerados relevantes para o interesse em questão.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa-3.png" width="100px">
+
+A relação entre esta classe e o código Java correspondente. 
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="350px">
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa-3.png" width="300px">
+Outras versões alternativas para representação de uma classe. 
+Em tempo, qual usar? Dependendo do contexto será relevante registrar
+um membro de dados, por exemplo, enquanto noutro, tal informação
+pode não ser necessária. 
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
 
 ### Classe com atributos
 
 Os membros de dados _dia_, _mes_ e _ano_, todos do tipo _short_, todos privados (_private_) em Java e a correspondente versão na UML.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-association-4.png" width="350px">
+
+Membros de dados, em geral, quando referenciam "tipos" clássicos, conforme
+ilustrados abaixo, são representados sem a indicação explícita das associações.
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
 
 ### Classe com atributo e métodos
 
