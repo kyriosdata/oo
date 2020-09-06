@@ -5,7 +5,7 @@ empregar alguma forma de projeto (_software design_). A perspectiva orientada a 
 
 > Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória.
 
-Código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
+Dito de outra forma, código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
 conforme esta tecnologia.
 
 ## Modelagem
