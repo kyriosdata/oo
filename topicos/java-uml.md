@@ -8,6 +8,12 @@ A classe _Pessoa_, nenhum atributo, nenhum método e, portanto, corpo omitido.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa.png" width="350px">
 
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa-3.png" width="300px">
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="300px">
+
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
+
 ### Classe com atributos
 
 Os membros de dados _dia_, _mes_ e _ano_, todos do tipo _short_, todos privados (_private_) em Java e a correspondente versão na UML.
@@ -144,7 +150,7 @@ A classe abstrata _Pessoa_ modela o cenário onde existe instância de _PessoaF�
 
 Não se confunde com herança. Quando uma classe implementa uma interface, então esta classe possui métodos que permitem se comportar conforme definido na interface. Herança, por outro lado, é o tipo "mais forte" de relacionamento entre duas classes.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-implements.png" width="400px">
 
 ### Interface
 
@@ -174,14 +180,10 @@ classes "coesas" podem ser agrupadas usando a noção de _package_. Abaixo segue
 No domínio acadêmico, por exemplo, várias classes pertinentes ao ensino, em geral, podem estar no _package_ denominado _ensino_, conforme abaixo. Em tal _package_ são esperadas classes como _Aluno_, _Avaliação_ e outras. No _package_ denominado _escola_, por outro lado, que depende de _ensino_, ou seja, faz uso de classes deste _package_, são esperadas classes como
 _Colaborador_, _Diretoria_ e outras.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package2.png" width="300px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-package2.png" width="350px">
 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="300px">
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="300px">
-
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa-3.png" width="300px">
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/java-casa.png" width="300px">
 
