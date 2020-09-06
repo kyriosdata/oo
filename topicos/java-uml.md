@@ -15,7 +15,7 @@ A relação entre esta classe e o código Java correspondente.
 
 Outro exemplo de relação entre código em Java e classe na UML.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/java-livro.png" width="400px">
 
 Outras versões alternativas para representação de uma classe. 
 Em tempo, qual usar? Dependendo do contexto será relevante registrar
@@ -33,11 +33,13 @@ Os membros de dados _dia_, _mes_ e _ano_, todos do tipo _short_, todos privados 
 Membros de dados, em geral, quando referenciam "tipos" clássicos, conforme
 ilustrados abaixo, são representados sem a indicação explícita das associações.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="400px">
 
-Ainda é possível a opção abaixo.
+Ainda é possível a opção abaixo. Não é esperada, em geral, 
+a representação de dependência conforme ilustrada, mas em outros
+cenários para ressaltar que, de alguma forma, uma classe faz uso de outra.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-dependencia.png" width="400px">
 
 
 ### Classe com atributo e métodos

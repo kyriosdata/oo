@@ -1,11 +1,9 @@
-## Orientação a Objetos
+## Orientação a Objetos: Fundamentos
 
 Por mais simples que seja um problema a ser implementado, será preciso
-empregar alguma forma de projeto. A perspectiva orientada a objetos, uma das
-mais empregadas tanto pela indústria quanto pela academia para a atividade de
-projeto de software (_software design_), é comentada abaixo.
+empregar alguma forma de projeto (_software design_). A perspectiva orientada a objetos, uma das mais empregadas tanto pela indústria quanto pela academia para a atividade de projeto de software (_software design_), é comentada abaixo.
 
-Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória.
+> Pensar em código da perspectiva orientada a objetos é pensar na interação entre objetos. O que pressupõe a identificação dos objetos e a distribuição de responsabilidades entre eles, o que torna a interação obrigatória.
 
 Código orientado a objeto em execução é um conjunto de objetos que cooperam entre si. Empregar esta abordagem exige o domínio de vários conceitos, apresentados logo após uma breve discussão acerca de como registrar modelos
 conforme esta tecnologia.
