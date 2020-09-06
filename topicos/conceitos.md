@@ -23,7 +23,7 @@ A _Unified Modeling Language_, ou [UML](http://uml.org) por simplicidade, tem mo
 _Objeto_ é uma abstração que pode representar tanto uma entidade física quanto um conceito, que pode existir concretamente ou apenas na forma de ideia. A entidade objeto possui uma identidade única, além de um estado (dados) e de comportamento (métodos). A reunião de dados e métodos
 forma um objeto.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/yinyang.png" width="100px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/yinyang.png" width="150px">
 
 Por exemplo, em um sistema que controla o
 patrimônio da sua empresa provavelmente há um objeto correspondente ao computador que você faz uso. O estado deste objeto indica a frequência da CPU, a quantidade de memória disponível e outros atributos. Este objeto também poderá reagir a mensagens (envio de métodos). Um método típico para este objeto é _getCPU_, que retorna o nome do fabricante da CPU.
@@ -44,7 +44,7 @@ Quando se define uma classe, também é definido tudo que um cliente precisa sab
 trata-se da interface que esta classe oferece para que o mundo externo entre em contatos com instâncias desta classe. Não confunda o conceito interface, como foi aqui empregado, com o mecanismo que linguagens de programação
 oferecem para definir um contrato.
 
-![img](../media/defobjeto.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/defobjeto.png" width="300px">
 
 De uma classe podem ser criadas zero ou mais instâncias. Classes não reagem a
 mensagens, pois não se pode enviar mensagens a uma classe. Quem recebe
@@ -59,7 +59,7 @@ si. Ter uma tarefa realizada em um modelo orientado a objetos é fazer com que
 os objetos cooperem uns com os outros, conforme a responsabilidade necessitada
 por um objeto e oferecida por outro.
 
-![img](../media/defmensagem.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/defmensagem.png" width="300px">
 
 A cooperação se dá através de mensagens. Para que um objeto usufrua de
 responsabilidade oferecida por
@@ -96,7 +96,7 @@ terá um estado correspondentes a um ser humano, por exemplo, "José da Silva"
 nascido em 01/02/1967. A modelagem correspondente em que foram omitidos os
 atributos e os métodos da classe _Pessoa_ é fornecida abaixo.
 
-![img](../media/uml-pessoa.png)
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa.png" width="200px">
 
 A figura \ref{fig-uml-pessoa} faz uso da modelagem de uma classe empregando
 três compartimentos: (a) nome da classe, (b) atributos e (c) métodos. Apenas o
