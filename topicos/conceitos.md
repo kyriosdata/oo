@@ -98,12 +98,12 @@ atributos e os métodos da classe _Pessoa_ é fornecida abaixo.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa.png" width="220px">
 
-A figura \ref{fig-uml-pessoa} faz uso da modelagem de uma classe empregando
+A figura acima faz uso da modelagem de uma classe empregando
 três compartimentos: (a) nome da classe, (b) atributos e (c) métodos. Apenas o
 nome da classe, primeiro compartimento, foi fornecido nesta figura. Os outros
 dois compartimentos estão vazios.
 
-Conforme a figura \ref{fig-uml-pessoa-detalhes}, os compartimentos de
+Conforme a figura abaixo, os compartimentos de
 atributos e métodos podem ser omitidos. A opção entre um e outro depende do
 interesse que se pretende fazer do modelo. Em alguns cenários pode ser
 suficiente representar a classe _Pessoa_ sem o detalhamento dos atributos
@@ -152,7 +152,7 @@ Uma associação é um relacionamento entre classes. Associação é um meio de 
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-association-line.png" width="550px">
 
-No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome _Matrícula_ ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe _Curso_, podem existir zero ou mais instâncias da classe _Aluno_ associados.
+No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura abaixo. O nome _Matrícula_ ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe _Curso_, podem existir zero ou mais instâncias da classe _Aluno_ associados.
 
 As instâncias de uma associação são denominadas de ligações. Ou seja, o modelo registra um possível cenário no qual, em determinado instante, um objeto da classe _Curso_ está ligado a vários objetos da classe _Aluno_. Nesta ligação, os objetos da classe _Alunos_ desempenham o papel _alunos_, enquanto o objeto da classe _Curso_ desempenha o papel _Curso_. (Não faça como neste exemplo, se o papel fornecido é óbvio, simplesmente não o forneça.)
 
@@ -166,7 +166,7 @@ Neste caso, qual seria a forma mais indicada? A resposta depende do contexto. A 
 
 ### Associações reflexivas
 
-Em uma associação reflexiva os extremos da associação são uma mesma classe conforme a figura \ref{fig-uml-pessoa2}. Toda pessoa possui um pai e uma mãe (denominados de _papéis_). O modelo, contudo, contenta-se com pessoas para as quais os pais não estão estabelecidos. Ou para as quais apenas o pai ou a mãe é conhecido(a).
+Em uma associação reflexiva os extremos da associação são uma mesma classe conforme a figura abaixo. Toda pessoa possui um pai e uma mãe (denominados de _papéis_). O modelo, contudo, contenta-se com pessoas para as quais os pais não estão estabelecidos. Ou para as quais apenas o pai ou a mãe é conhecido(a).
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa2.png" width="200px">
 
@@ -248,7 +248,7 @@ Embora nossa discussão tenha se restringido a pacote como um depósito de class
 
 ### Dependências
 
-Uma dependência é um relacionamento no qual uma das partes é exigida para a especificação ou implementação da outra. Consequentemente, o elemento dependente deste relacionamente terá, provavelmente, que ser alterado quando ocorrer uma mudança no outro elemento. Por exemplo, na figura \ref{fig-uml-dependencia} a classe _Pessoa_ depende das classes _Data_ e \_String).
+Uma dependência é um relacionamento no qual uma das partes é exigida para a especificação ou implementação da outra. Consequentemente, o elemento dependente deste relacionamente terá, provavelmente, que ser alterado quando ocorrer uma mudança no outro elemento. Por exemplo, na figura abaixo a classe _Pessoa_ depende das classes _Data_ e _String_.
 
 <img src="https://github.com/kyriosdata/oo/raw/04/media/uml-dependencia.png" width="350px">
 
