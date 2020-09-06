@@ -126,7 +126,7 @@ corpo da classe, enquanto _idade_ é declarado público, ou seja, é visível
 em outras classes, que desconhecem a existência de _dia_, _mes_ e
 _ano_.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-atributos.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-atributos.png" width="120px">
 
 Os atributos são do tipo _Integer_, predefinido na UML. Representa um elemento de um conjunto infinito representado pelos inteiros, ou seja, -2, -1, 0 e 256 são elementos deste conjunto. Quando esta classe for implementada, naturalmente este tipo terá que ser mapeado para o tipo correspondente na linguagem de programação empregada. Por exemplo, em Java os dois bytes do tipo predefinido _short_ são suficientes. Se a linguagem é VB.NET, então pode ser empregado o tipo predefinido _short_, que representa um inteiro de dois bytes.
 
@@ -138,7 +138,7 @@ Esta barra indica que o atributo _idade_ é derivado. Os demais atributos, _dia_
 
 Uma classe é a união de atributos, que descrevem o domínio dos estados dos objetos criados a partir desta classe, e métodos, que descrevem o comportamento. Os métodos são descritos no terceiro compartimento de um classe em UML, conforme a ilustração na figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-prova.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-prova.png" width="250px">
 
 Para que este atributo privado possa ser manipulado, dois métodos foram fornecidos com o modificador de acesso público.
 
@@ -150,7 +150,7 @@ A formação do nome do método _set_ é similar à formação para o nome do m�
 
 Uma associação é um relacionamento entre classes. Associação é um meio de comunicação entre objetos das classes envolvidas. O objetivo de uma associação é descrever a relação semântica existente entre instâncias destas classes. Uma associação é representada por uma linha sólida entre as classes envolvidas no relacionamento, conforme a figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-association-line.png" width="450px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-association-line.png" width="550px">
 
 No mundo real, alunos matriculam-se em cursos. Esta relação é modelada conforme a associação exibida na figura \ref{fig-uml-association}. O nome _Matrícula_ ressalta o significado da associação, não é obrigatório. A cardinalidade indica que um aluno pode estar matriculado em um curso e não em mais do que um. Ou seja, pode ser que tenhamos um dado aluno, em dado instante de tempo, que não esteja matriculado em um curso. Por outro lado, dado um objeto da classe _Curso_, podem existir zero ou mais instâncias da classe _Aluno_ associados.
 
@@ -168,7 +168,7 @@ Neste caso, qual seria a forma mais indicada? A resposta depende do contexto. A 
 
 Em uma associação reflexiva os extremos da associação são uma mesma classe conforme a figura \ref{fig-uml-pessoa2}. Toda pessoa possui um pai e uma mãe (denominados de _papéis_). O modelo, contudo, contenta-se com pessoas para as quais os pais não estão estabelecidos. Ou para as quais apenas o pai ou a mãe é conhecido(a).
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa2.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-pessoa2.png" width="200px">
 
 Uma instância da classe _Pessoa_ pode estar ligada a várias instâncias desta classe, pois há um extremo de uma associação cuja cardinalidade não é explicitamente fornecida. Neste caso, o padrão é zero ou mais. Em _UML 2.0 Infrastructure Specification_, seção 8.2.2, lê-se claramente: "a multiplicidade de um extremo de uma associação é omitido se é \_ (valor padrão na UML)".
 
@@ -193,7 +193,7 @@ festa desde que venha pelo menos um convidado. A classe _Festa_ está
 associada à classe _Convidado_ por uma agregação, denotada por um
 losango, conforme ilustra a figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-festa-convidado.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-festa-convidado.png" width="250px">
 
 Outro exemplo segue na figura abaixo. Uma _União_ pode
 dar origem a vários filhos, cada um uma instância de _Pessoa_. O
@@ -201,7 +201,7 @@ relacionamento denominado de _Prole_ captura esta semântica. O
 _Casamento_, por outro lado, pode ser visto como uma agregação de duas
 pessoas. Impossível mais romantismo, devidamente registrado no modelo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-aggregation.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-aggregation.png" width="250px">
 
 Neste modelo as associações não são bidirecionais. Ou seja, dado um objeto da
 classe _Pessoa_, não é fácil identificarmos se o ser humano
@@ -212,7 +212,7 @@ informações possam ser obtidas.
 
 Composição é uma associação do tipo todo/parte, à semelhança de uma agregação. Em uma composição, contudo, quando o todo é criado, as partes correspondentes são criadas, quando o todo é destruído, as partes deste todo são destruídas. Por exemplo, na figura abaixo, observa-se que _Religião_ é uma composição de _Devoto_, o que é denotado pelo losango hachurado.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition.png" width="250px">
 
 Neste exemplo, há um relacionamento entre instâncias de _Devoto_ e de _Religião_. Em particular, dado o fato de se tratar de uma composição, o modelo ressalta que não existe instância de _Devoto_ sem uma correspondente instância de _Religião_. Uma instância de _Religião_ pode estar ligada a vários devotos e, em particular, talvez nenhum devoto. Conforme o modelo, se a religião de alguns devotos desaparecer, então estes devotos desaparecem junto.
 
@@ -224,7 +224,7 @@ faria sentido ser uma composição. Por outro lado, _Roupa_ pode ser
 modelada como uma composição de _Botão_, _Tecido_ e outras partes
 conforme ilustra a figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition-exemplos.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-composition-exemplos.png" width="450px">
 
 ### Pacote
 
@@ -236,11 +236,11 @@ Um pacote se assemelha a um escaninho. Se há organização, então existem vár
 
 Na figura abaixo vemos o pacote _ensino_. É natural procurar por uma classe _Estudante_ no pacote _ensino_. Contudo, a classe _NotaFiscal_ definitivamente não deveria fazer parte deste pacote. (Seria como colocar o delicioso marrom-glacê no mesmo compartimento dos produtos de higiene, junto com detergentes e o sabão neutro de coco em barra.)
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-package.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-package.png" width="100px">
 
 Em uma instituição de ensino será natural fragmentar o nosso modelo orientado a objetos, composto por dezenas de classes ou mais, em pacotes que representam componentes semânticos do problema. Por exemplo, aquilo que diretamente diz respeito ao ensino pode ser depositado em um pacote de nome _ensino_. Elementos gerais, por outro lado, podem ser depositados no pacote _escola_. Esta organização pode ser modelada conforme a figura abaixo ilustra.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-package2.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-package2.png" width="250px">
 
 Nesta figura vemos dois pacotes. O pacote _escola_ depende do pacote _ensino_. Isto significa que uma mudança em _ensino_ pode provocar uma alteração em _escola_. Dependência é tema da seção seguinte. Aqui, o relevante é observar a divisão do nosso modelo em dois pacotes e que um deles depende do outro.
 
@@ -250,11 +250,11 @@ Embora nossa discussão tenha se restringido a pacote como um depósito de class
 
 Uma dependência é um relacionamento no qual uma das partes é exigida para a especificação ou implementação da outra. Consequentemente, o elemento dependente deste relacionamente terá, provavelmente, que ser alterado quando ocorrer uma mudança no outro elemento. Por exemplo, na figura \ref{fig-uml-dependencia} a classe _Pessoa_ depende das classes _Data_ e \_String).
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-dependencia.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-dependencia.png" width="350px">
 
 Embora o diagrama da figura acima esteja correto, é mais comum encontrar a relação entre estas classes conforme a figura abaixo. De fato, na versão à esquerda, apenas a classe _Pessoa_ esta presente. Quando se imagina que para um determinado contexto _Data_ e _String_ são conceitos periféricos, sem tanta relevância, é recomendado que não sejam representados como classes, conforme exibido no lado direito da figura abaixo.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="150px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pds.png" width="450px">
 
 Outra alternativa, também válida, mas neste ponto reconhecido como uma proposta de menor qualidade, é a versão do lado direito. Neste caso optou-se por uma representação explícita de todas as classes. Observe que nesta versão são fornecidos os papéis. Por exemplo, a instância de _Data_ associada a uma instância de _Pessoa_ desempenha o papel de _nascimento_, conforme o diagrama. De forma análoga, a instância de _String_ desempenha o papel de _nome_.
 
