@@ -1,6 +1,6 @@
-## Mapeamento Java para UML (e vice-versa)
+## Mapeamento entre Java e UML
 
-> Esclarecer como pode ser realizado o mapeamento de UML para Java e vice-versa.
+> Ilustrar mapeamentos entre UML e Java.
 
 ### Classe
 
@@ -22,7 +22,7 @@ Em tempo, qual usar? Dependendo do contexto será relevante registrar
 um membro de dados, por exemplo, enquanto noutro, tal informação
 pode não ser necessária. 
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-pessoa-detalhes.png" width="450px">
 
 ### Classe com atributos
 
@@ -113,13 +113,13 @@ A classe _Pessoa_, contudo, agora abstrata. Ou seja, uma classe da qual não é 
 
 Uma _Festa_ possui pelo menos um _Convidado_ que, por sua vez, pode ser convidado de várias festas.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/festa-convidado.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/festa-convidado.png" width="400px">
 
 ### Agregação e associação
 
 A classe _Uniao_ está associada a duas instâncias de _Pessoa_ pela associação rotulada por _Casamento_. Ou seja, admite casamento exatamente entre duas pessoas. Adicionalmente, desta união podem derivar filhoes, zero ou mais.
 
-<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-aggregation.png" width="350px">
+<img src="https://github.com/kyriosdata/oo/raw/04/media/uml-java-aggregation.png" width="400px">
 
 ### Associação n:n
 
