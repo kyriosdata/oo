@@ -5,7 +5,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 
 ### Tópicos
 
-- [T01](topicos/01.md) (01/09/2020 - 04/09/2020)
+- [T01](topicos/01.md) (data limite: **04/09/2020 23h59min59s**)
 - [T02](topicos/02.md) (05/09/2020 - 11/09/2020)
 - [T03](topicos/03.md) (05/09/2020 - 18/08/2020)
 - [T04](topicos/04.md) (06/09/2020 - 14/08/2020)
