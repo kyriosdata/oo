@@ -12,5 +12,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T05](topicos/05.md) (data limite: **15/09/2020 23h59min59s**)
 - [T06](topicos/06.md) (data limite: **20/09/2020 23h59min59s**)
 - [T07](topicos/07.md) (data limite: **21/09/2020 23h59min59s**)
+- [T08](topicos/08.md) (data limite: **26/09/2020 23h59min59s**)
+- [T09](topicos/09.md) (data limite: **30/09/2020 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
