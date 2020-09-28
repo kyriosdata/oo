@@ -30,6 +30,8 @@ Embora o modelo abaixo permita que uma instância de Usuário seja tratada como 
 
 ![image](https://user-images.githubusercontent.com/1735792/90349160-20f0ba80-e00f-11ea-8498-cbc080ed9c11.png)
 
+Observe que um contêiner agrega vários elementos. Ou seja, uma instância de Contêiner está associada, possivelmente, a vários objetos da classe Elemento. Estes objetos "fazem parte" (agregação) do contêiner em questão. Adicionalmente, o que é um Elemento? Um Elemento é herdado por Objeto e por Contêiner. Ou seja, quando se fala em um Elemento estamos falando ou de um Objeto ou de um Contêiner. Quando são reunidos vários objetos Elemento em um Contêiner, portanto, o que se tem "lá dentro" são instâncias de Objeto e/ou instâncias de Contêiner. 
+
 ### Caixeiro-viajante.
 
 Um caixeiro-viajante faz uso de uma lista de cidades pelas quais terá que percorrer em uma viagem, na ordem fornecida e, para cada uma das cidades, colhe pedidos de armazéns lá localizados. A lista de cidades corresponde a uma viagem do caixeiro-viajante. Espera-se uma lista de cidades para cada viagem. Ou seja, um caixeiro-viajante está associado a várias viagens, cada uma delas é descrita por uma lista de cidades, conforme ilustrado abaixo. Observe que as cidades estão ordenadas (ordered).
