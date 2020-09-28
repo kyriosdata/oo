@@ -14,5 +14,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T07](topicos/07.md) (data limite: **21/09/2020 23h59min59s**)
 - [T08](topicos/08.md) (data limite: **26/09/2020 23h59min59s**)
 - [T09](topicos/09.md) (data limite: **30/09/2020 23h59min59s**)
+- Issues cujas respostas podem ser relevantes para o seu aprendizado:
+  - Modelo OO e de dados se assemelham? https://github.com/kyriosdata/oo/issues/318
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
