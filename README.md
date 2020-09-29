@@ -3,7 +3,7 @@
 O plano da disciplina está disponível [aqui](./media/plano-poo.pdf). Recomendações sobre direitos autorais [aqui](./media/recomendacao-prograd.pdf). Os
 momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/awkznsp2o3) das 19h às 20h, toda terça-feira.
 
-### Tópicos
+### Tópicos (primeiros contatos)
 
 - [T01](topicos/01.md) (data limite: **04/09/2020 23h59min59s**)
 - [T02](topicos/02.md) (data limite: **11/09/2020 23h59min59s**)
@@ -17,4 +17,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - Issues cujas respostas podem ser relevantes para o seu aprendizado:
   - Modelo OO e de dados se assemelham? https://github.com/kyriosdata/oo/issues/318
 
+### Tópicos (compreendendo)
+
+- [T10](topicos/10.md) (data limite: **06/10/2020 23h59min59s**)
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
