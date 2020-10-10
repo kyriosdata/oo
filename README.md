@@ -23,5 +23,6 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T11](topicos/11.md) (data limite: **06/10/2020 23h59min59s**)
 - [T12](topicos/12.md) (data limite: **06/10/2020 23h59min59s**)
 - [T13](topicos/13.md) (data limite: **13/10/2020 23h59min59s**)
+- [T14](topicos/14.md) (data limite: **14/10/2020 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
