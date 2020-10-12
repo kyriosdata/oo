@@ -1,17 +1,15 @@
-### A República
+### Leviatã
 
-Platão é autor de várias obras. Dentre elas, talvez a mais famosa seja
-"A República". Alguns excertos desta obrga são transcritos abaixo.
-Modele cada um deles na perspectiva orientada a objetos usando a UML.
+Thomas Hobbes é autor de Leviatã. Modele os excertos abaixo desta obra.
 
-- "Na medida em que vão murchando para uns os prazeres físicos, nessa mesma proporção aumentam o desejo e o prazer da conversa."
+- "Se apesar disso verificares que meu trabalho é atacado por todos, talvez te apraza desculpar-me, alegando que sou homem que ama suas próprias opiniões, o qual acredita em tudo o que diz."
 
-- "A justiça não é outra coisa senão a conveniência do mais forte."
+- "Quando acreditamos que qualquer espécie de afirmação é verdadeira, com base e argumentos que não são tirados da própria coisa nem dos princípios da razão natural, mas são tirados da autoridade e da opinião favorável que temos acerca de quem fez essa afirmação, neste caso o objeto de nossa fé é o orador ou a pessoa em quem acreditamos ou em quem confiamos e cuja palavra aceitamos; e a honra feita ao acreditar é feita apenas a essa pessoa. Consequentemente, quando acreditamos que as Escrituras são a palavra de Deus, sem ter recebido qualquer revelação imediata do próprio Deus, o objeto de nossa crença, fé e confiança é a igreja, cuja palavra aceitamos e à qual aquiescemos."
 
-- "Não há nada de grandioso que não tenha dificuldades."
+- "Os secretos pensamentos de cada pessoa percorrem todas as coisas, sagradas ou profanas, limpas ou obscenas, sérias ou frívolas, sem vergonha ou censura. Coisa que o discurso verbal não pode fazer, limitado pela aprovação do juízo quanto ao momento, ao lugar e à pessoa."
 
-- "Em qualquer empreendimento, o mais trabalhoso é o começo."
+- "O valor de um homem, tal como o de todas as outras coisas, é seu preço. Tanto quanto seria dado pelo uso de seu poder. Portanto, não absoluto, mas algo que depende da necessidade e julgamento de outrem. Um hábil condutor de soldados é de alto preço em tempo de guerra presente ou iminente, mas não o é em tempo de paz. Um juiz douto e incorruptível é de grande valor em tempo de paz. Tal como nas outras coisas, mas não o é tanto em tempo de guerra. Tal como nas outras coisas, também no homem não é o vendedor, mas o comprador quem determina o preço. Porque mesmo que um homem – como muitos fazem – atribua a si mesmo o mais alto valor possível, apesar disso seu verdadeiro valor não será superior ao que lhe for atribuído pelos outros."
 
-- "O corpo mais saudável e mais forte não é o que menos se altera pela ação da comida, da bebida e do esforço, bem como qualquer planta sujeita ao calor do sol, ao vento ou a qualquer acidente dessa espécie? E quanto à alma, não será a mais corajosa e mais sensata a que é menos abalada e alterada por qualquer acidente externo?"
+- "Aqueles que pouca ou nenhuma investigação fazem das causas naturais das coisas, todavia, devido ao medo que deriva da própria ignorância, daquilo que tem o poder de lhes ocasionar grande bem ou mal, tendem a supor e a imaginar por eles mesmos várias espécies de poderes invisíveis, e a se encher de admiração e respeito por suas próprias fantasias. Em épocas de desgraça tendem a invocá-las. Quando esperam um bom sucesso tendem a agradecer-lhes, transformando em seus deuses as criaturas de sua própria fantasia. Foi dessa maneira que aconteceu, devido à infinita variedade da fantasia, terem os homens criado no mundo inúmeras espécies de deuses. Esse medo das coisas invisíveis é a semente natural daquilo a que se chama religião. Esse mesmo medo, naqueles que veneram e temem esse poder de maneira diferente da sua, se chama superstição."
 
-- "A mim não me parece ser o corpo, por perfeito que seja, que, pela sua excelência, torna a alma boa."
+- "Tendo esta semente da religião sido observada por muitos, alguns dos que a observaram tenderam a alimentá-la, revesti-la e conformá-la às leis, e a acrescentar-lhe, de sua própria invenção, qualquer opinião sobre as causas dos eventos futuros que melhor parecesse capaz de lhes permitir governar os outros, fazendo o máximo uso possível de seus poderes."
