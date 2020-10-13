@@ -1,6 +1,7 @@
 ## Observações (baseadas nas submissões):
 
-- Variáveis e referências empregam inicial minúscula, depois, a cada nova palavra concatenada, a inicial maiúscula.
+- Variáveis e referências empregam inicial minúscula, depois, a cada nova palavra concatenada, a inicial maiúscula ([camelCase](https://en.wikipedia.org/wiki/Camel_case#:~:text=Camel%20case%20(stylized%20as%20camelCase,word%20starting%20with%20either%20case.).
+- Classes empregam [CamelCase](https://en.wikipedia.org/wiki/Camel_case#:~:text=Camel%20case%20(stylized%20as%20camelCase,word%20starting%20with%20either%20case.) com a inicial maiúscula.
 - Constantes usam todas as letras maiúsculas.
 - Uma classe que representa um conceito, por exemplo, "Monitor" (tela), provavelmente não é capaz 
 de criar, a partir de si própria uma instância. Ou seja, usar um Monitor precisa de outra classe, para 
