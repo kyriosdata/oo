@@ -27,8 +27,8 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T15](topicos/15.md) (data limite: **19/10/2020 23h59min59s**)
 - [T16](topicos/16.md) (data limite: **21/10/2020 23h59min59s**)
 - [T17](topicos/17.md) (data limite: **26/10/2020 23h59min59s**)
-- [T17](topicos/18.md) (data limite: **26/10/2020 23h59min59s**)
-- [T17](topicos/19.md) (data limite: **26/10/2020 23h59min59s**)
-- [T17](topicos/20.md) (data limite: **26/10/2020 23h59min59s**)
+- [T18](topicos/18.md) (data limite: **26/10/2020 23h59min59s**)
+- [T19](topicos/19.md) (data limite: **26/10/2020 23h59min59s**)
+- [T20](topicos/20.md) (data limite: **26/10/2020 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
