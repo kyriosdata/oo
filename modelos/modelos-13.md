@@ -1,15 +1,35 @@
-### Xadrez
+### Os Sertões
 
-Xadrez é um jogo de tabuleiro, 8x8, onde cada um dos jogadores inicia a partida com 16 peças. Detalhes em http://en.wikipedia.org/wiki/Chess. Neste exercício, modele o jogo empregando a UML.
+Euclides da Cunha é o autor do famose e scular livro "Os Sertões".
+Para muitos, esta é a maior obra da literatura brasileira.
+Modele, de forma orientada a objetos, o excerto desta obra, transcrito
+abaixo:
 
-Algumas classes candidatas facilmente podem ser identificadas. Tabuleiro, para representar o tabuleiro em determinado instante de tempo. Ou seja, dado um instante de tempo de uma partida (jogo), há uma configuração do tabuleiro que será representada por Tabuleiro. Ou seja, uma partida ou jogo será definida por uma sequência de instâncias de Tabuleiro, conforme abaixo.
+#### O sertão é um paraíso
 
-![image](https://user-images.githubusercontent.com/1735792/90530306-1afff400-e14b-11ea-8681-3dbd4ce9cd02.png)
+E o sertão é um paraíso...
 
-Esta não parece uma modelagem apropriada, afinal, muitos interpretam uma Partida como uma sequência de lances, onde cada lance define uma peça que se desloca de uma posição de origem para uma posição de destino, além de ser realizado por um jogador, conforme abaixo.
+`Ressurge ao mesmo tempo a fauna resistente das caatingas: 
+disparam pelas baixadas úmidas os caititus esquivos; 
+passam, em varas, pelas tigüeras, num estrídulo estrepitar de maxilas percutindo, 
+os queixadas de canela ruiva; correm pelos tabuleiros altos, em bandos, 
+esporeando-se com os ferrões de sob as asas, as emas velocíssimas; 
+e as seriemas de vozes lamentosas, e as sericóias vibrantes, cantam nos balsedos, 
+à fímbria dos banhados onde vem beber o tapir estacando um momento no seu trote brutal, 
+inflexivelmente retilíneo, pela caatinga, derribando árvores; 
+e as próprias suçuaranas, aterrando os mocós espertos que se aninham aos pares 
+nas luras dos fraguedos, pulam, alegres, nas macegas altas, 
+antes de quedarem nas tocaias traiçoeiras aos veados ariscos ou novilhos desgarrados...`
 
-![image](https://user-images.githubusercontent.com/1735792/90530363-2fdc8780-e14b-11ea-94ba-b3298a5f8975.png)
+Algumas palavras e os respectivos significados segundo o dicionário Houaiss:
 
-A posição pode ser definida por um esquema de coordenadas x e y. Neste modelo falta ressaltar que a composição de lances forma uma sequência. Nesta modelagem observe que não se faz necessário a entidade que represente um tabuleiro (recurso apenas visual empregado pela interface gráfica).
-
-![image](https://user-images.githubusercontent.com/1735792/90530425-3e2aa380-e14b-11ea-833f-8e1e83e8d71d.png)
+- balsedo: terreno pantanoso repleto de plantas.
+- estrídulo: que ou o que se caracteriza pelo som agudo, ruidoso, penetrante.
+- fímbria: parte que delimita; beira, orla.
+- fraguedo: grupo de fragas (rochas escarpadas).
+- lura: buraco feito na terra; esconderijo; toca.
+- macega: erva daninha que nasce em terras cultivadas
+- mocó: roedor da família dos caviídeos do tamanho aproximado de um preá.
+- sericóia: saracura popular no Brasil.
+- tapir: designação dos mamíferos da família dos tapirídeos de corpo pesado e membros curtos; anta.
+- tigüera: roça depois de feita a colheita; milharal já colhido e extinto.
