@@ -10,7 +10,6 @@ Quais das associações abaixo é mais adequada para representar que um círculo
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
 
-Observe que herança não é uma associação. A herança e as associações acima, contudo, são todas exemplos de relacionamentos. Temos portanto, uma composição ou uma agregação. A composição, podem muitos argumentar, seria mais apropriada, pois o ponto é parte indissociável do círculo do qual designa o centro.
 
 ### Círculo (pergunta 2)
 
