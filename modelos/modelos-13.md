@@ -1,6 +1,6 @@
 ### Os Sertões
 
-Euclides da Cunha é o autor do famose e scular livro "Os Sertões".
+Euclides da Cunha é o autor do famoso e scular livro "Os Sertões".
 Para muitos, esta é a maior obra da literatura brasileira.
 Modele, de forma orientada a objetos, o excerto desta obra, transcrito
 abaixo:
@@ -9,7 +9,7 @@ abaixo:
 
 E o sertão é um paraíso...
 
-`Ressurge ao mesmo tempo a fauna resistente das caatingas: 
+"Ressurge ao mesmo tempo a fauna resistente das caatingas: 
 disparam pelas baixadas úmidas os caititus esquivos; 
 passam, em varas, pelas tigüeras, num estrídulo estrepitar de maxilas percutindo, 
 os queixadas de canela ruiva; correm pelos tabuleiros altos, em bandos, 
@@ -19,7 +19,7 @@ e as seriemas de vozes lamentosas, e as sericóias vibrantes, cantam nos balsedo
 inflexivelmente retilíneo, pela caatinga, derribando árvores; 
 e as próprias suçuaranas, aterrando os mocós espertos que se aninham aos pares 
 nas luras dos fraguedos, pulam, alegres, nas macegas altas, 
-antes de quedarem nas tocaias traiçoeiras aos veados ariscos ou novilhos desgarrados...`
+antes de quedarem nas tocaias traiçoeiras aos veados ariscos ou novilhos desgarrados..."
 
 Algumas palavras e os respectivos significados segundo o dicionário Houaiss:
 
