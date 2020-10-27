@@ -51,4 +51,6 @@ Tratando FolhaPagamento como uma destas partes, a parte estável, SistemasEsport
 
 ![image](https://user-images.githubusercontent.com/1735792/90354963-37a00d00-e021-11ea-9447-5f78e4e69447.png)
 
+Observação: (a) a seta de Adaptador para InterfaceExigida deve ser tracejada, com a mesma ponta de ceta, desta forma, indica-se implementação, ou seja, que a classe Adaptador implementa tal interface; (b) em vez da composição de Adaptador para SistemasEsporte o melhor seria um simples associação, pois Adaptador faz uso do SistemasEsporte. 
+
 Nesta proposta, observe que FolhaPagamento está imune às mudanças que eventualmente ocorrerem nos sistemas da empresa de materiais esportivos.
