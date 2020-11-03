@@ -36,7 +36,6 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 ### Tópicos (praticando)
 
 - [T23](topicos/23.md) (data limite: **01/11/2020 23h59min59s**)
-- SEM ATIVIDADE HOJE (FERIADO: 02/11/2020)
 - [T24](topicos/24.md) (data limite: **06/11/2020 23h59min59s**)
 - [T25](topicos/25.md) (data limite: **08/11/2020 23h59min59s**)
 - [T26](topicos/26.md) (data limite: **10/11/2020 23h59min59s**)
