@@ -39,5 +39,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - SEM ATIVIDADE HOJE (FERIADO: 02/11/2020)
 - [T24](topicos/24.md) (data limite: **06/11/2020 23h59min59s**)
 - [T25](topicos/25.md) (data limite: **08/11/2020 23h59min59s**)
+- [T26](topicos/26.md) (data limite: **10/11/2020 23h59min59s**)
+- [T27](topicos/27.md) (data limite: **10/11/2020 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
