@@ -42,5 +42,6 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T27](topicos/27.md) (data limite: **10/11/2020 23h59min59s**)
 - [T28](topicos/28.md) (data limite: **15/11/2020 23h59min59s**)
 - [T29](topicos/29.md) (data limite: **27/11/2020 23h59min59s**)
+- [T30](topicos/30.md) (data limite: **07/12/2020 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
