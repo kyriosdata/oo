@@ -42,7 +42,7 @@ momentos síncronos ocorrerão na sala [virtual](https://meet.google.com/lookup/
 - [T27](topicos/27.md) (data limite: **10/11/2020 23h59min59s**)
 - [T28](topicos/28.md) (data limite: **15/11/2020 23h59min59s**)
 - [T29](topicos/29.md) (data limite: **27/11/2020 23h59min59s**)
-- [T30](topicos/30.md) (data limite: **07/12/2020 23h59min59s**)
+- [T30](topicos/30.md) (data limite: **14/12/2020 23h59min59s**)
 - Por motivo superveniente não teremos nosso encontro habitual no dia de hoje (01/12/2020).
 Dúvidas e outras, por favor, criem _issues_ correspondentes, se for o caso.
 
