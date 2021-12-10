@@ -4,7 +4,7 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![image](https://user-images.githubusercontent.com/1735792/90348459-6e1f5d00-e00c-11ea-82e1-3519f87a994f.png)
 
-
+![image](https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-01/mod01ima01.png)
 
 ### Um projeto de software pode empregar várias linguagens de programação.
 
