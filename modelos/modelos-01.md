@@ -10,11 +10,14 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![image](https://user-images.githubusercontent.com/1735792/90348882-f7835f00-e00d-11ea-9a99-6d169cc18671.png)
 
+![image](https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-02/mod01ima02.png)
+
 ### Toda escola possui um endereço.
 
 Embora alguns especulem a definição de endereço como atributo da classe Escola, a proposta abaixo ressalta a distinção entre os conceitos envolvidos. Enquanto entidade, uma instância de Escola possui atributos como nome, capacidade de alunos e outros. Endereços nos dias atuais inclui CEP, logradouro e outros. Tratar estas informações como atributos espalhados por várias classes é inconveniente óbvio de não tratar endereço como uma classe.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348478-87280e00-e00c-11ea-957e-c708d8e1ae12.png)
+![image](https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-03/mod01ima03.png)
 
 ### Um texto é uma combinação de parágrafos que, por sua vez, são combinações de sentenças.
 
