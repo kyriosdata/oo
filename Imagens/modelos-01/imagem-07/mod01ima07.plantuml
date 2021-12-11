@@ -1,7 +1,8 @@
 @startuml
-skinparam SequenceMessageAlignment true
+skinparam Linetype ortho
 object "País" as pa
 object "Cidade" as ci
 left to right direction
-pa"0...1"---"1"ci: "Capital"
+pa"0...1"---"1 \n Capital"ci: "Contem"
+
 @enduml
