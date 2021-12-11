@@ -1,0 +1,8 @@
+@startuml
+object "País" as pa
+object "Cidade" as ci
+left to right direction
+pa"0...1"---"capital"ci: "Capital"
+pa-[#White]--"1"ci
+
+@enduml

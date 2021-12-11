@@ -1,0 +1,6 @@
+@startuml
+object "País" as pa
+object "Cidade" as ci
+left to right direction
+pa"1" o-- "*"ci: "Contém"
+@enduml
