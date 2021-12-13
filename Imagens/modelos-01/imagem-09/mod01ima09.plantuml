@@ -1,0 +1,6 @@
+@startuml mod01ima09
+object "Curva" as o1
+object "Ponto" as o2
+left to right direction
+o1 o--->"2..*\n{ordenado}"o2
+@enduml

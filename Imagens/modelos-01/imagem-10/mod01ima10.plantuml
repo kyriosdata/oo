@@ -1,0 +1,12 @@
+@startuml mod01ima10
+object "Janela" as o1
+object "Elemento de interação" as o2
+object "Botão" as o3
+object "Menu" as o4
+object "Barra de rolagem" as o5
+left to right direction
+o3 --|> o2
+o4 --|> o2
+o5 --|> o2
+o1 o-- o2
+@enduml

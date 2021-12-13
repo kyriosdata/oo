@@ -1,9 +1,9 @@
 @startuml mod01ima04
 skinparam nodesep 5
-object "Texto" as p1
-object "Parágrafo" as p2
-object "Sentença" as p3
+object "Texto" as o1
+object "Parágrafo" as o2
+object "Sentença" as o3
 left to right direction
-p1 o-- p2 
-p2 o-- p3
+o1 *-- o2 
+o2 *-- o3
 @enduml

@@ -1,7 +1,8 @@
-@startuml
+@startuml mod01ima06
 skinparam SequenceMessageAlignment true
 object "País" as pa
 object "Cidade" as ci
+ci : Capital
 left to right direction
-pa"0...1"---"1"ci: "Capital"
+pa"0...1"---"1"ci: "Possui"
 @enduml

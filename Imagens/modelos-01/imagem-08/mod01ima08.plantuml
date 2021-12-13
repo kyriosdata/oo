@@ -1,0 +1,6 @@
+@startuml mod01ima08
+object "Projeto" as o1
+object "Pessoa" as o2
+left to right direction
+o1 o-- o2
+@enduml
