@@ -1,4 +1,4 @@
-@startuml mod01ima11
+@startuml mod01ima12
 skinparam classAttributeIconSize 0
 object "Pessoa" as o1
 object "Emprego" as o2
