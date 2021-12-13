@@ -1,5 +1,6 @@
 @startuml mod01ima01
 skinparam classAttributeIconSize 0
+
 object Disciplina
 Disciplina : nome
 @enduml
