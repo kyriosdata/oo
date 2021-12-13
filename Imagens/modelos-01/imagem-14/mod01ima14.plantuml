@@ -1,0 +1,8 @@
+@startuml mod01ima14
+skinparam ClassAttributeIconSize 0
+object "Usuário" as o1
+object "Diretório" as o2
+left to right direction
+o1 ---- o2 : Dono
+o2 --[#White]-- o1 : Autorizado a usar
+@enduml
