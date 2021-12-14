@@ -4,9 +4,13 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![image](https://user-images.githubusercontent.com/1735792/90348459-6e1f5d00-e00c-11ea-82e1-3519f87a994f.png)
 
+%imagem-01
+
 ### Um projeto de software pode empregar várias linguagens de programação.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348882-f7835f00-e00d-11ea-9a99-6d169cc18671.png)
+
+%imagem-02
 
 ### Toda escola possui um endereço.
 
@@ -14,11 +18,15 @@ Embora alguns especulem a definição de endereço como atributo da classe Escol
 
 ![image](https://user-images.githubusercontent.com/1735792/90348478-87280e00-e00c-11ea-957e-c708d8e1ae12.png)
 
+%imagem-03
+
 ### Um texto é uma combinação de parágrafos que, por sua vez, são combinações de sentenças.
 
 Talvez você imagine que uma composição seja mais apropriada, por ressaltar que a destruição do texto significa a destruição dos parágrafos e respectivas sentenças e que, em outro sentido, quando se criam as sentenças e os parágrafos o texto está sendo criado. Por outro lado, apesar de não usual, o modelo abaixo permite compartilhar parágrafos e sentenças, possibilidade que desaparece caso seja empregada a composição.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348499-a45cdc80-e00c-11ea-851c-6931da0c433d.png)
+
+%imagem-04
 
 ### Em um país há várias cidades.
 
@@ -26,11 +34,15 @@ Dado um país temos zero ou mais cidades correspondentes. Em sentido inverso, da
 
 ![image](https://user-images.githubusercontent.com/1735792/90348517-c8b8b900-e00c-11ea-992a-0b427807c5c7.png)
 
+%imagem-05
+
 ### Uma das cidades de um país é a capital.
 
 Dado um país necessariamente teremos uma cidade correspondente que é a capital deste país. A figura abaixo ilustra esta informação. O relacionamento é rotulado por Capital, a cardinalidade indica que todo país necessariamente possui uma cidade associada (a capital). No sentido inverso, uma cidade pode ou não ser uma capital e, portanto, nem todas possuem esta relação com país. Desta forma, a cardinalidade é indicada por 0..1. Se a cardinalidade fosse 1, em vez de 0..1, então teríamos um modelo no qual toda cidade é necessariamente capital de algum país.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348527-dc641f80-e00c-11ea-8d39-ffdba159a1bd.png)
+
+%imagem-06
 
 ### Em um país há várias cidades e uma delas é a capital.
 
@@ -38,11 +50,15 @@ Esta informação é uma combinação das anteriores, contudo, foi modelado de f
 
 ![image](https://user-images.githubusercontent.com/1735792/90348568-ef76ef80-e00c-11ea-80f7-2222dc5eaac3.png)
 
+%imagem-07
+
 ### Um projeto envolve várias pessoas.
 
 A agregação (losango) indica que pessoas fazem parte de projetos. Neste exemplo a multiplicidade não é fornecida. Há pelo menos dois casos para serem analisados. Em um deles a multiplicidade não é fornecida por não ser relevante no contexto. Em muitos casos é natural identificar as entidades e associações entre estas, e deixar para momento posterior a identificação precisa de quantas entidades se relacionam com quantas entidades no outro extremo da relação. No outro caso a ser analisado, a multiplicidade não foi fornecida porque está sendo adotada a multiplicidade padrão da UML, ou seja, \*, zero ou mais entidades (ou instâncias). Neste caso a interpretação seria que um projeto pode estar associado a zero ou mais pessoas assim como uma pessoa pode estar associada a zero ou mais projetos.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348582-04538300-e00d-11ea-97ee-c99de7c690b8.png)
+
+%imagem-08
 
 ### Uma curva pode ser definida como uma coleção de pontos ordenados.
 
@@ -50,11 +66,15 @@ O modelo informa que toda curva está associada a pelo menos dois pontos ordenad
 
 ![image](https://user-images.githubusercontent.com/1735792/90348904-1a157800-e00e-11ea-83d7-d3694fc5b167.png)
 
+%imagem-09
+
 ### Uma janela gráfica (interface com o usuário) compreende vários elementos de interação.
 
 Por exemplo, botões, menus e barras de rolagem. Embora uma instância de Janela possa ser interpretada como uma agregação de instâncias de Elemento de interação, convém ressaltar um relacionamento “mais forte” entre instâncias desta classe. Quando uma instância de Janela é criada, as instâncias correspondentes da classe Elemento de interação também são criadas. Quando uma instância de Janela é destruída, naturalmente as instâncias da classe Elemento de interação associadas também são destruídas. Quando objetos apresentam este relacionamento todo/parte com semântica mais rigorosa que aquela da agregação, empregamos uma composição, conforme ilustrado no diagrama. Em tempo, os elementos de interação de uma janela considerados no modelo abaixo incluem botões, menus e barras de rolagem, conforme as classes exibidas.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348659-598f9480-e00d-11ea-97a8-647248262808.png)
+
+%imagem-10
 
 ### Um arquivo possui permissões de acesso.
 
@@ -62,11 +82,15 @@ Cada permissão está associada a um grupo (de usuários). Conforme o diagrama, 
 
 ![image](https://user-images.githubusercontent.com/1735792/90348676-6dd39180-e00d-11ea-8b4d-f0a4867f9073.png)
 
+%imagem-11
+
 ### Pessoas trabalham para empresas por um determinado salário e intervalo de tempo.
 
 Conforme o modelo, uma empresa oferece vários empregos, cada um deles ocupado exclusivamente por um empregado. No sentido inverso, uma pessoa pode ocupar vários empregos, cada um deles oferecido por um empregador. Cada instância de Emprego possui informações pertinentes à vaga em questão.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348702-8348bb80-e00d-11ea-8a05-033d0664fe2b.png)
+
+%imagem-12
 
 ### Uma pessoa (empregado) trabalha para uma empresa (empregador).
 
@@ -74,8 +98,12 @@ No modelo abaixo, ao lado do papel empregado e empregador há o símbolo +. Isto
 
 ![image](https://user-images.githubusercontent.com/1735792/90348743-9b203f80-e00d-11ea-9349-c093178a6f35.png)
 
+%imagem-13
+
 ### Um usuário é o “dono” de um diretório. Cada diretório pode ser consultado por usuários autorizados.
 
 Dada uma instância de Usuário temos instâncias de Diretório que são propriedades do usuário em questão. Dado um Diretório, aqueles autorizados (instâncias de Usuário) devem estar ligados pela associação Autorizado-a-usar.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348812-b2f7c380-e00d-11ea-85d7-d38b7759696d.png)
+
+%imagem-14
