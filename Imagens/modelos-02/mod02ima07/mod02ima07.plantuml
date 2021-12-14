@@ -1,0 +1,10 @@
+@startuml mod02ima07
+skinparam linetype ortho
+object "Contêiner" as co
+object "Elemento" as el
+object "Objeto" as ob
+left to right direction
+co o-- el
+el <|-- ob
+co --|> el
+@enduml

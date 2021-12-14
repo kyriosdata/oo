@@ -1,0 +1,6 @@
+@startuml mod02ima05
+object "Usuário" as us
+object "Pessoa" as pe
+left to right direction
+us --|> pe
+@enduml
