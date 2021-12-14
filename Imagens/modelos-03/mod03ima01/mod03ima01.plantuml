@@ -1,0 +1,13 @@
+@startuml mod03ima01
+object "Casa" as ca
+object "Quarto" as qu
+object "Banheiro" as ba
+object "Sala" as sa
+object "Garagem" as ga
+object "Área" as ar
+ca o-- qu
+ca o-left- ba
+ca o-right- sa
+ca o-- ga
+ca o-- ar
+@enduml
