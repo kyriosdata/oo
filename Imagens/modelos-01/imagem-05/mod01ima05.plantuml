@@ -1,7 +1,6 @@
 @startuml mod01ima05
 object "País" as pa
 object "Cidade" as ci
-
 left to right direction
-pa"1" *-- "*"ci: "É composto de"
+pa"1" o-- "*"ci: "Contém"
 @enduml

@@ -3,7 +3,5 @@ skinparam ClassAttributeIconSize 0
 object "Pessoa" as o1
 object "Empresa" as o2
 left to right direction
-o1 : + empregado
-o2 : + empregador
-o1 -- o2
+o1"+ empregado" ----- "+ empregador"o2
 @enduml

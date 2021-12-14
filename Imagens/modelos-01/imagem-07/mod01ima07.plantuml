@@ -2,8 +2,7 @@
 object "País" as pa
 object "Cidade" as ci
 object "Cidade" as ca
-ca : Capital
 left to right direction
-pa"0..1"--"1"ca: "Possui"
-ci"*" --* "1"pa: "Compõem" 
+pa"0..1"--->"1 \n capital"ca: "Capital"
+ci"*" <--- "1"pa: "Contém" 
 @enduml

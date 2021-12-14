@@ -9,5 +9,5 @@ o3 -left-|> o2
 o4 -right-|> o2
 o5 -up-|> o2
 left to right direction
-o1 o-- o2
+o1 *-- o2
 @enduml
