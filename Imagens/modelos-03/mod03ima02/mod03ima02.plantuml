@@ -1,6 +1,6 @@
 @startuml mod03ima02
-object "Cadeira" as ca
-object "Pessoa" as pe 
+rectangle "Cadeira" as ca
+rectangle "Pessoa" as pe 
 left to right direction
 ca -- "dono" pe
 @enduml

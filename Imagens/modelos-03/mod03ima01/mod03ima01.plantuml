@@ -1,13 +1,13 @@
 @startuml mod03ima01
-object "Casa" as ca
-object "Quarto" as qu
-object "Banheiro" as ba
-object "Sala" as sa
-object "Garagem" as ga
-object "Área" as ar
-ca o-- qu
+rectangle "Casa" as ca
+rectangle "Quarto" as qu
+rectangle "Banheiro" as ba
+rectangle "Sala" as sa
+rectangle "Garagem" as ga
+rectangle "Área" as ar
+ca o-down- qu
 ca o-left- ba
 ca o-right- sa
-ca o-- ga
+ca o-up- ga
 ca o-- ar
 @enduml

@@ -1,0 +1,8 @@
+@startuml
+rectangle "Frase" as fr
+rectangle "Palavra" as pa
+rectangle "Letra" as le
+left to right direction
+fr o---"1..* \n {ordered}"pa
+pa o---"1..* \n {ordered}"le
+@enduml
