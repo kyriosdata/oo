@@ -8,3 +8,4 @@ la "emprega"----"2..* \n empregado" fu
 la "0..1"-left- p1
 p1 ---- p2 : Gerência
 p2 -right- "0..1 \n gerente"fu
+@enduml

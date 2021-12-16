@@ -9,9 +9,8 @@ rectangle "Compra" as co
 object "ItemCompra" as it 
 it : - quantidade 
 rectangle "Produto" as po
-left to right direction
-pr -left-* ca 
-ca -- co
-co *-- it
+pr -up-* ca 
+ca -left- co
+co *-left- it
 it "*"--"1" po
 @enduml
