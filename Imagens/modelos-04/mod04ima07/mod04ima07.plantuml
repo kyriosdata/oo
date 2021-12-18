@@ -1,0 +1,19 @@
+@startuml mod04ima06
+skinparam linetype ortho
+object "Lista duplamente \n encadeada" as li 
+object "Elemento" as el 
+circle " " as p1
+circle " " as p2
+circle " " as p3
+circle " " as p4
+circle " " as p5
+left to right direction
+li ----> "primeiro" el  
+el "anterior 1"-left- p1
+p1 -down- p2
+p2 -right- p3
+p3 -up-"1 \n próximo" el
+li -right- p4
+p4 -down- p5
+p5 -left->"último" el
+@enduml

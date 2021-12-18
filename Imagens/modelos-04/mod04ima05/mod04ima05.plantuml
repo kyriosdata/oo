@@ -1,0 +1,14 @@
+@startuml mod04ima05
+skinparam linetype ortho
+object "FIFO" as fi 
+object "Elemento" as el 
+circle " " as p1
+circle " " as p2
+circle " " as p3
+left to right direction
+fi ----> "primeiro" el  
+el "anterior 0..1"-left- p1
+p1 -down- p2
+p2 -right- p3
+p3 -up->"0..1 \n próximo" el
+@enduml
