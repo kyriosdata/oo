@@ -1,0 +1,30 @@
+@startuml mod05ima03
+allow_mixing
+skinparam classAttributeIconSize 0
+object "Passageiro" as pa
+pa : -bilhete
+rectangle "Lugar" as lu
+rectangle "Avião" as av
+rectangle "Aeroporto" as ae 
+object "Operação" as op
+op : -tipo 
+op : -data 
+op : -hora
+rectangle "Vôo" as vo
+rectangle "Piloto" as pi
+rectangle "Tripulação" as tr
+rectangle "Aeromoça" as aa
+rectangle "Co-piloto" as co
+left to right direction
+
+pa "0..1"--"1" lu
+lu "*"<--* av
+av "1"--"*" vo 
+ae "1"--"*" op 
+op "1"--"*" vo
+pi --o tr
+tr "1"--"1" vo
+tr o-- aa
+co --o tr
+
+@enduml
