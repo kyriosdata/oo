@@ -1,0 +1,21 @@
+@startuml mod05ima04
+allow_mixing
+skinparam classAttributeIconSize 0
+object "Lanchonete" as la
+object "Sanduíche" as sa
+object "Garçonete" as ga
+object "Pedido" as pe
+rectangle "Item" as it
+object "Bebida" as be
+object "Detalhe" as de 
+de : - descrição 
+de : - acompanhamento 
+
+left to right direction
+la --"*" sa : Serve
+sa "0..1"-- it 
+ga "1"--"*" pe : Coleta
+pe o--it 
+it --"0..1" be 
+it "1"--"*" de
+@enduml
