@@ -2,9 +2,13 @@
 
 ![image](https://user-images.githubusercontent.com/1735792/90352450-cc067180-e019-11ea-8830-55628e1a99bd.png)
 
+#imagem 01
+
 O modelo acima pode ser “trabalhado”, resultando naquele abaixo onde podemos acrescentar outros dispositivos à medida que se fizer necessário. No modelo abaixo optamos por não representar outros compartimentos de uma classe, ou seja, aquele dos atributos e das operações (métodos). São formas alternativas, que devem ser empregadas conforme a necessidade. Para este caso, por exemplo, nem atributos nem operações fazem falta.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352466-d9bbf700-e019-11ea-8583-87c6688e6595.png)
+
+#imagem 02
 
 ### Aeroporto
 
@@ -13,11 +17,15 @@ Para o caso acima é fácil observar alguns elementos principais a serem conside
 
 ![image](https://user-images.githubusercontent.com/1735792/90352494-f22c1180-e019-11ea-9f89-733d91131787.png)
 
+#imagem 03
+
 ### Lanchonete
 
 Em lanchonetes são servidos vários tipos de sanduíche, alguns com vários tipos de acompanhamento como, por exemplo, ovo, salada, queijo e outros. O acompanhamento é opcional, não faz parte do sanduíche. Cada pedido recebido pelas garçonetes também inclui, em geral, bebidas.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352519-05d77800-e01a-11ea-8314-ef70ed358574.png)
+
+#imagem 04
 
 ### Festa
 
@@ -25,9 +33,13 @@ Em uma festa convencional homens dançam com mulheres. Cada dança está associa
 
 ![image](https://user-images.githubusercontent.com/1735792/90352565-26073700-e01a-11ea-9f6b-8911d5b22008.png)
 
+#imagem 05
+
 ### Um trabalhador pode ser um açougueiro, um padeiro, um professor e um advogado.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352630-4afbaa00-e01a-11ea-92dd-29d11799adbe.png)
+
+#imagem 06
 
 ### Pagamento
 
@@ -35,9 +47,13 @@ Uma determinada tarefa desempenhada por um trabalhador pode ser paga por hora, p
 
 ![image](https://user-images.githubusercontent.com/1735792/90352676-6961a580-e01a-11ea-8a80-89902b667921.png)
 
+#imagem 07
+
 ### Pessoas dirigem automóveis, cada um deles de uma determinada marca, modelo e ano.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352722-86967400-e01a-11ea-84c1-ee2c6fc56bc4.png)
+
+#imagem 08
 
 ### Empregados
 
@@ -45,11 +61,15 @@ Uma empresa possui empregados organizados hierarquicamente onde gerentes gerenci
 
 ![image](https://user-images.githubusercontent.com/1735792/90352749-99a94400-e01a-11ea-923d-b679578af58b.png)
 
+#imagem 09
+
 ### Presidência de comitê
 
 Pessoas podem ser membros de comitês. Cada comitê necessariamente possui dois ou três presidentes.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352774-afb70480-e01a-11ea-952a-a333b2738959.png)
+
+#imagem 10
 
 ### Nota fiscal
 
@@ -57,8 +77,12 @@ Uma nota fiscal contém vários itens, cada um descreve um produto, a quantidade
 
 ![image](https://user-images.githubusercontent.com/1735792/90352793-bfcee400-e01a-11ea-9fa2-d241532be9db.png)
 
+#imagem 11
+
 ### Avaliação
 
 Em um dado sistema acadêmico, avaliação é o nome que se dá a um conjunto de questões, elaborada com determinada finalidade e aplicada em uma determinada data. Neste sistema prova é o nome que se dá às respostas fornecidas por um aluno. Ou seja, alunos são submetidos a avaliações e, para cada uma delas, cada prova correspondente tem o o aluno tem a correspondente prova.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352843-ea20a180-e01a-11ea-80cf-e67641828eae.png)
+
+#imagem 12
