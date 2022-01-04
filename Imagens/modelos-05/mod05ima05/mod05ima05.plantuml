@@ -1,4 +1,4 @@
-@startuml mod05ima04
+@startuml mod05ima05
 allow_mixing
 skinparam classAttributeIconSize 0
 object "Dança" as da
@@ -13,7 +13,8 @@ circle " " as p2
 circle " " as p3
 circle " " as p4
 circle " " as p5
-
+note "Cada convidado pode ou não levar acompanhate." as ca
+skinparam linetype ortho
 left to right direction
 pe "mulher"-left- p1
 p1 -down- p2
@@ -24,6 +25,7 @@ da -right- p2
 co ---"convidado \n 1" pe 
 pe "acompanhante 0..1" -right- p4
 p4 -up- p5
+(p4,p5) .. ca
 p5 -left- co
 co -left-o fe
 

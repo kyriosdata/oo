@@ -1,0 +1,16 @@
+@startuml mod05ima06
+object "Professor" as pr
+object "Trabalhador" as tr
+object "Profissão" as po
+object "Advogado" as ad
+object "Açougueiro" as aç
+object "Padeiro" as pa
+
+pr -down-|> po
+po -left--o tr : Desempenha
+ad -left-|> po
+pa -up-|> po
+aç -up-|> po
+
+
+@enduml
