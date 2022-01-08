@@ -1,0 +1,14 @@
+@startuml mod05ima07
+object "Trbalhador" as tr
+object "Tarefa" as ta
+object "Hora" as ho
+object "Pagamento" as pa
+object "Contrato" as co
+object "Mensal" as me
+left to right direction
+tr -- ta : Desempenha
+ta -right-"1" pa
+ho --|> pa
+co -up-|> pa
+me -left-|> pa
+@enduml
