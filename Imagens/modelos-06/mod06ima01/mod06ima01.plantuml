@@ -1,0 +1,6 @@
+@startuml mod06ima01
+object "Partida" as pa
+object "Tabuleiro" as ta
+left to right direction
+pa o--> ta 
+@enduml

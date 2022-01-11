@@ -1,0 +1,20 @@
+@startuml mod06ima03
+skinparam Linetype ortho
+skinparam ClassAttributeIconSize 0
+object "Jogador" as jo
+object "Partida" as pa
+object "Lance" as la
+object "Peça" as pe
+object "Posição" as po
+po : - x
+po : - y
+circle " " as p1
+circle " " as p2
+jo <-down- la
+pa *--right--"{sequence}" la
+la -right-> pe
+la -down->"origem" po
+la -right- p1
+p1 -down- p2 : destino
+p2 -left-> po
+@enduml
