@@ -6,11 +6,13 @@ object "Jogador" as jo
 object "MãoJogador" as mã
 object "Monte" as mo
 object "Rodada" as ro
-circle "a" as p1
+circle " " as p1
 co o-right- ca
 mã -up-|> co
 mo -up-|> co
 jo -down- ro
+(jo,ro) .. mã
 ro -right- p1
 p1 -up- mo
+
 @enduml
