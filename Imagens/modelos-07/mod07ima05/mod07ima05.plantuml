@@ -1,0 +1,10 @@
+@startuml mod07ima05
+object "Pessoa" as pe
+object "Atividade" as at
+object "Estudante" as es
+object "Usuário" as us
+left to right direction
+pe--at
+at<|--es
+us--|>at
+@enduml
