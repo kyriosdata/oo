@@ -1,0 +1,15 @@
+@startuml mod07ima08
+skinparam Linetype ortho
+object "Software" as so
+object "Versão" as ve
+object "Revisão" as re
+circle " " as p1
+circle " " as p2
+
+so -right-"n" ve
+ve -right- p1
+p1 "+anterior"--down-"+próximo" p2
+p2 -left-"0..1" re
+re --|> ve
+
+@enduml
