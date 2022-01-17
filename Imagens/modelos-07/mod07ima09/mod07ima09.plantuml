@@ -1,0 +1,16 @@
+@startuml mod07ima09
+rectangle "v1:\nVersão" as v1
+rectangle ": Software" as so
+rectangle "v2:\nVersão" as v2
+rectangle "v21:\nRevisão" as v21
+rectangle "v3:\nVersão" as v3
+rectangle "v31:\nRevisão" as v31
+rectangle "v32:\nRevisão" as v32
+left to right direction
+v1 -right-so
+so -- v2
+v2 "anterior"---"proximo"v21
+so -right- v3
+v3 "anterior"---"proximo"v31
+v31 "anterior"---"proximo"v32
+@enduml

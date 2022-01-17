@@ -1,0 +1,8 @@
+@startuml mod07ima11
+object "Pessoa" as pe
+object "Mesa" as me
+object "Data" as da
+left to right direction
+pe "n"--"n" me
+(pe,me) ... da
+@enduml
