@@ -1,0 +1,11 @@
+@startuml mod07ima17
+rectangle "Linha" as li
+rectangle "Ponto" as po
+rectangle "Linha" as ln
+rectangle "Ponto" as pn
+left to right direction
+li "1"*-->"p2" po
+li "1"*-->"p1" po
+po -[#White]- ln
+ln --->"2\n{ordered}" pn
+@enduml

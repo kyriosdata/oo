@@ -1,0 +1,10 @@
+@startuml mod07ima21
+rectangle "Imagem" as im
+rectangle "Pixel" as pi
+rectangle "Cor" as co
+rectangle "Ponto" as po
+left to right direction
+im *-left-> pi
+pi *-->"1" co
+po "1"<--* pi
+@enduml

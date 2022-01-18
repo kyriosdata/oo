@@ -1,0 +1,9 @@
+@startuml mod07ima15
+skinparam ClassAttributeIconSize 0
+object "Calendário" as ca
+ca : - ano
+object "Dia" as di
+left to right direction
+ca o-down- di : Feriado
+ca o---> di : Data importante
+@enduml

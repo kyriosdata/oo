@@ -1,0 +1,16 @@
+@startuml
+rectangle "Diretor" as di
+rectangle "Funcionário" as fu
+rectangle "Docente" as do
+rectangle "Cargo" as ca
+rectangle "Pessoa" as pe
+rectangle "Vice-diretor" as vi
+rectangle "Aluno" as al
+left to right direction
+di -right-|> do
+vi -left-|> do
+do --|> ca
+fu -right-|> ca
+al -left-|> ca
+ca <--"1" pe
+@enduml

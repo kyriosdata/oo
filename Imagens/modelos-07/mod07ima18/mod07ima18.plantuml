@@ -1,0 +1,7 @@
+@startuml mod07ima18
+rectangle "Aluno" as al
+rectangle "Computador" as co
+left to right direction
+al "0..1"---"1" co : UFG
+al --- co : Casa
+@enduml

@@ -1,0 +1,24 @@
+@startuml mod07ima20 
+skinparam linetype ortho
+rectangle "Associação" as ass
+circle " " as p1
+circle " " as p2
+circle " " as p3
+left to right direction
+ 
+ass "para 1"-left- p1
+p1 -down- p2
+p2 -right- p3
+p3 -up-" 1 \n de" ass
+
+rectangle "Classe" as cl
+circle " " as p4
+circle " " as p5
+circle " " as p6
+left to right direction
+ 
+cl "para"-left- p4
+p4 -down- p5
+p5 -right- p6
+p6 -up-" \n de" cl
+@enduml
