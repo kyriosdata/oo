@@ -14,7 +14,7 @@ left to right direction
 ci "destino"--- vi
 vi "n"---"passageiros\nn" pa
 pa <|-- ps
-on "n\n1"-left- vi
+on -left- vi :"n\n\n1"
 mo -left-|> pa
 ci "origem"-left- a
 a -- b
