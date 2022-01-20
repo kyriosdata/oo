@@ -21,4 +21,6 @@ cl "para"-left- p4
 p4 -down- p5
 p5 -right- p6
 p6 -up-" \n de" cl
+
+p3 -[#White]- cl
 @enduml
