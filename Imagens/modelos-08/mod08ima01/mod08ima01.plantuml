@@ -1,0 +1,12 @@
+@startuml mod07ima06
+skinparam Linetype ortho
+object "   A   " as aa
+object "   B   " as bb
+circle " " as cc
+circle " " as dd
+left to right direction
+aa "1" o-- bb
+aa *-right- cc
+cc -- dd
+dd -left- bb
+@enduml

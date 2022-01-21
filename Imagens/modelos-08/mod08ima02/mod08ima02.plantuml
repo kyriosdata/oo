@@ -1,4 +1,4 @@
-@startuml mod07ima08
+@startuml mod08ima02
 skinparam Linetype ortho
 object "Software" as so
 object "Versão" as ve
@@ -7,7 +7,7 @@ circle " " as p1
 circle " " as p2
 
 so -right-"n" ve
-ve "1" -right- p1
+ve "1"-right- p1
 p1 "+anterior"--down-"+próximo" p2
 p2 -left-"0..1" re
 re -up-|> ve

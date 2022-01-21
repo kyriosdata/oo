@@ -1,0 +1,31 @@
+@startuml mod09ima01
+skinparam ClassAttributeIconSize 0
+skinparam Linetype ortho
+
+object "Prato" as pr
+pr : - preço
+object "ItemPedido" as it
+it : -quantidade
+it : -devolvido
+it : -obsevação
+object "Pedido" as pe
+pe : -dia
+pe : -horário
+pe : -horaEntrega
+object "domicílio" as do
+do : -endereço
+object "Cardápio" as ca
+object "Dia da semana" as di
+object "Bebida" as be
+
+
+
+left to right direction
+pr "0..1" --- "*" it
+it "1..*" ---* pe
+pe --- do
+pr -left-o ca
+di  -left-"*"  pr : 1..7
+be -left- "*" it : 0..1
+
+@enduml

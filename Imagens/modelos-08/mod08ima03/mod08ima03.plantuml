@@ -1,0 +1,10 @@
+@startuml mod08ima03
+object "FolhaPagamento" as fo
+object "InterfaceExigida" as in
+object "Adaptador" as ad
+object "SistemaEsporte" as si
+left to right direction
+fo ..> in
+ad -left-|> in
+ad *--> si
+@enduml
