@@ -1,0 +1,17 @@
+@startuml mod10ima01
+skinparam ClassAttributeIconSize 0
+object "Ocorrencia" as oc
+object "Pessoa" as pe
+object "Trabalhador" as tr
+object "Funcionário" as fu
+object "Venda" as ve
+ve : - data
+ve : - hora
+object "Centro de Venda" as ce
+
+
+oc "*"--"1..*" pe : Envolve
+pe "1"--"0..1" tr
+tr <|-- fu
+fu "1"--"*" ve
+ve "*"--"1" ce
