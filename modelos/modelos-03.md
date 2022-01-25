@@ -4,6 +4,8 @@ O diagrama abaixo não apresenta as cardinalidades nos extremos das agregações
 
 ![image](https://user-images.githubusercontent.com/1735792/90349351-ec313300-e00f-11ea-9f00-26ffdff821f5.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima01/mod03ima01.png" width="250">
+
 #imagem 01
 
 ### Toda cadeira possui um proprietário (mulher ou homem).
@@ -11,6 +13,8 @@ O diagrama abaixo não apresenta as cardinalidades nos extremos das agregações
 O modelo abaixo não é explícito quanto ao sexo da pessoa. Dado o fato de que os atributos foram omitidos, não há porque imaginar que este não será incluído. Também não foi incluída a cardinalidade. Os mais rigorosos podem indicar que a associação no extremo de Pessoa possui como cardinalidade o valor 1, enquanto para o outro extremo a sentença não fornece nenhuma pista.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349370-fe12d600-e00f-11ea-86b2-d4356f2377c4.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima02/mod03ima02.png" width="250">
 
 #imagem 02
 
@@ -22,6 +26,8 @@ Uma janela com vidro pode ser interpretada como uma especialização de uma jane
 
 ![image](https://user-images.githubusercontent.com/1735792/90349424-2c90b100-e010-11ea-8419-dc8340c5bb87.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima03/mod03ima03.png" width="500">
+
 #imagem 03
 
 ### Armário
@@ -31,6 +37,8 @@ Todo armário possui várias prateleiras. Cada uma delas divididas em compartime
 No modelo acima Armário é uma composição de Prateleira, ou seja, não existe Prateleira sem que seja parte de um armário. Um raciocínio similar é válido entre Prateleira e Compartimento. Este último guarda vários objetos em seu interior. Até três livros e uma combinação exótica mas bem definida de CDs. Afinal, ou teremos 2, ou teremos 4, ou teremos 7, ou teremos um número superior a 7 CDs.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349445-4500cb80-e010-11ea-89e8-986a9cafeb91.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima03/mod03ima03.png" width="250">
 
 #imagem 04
 
