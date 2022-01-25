@@ -1,4 +1,4 @@
-@startuml mod04ima06
+@startuml mod04ima07
 skinparam linetype ortho
 object "Lista duplamente \n encadeada" as li 
 object "Elemento" as el 

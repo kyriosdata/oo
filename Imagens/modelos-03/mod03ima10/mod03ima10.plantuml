@@ -1,4 +1,4 @@
-@startuml mod03ima06
+@startuml mod03ima10
 skinparam ClassAttributeIconSize 0
 rectangle "Floresta" as fl 
 rectangle "Árvore" as ar 
