@@ -1,4 +1,4 @@
-@startuml
+@startuml mod03ima07
 rectangle "Frase" as fr
 rectangle "Palavra" as pa
 rectangle "Letra" as le
