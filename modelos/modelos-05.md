@@ -41,7 +41,7 @@ Em uma festa convencional homens dançam com mulheres. Cada dança está associa
 
 ![image](https://user-images.githubusercontent.com/1735792/90352565-26073700-e01a-11ea-9f6b-8911d5b22008.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-05/mod05ima05/mod05ima05.png" width="500">
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-05/mod05ima05/mod05ima05.png" width="600">
 
 #imagem 05
 
