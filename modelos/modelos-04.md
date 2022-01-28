@@ -4,6 +4,9 @@ Sequência de elementos homogêneos. Observe que o índice do array é suficient
 
 ![image](https://user-images.githubusercontent.com/1735792/90349760-526a8580-e011-11ea-9ec2-a3a4498686c0.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima01/mod04ima01.png" width="300">
+
+
 #imagem 01
 
 ### Árvore 1
@@ -11,6 +14,8 @@ Sequência de elementos homogêneos. Observe que o índice do array é suficient
 Toda árvore possui um elemento denominado raiz, conforme o modelo abaixo. Em conseqüência, este modelo não contempla árvores nulas, sem nenhum elemento. Cada elemento pode ou não possuir descendentes. Se não possuir, então o elemento considerado é uma folha. Observe que nem todo elemento da árvore possui ancestral. Este caso particular ocorre quando o elemento em questão é a raiz da árvore.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349790-66ae8280-e011-11ea-86ef-cd2b01dce508.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima02/mod04ima02.png" width="300">
 
 #imagem 02
 
@@ -20,6 +25,8 @@ Nesta proposta observe que cada elemento pode ou não possuir um ancestral (pai)
 
 ![image](https://user-images.githubusercontent.com/1735792/90349819-82198d80-e011-11ea-9bc9-f0d77c4099b2.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima03/mod04ima03.png" width="500">
+
 #imagem 03
 
 ### Grafo
@@ -27,6 +34,8 @@ Nesta proposta observe que cada elemento pode ou não possuir um ancestral (pai)
 Um grafo dirigido pode ser modelado como abaixo. Para cada aresta tem-se um nó que funciona como origem e outro como destino. Se fosse desejável adicionar pesos a cada uma das arestas, seria suficiente definir um atributo para a classe Aresta.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349841-92316d00-e011-11ea-81eb-c19eeb63c6fe.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima04/mod03ima04.png" width="400">
 
 #imagem 04
 
@@ -36,6 +45,8 @@ A fila FIFO (first-in first-out) pode ser modelada conforme abaixo. Observe a pr
 
 ![image](https://user-images.githubusercontent.com/1735792/90349860-a1b0b600-e011-11ea-9907-ab044c52dc6f.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima05/mod04ima05.png" width="300">
+
 #imagem 05
 
 ### Pilha
@@ -44,6 +55,8 @@ A estrutura de pilha permite o acesso somente ao elemento do topo da pilha. Dado
 
 ![image](https://user-images.githubusercontent.com/1735792/90349873-b12fff00-e011-11ea-9980-b58218479f58.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima06/mod04ima06.png" width="300">
+
 #imagem 06
 
 ### Lista duplamente encadeada.
@@ -51,5 +64,7 @@ A estrutura de pilha permite o acesso somente ao elemento do topo da pilha. Dado
 Uma lista duplamente encadeada apenas permite, dado um determinado elemento, a definição imediata do sucessor e do anterior, caso estes existam. Uma modelo correspondente é apresentado abaixo. Uma peculiaridade desta estrutura pode ser observada na cardinalidade da associação de anterior e próximo. Ambas são 1, indicando que, dado um elemento desta lista, necessariamente há um anterior e um elemento próximo, mesmo que seja o próprio elemento. Esta é uma característica comum de listas ditas duplamente encadeadas.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349891-c1e07500-e011-11ea-9cb1-f962e1dd7eab.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima07/mod04ima07.png" width="400">
 
 #imagem 07
