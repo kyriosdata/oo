@@ -6,16 +6,22 @@ Algumas classes candidatas facilmente podem ser identificadas. Tabuleiro, para r
 
 ![image](https://user-images.githubusercontent.com/1735792/90530306-1afff400-e14b-11ea-8681-3dbd4ce9cd02.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-06/mod06ima01/mod06ima01.png" width="300">
+
 #imagem 01
 
 Esta não parece uma modelagem apropriada, afinal, muitos interpretam uma Partida como uma sequência de lances, onde cada lance define uma peça que se desloca de uma posição de origem para uma posição de destino, além de ser realizado por um jogador, conforme abaixo.
 
 ![image](https://user-images.githubusercontent.com/1735792/90530363-2fdc8780-e14b-11ea-94ba-b3298a5f8975.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-06/mod06ima02/mod06ima02.png" width="400">
+
 #imagem 02
 
 A posição pode ser definida por um esquema de coordenadas x e y. Neste modelo falta ressaltar que a composição de lances forma uma sequência. Nesta modelagem observe que não se faz necessário a entidade que represente um tabuleiro (recurso apenas visual empregado pela interface gráfica).
 
 ![image](https://user-images.githubusercontent.com/1735792/90530425-3e2aa380-e14b-11ea-833f-8e1e83e8d71d.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-06/mod06ima03/mod06ima03.png" width="400">
 
 #imagem 03
