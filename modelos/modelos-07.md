@@ -4,6 +4,8 @@ Em um jogo de cartas há dois tipos de conjuntos delas: um conhecido por “mont
 
 ![image](https://user-images.githubusercontent.com/1735792/90355034-7c2ba880-e021-11ea-87b6-828a52d5a688.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem01
 
 ### Círculo (pergunta 1)
@@ -11,6 +13,8 @@ Em um jogo de cartas há dois tipos de conjuntos delas: um conhecido por “mont
 Quais das associações abaixo é mais adequada para representar que um círculo, além de outras propriedades, não exibidas, possui um ponto como centro? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima02/mod07ima02.png" width="400">
 
 #imagem02
 
@@ -20,6 +24,8 @@ Quais das associações abaixo é mais adequada para representar que um círculo
 Quais dos modelos abaixo é mais adequado para representar o fato de que um círculo possui um ponto como centro? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima03/mod07ima03.png" width="400">
 
 #imagem03
 
@@ -33,6 +39,8 @@ Quais dos relacionamentos entre as classes abaixo é o mais adequado? Justifique
 
 ![image](https://user-images.githubusercontent.com/1735792/90355289-518e1f80-e022-11ea-9e61-048030399b9f.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima04/mod07ima04.png" width="400">
+
 #imagem04
 
 Seria interessante afirmar que a herança está definitivamente errada e a associação está definitivamente correta. Contudo, a resposta depende do cenário em questão. Cenário omitido nos deixa apenas com especulações.
@@ -41,6 +49,8 @@ Uma possibilidade. Um usuário representa um papel dentre todo um conjunto deles
 
 ![image](https://user-images.githubusercontent.com/1735792/90355446-bea1b500-e022-11ea-9206-684460d7b66e.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima05/mod07ima05.png" width="400">
+
 #imagem05
 
 ### Herança e agregação
@@ -48,6 +58,8 @@ Uma possibilidade. Um usuário representa um papel dentre todo um conjunto deles
 Abaixo segue um diagrama contendo duas classes e dois relacionamentos.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355517-f6a8f800-e022-11ea-87ef-5bf37eaa9f99.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima06/mod07ima06.png" width="400">
 
 #imagem06
 
@@ -64,6 +76,8 @@ Prática de programação e Programação podem ser as classes referenciadas, re
 
 ![image](https://user-images.githubusercontent.com/1735792/90355758-b0a06400-e023-11ea-9374-0de53bb4cd9b.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima07/mod07ima06.png" width="400">
+
 #imagem07
 
 ### Revisão
@@ -71,6 +85,8 @@ Prática de programação e Programação podem ser as classes referenciadas, re
 Seja uma revisão um caso particular de versão de um produto de software. Todo software pode estar relacionado a várias versões (pelo menos uma). Para cada versão podem existir revisões subseqüentes, uma após a outra, em uma seqüência bem definida. Este cenário é modelado adequadamente pelo diagrama abaixo? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355800-d463aa00-e023-11ea-9ba4-6f077e0c3e83.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem08
 
@@ -83,6 +99,8 @@ O modelo contempla a situação de uma versão ser sucedida por uma seqüência 
 O diagrama de objetos abaixo pode ser útil na compreensão deste modelo. Observe que uma instância de Software está ligado a três versões identificadas por v1, v2 e v3. Estas ligações são instâncias da associação entre as classes Software e Versão, exibida na figura anterior.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355840-efceb500-e023-11ea-951b-decc2a4353c5.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem09
 
@@ -98,6 +116,8 @@ Clientes de um restaurante sentam-se em mesas. Em geral, um ou mais clientes com
 
 ![image](https://user-images.githubusercontent.com/1735792/90355884-18ef4580-e024-11ea-928e-a7560d1d35de.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem10
 
 Se tratarmos pessoa como cliente e, conforme o enunciado, estivermos interessado em conhecer aqueles que tiveram o privilégio de se sentar à mesa de interesse, então o modelo esta completo. Se observarmos a nota ligada à classe Pessoa, contudo, seremos obrigados a reconhecer que a associação deve ser bidirecional, pois também gostaríamos de obter todas as mesas ocupadas por determinada pessoa.
@@ -110,6 +130,8 @@ Em restaurantes, mesas são ocupadas por pessoas ao longo do tempo. O modelo aba
 
 ![image](https://user-images.githubusercontent.com/1735792/90355935-3d4b2200-e024-11ea-8bd8-b055714fb981.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem11
 
 Veja que uma pessoa pode ocupar mesas e que uma mesa pode ser ocupada por pessoas. Esta ocupação ocorre em determinada data e, portanto, o modelo permite estabelecer um histórico, ao longo do tempo, de quem ocupou qual mesa. Com a identificação do tempo em que a ocupação ocorreu, pode-se estabelecer uma ordem das ocupações e, com algum esforço, até especular quais foram os grupos (pessoas) que se sentaram a mesa em determinada data.
@@ -119,6 +141,8 @@ Veja que uma pessoa pode ocupar mesas e que uma mesa pode ser ocupada por pessoa
 Alguém estava preocupado, em uma grande agência bancária de Goiânia, com um modelo que refletisse as filas que lá eram freqüentes. Neste momento surge um funcionário! Extrovertido, logo tratou de apresentar os dois modelos seguintes. Explicou ambos e concluiu que o segundo é superior. Qual o argumento que o funcionário provavelmente utilizou para convencer seus ouvintes?
 
 ![image](https://user-images.githubusercontent.com/1735792/90355972-5eac0e00-e024-11ea-8d0f-f79b09f52c2e.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem12
 
@@ -130,11 +154,15 @@ Ao longo de sua vida útil um ônibus transporta um grande número de passageiro
 
 ![image](https://user-images.githubusercontent.com/1735792/90356025-813e2700-e024-11ea-934b-478d653db07e.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem13
 
 Para cada ônibus podem existir várias viagens. Para cada viagem temos exatamente um único ônibus. Cada viagem envolve vários passageiros. Se desejarmos saber qual a origem, o destino, o horário de partida e chegada e o motorista pode ser que o modelo resultante se pareça com aquele abaixo.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356054-961aba80-e024-11ea-90a3-786ecd2e0b70.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem14
 
@@ -144,11 +172,15 @@ Ao longo de um ano há muitos dias que são feriados, enquanto outros referem-se
 
 ![image](https://user-images.githubusercontent.com/1735792/90356081-aa5eb780-e024-11ea-9831-7c4f42f3b45a.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem15
 
 O modelo acima apenas registra, para um dado calendário de um certo ano, quais os feriados e datas relevantes. Não é possível, contudo, registrar o acontecimento relevante ou de quem é o aniversário, por exemplo. O modelo abaixo, por outro lado, já permite um número maior de informações que podem ser úteis ao contexto considerado.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356096-b8143d00-e024-11ea-973e-d049b3af4144.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem16
 
@@ -157,6 +189,8 @@ O modelo acima apenas registra, para um dado calendário de um certo ano, quais 
 Uma classe Linha com duas composições para uma classe Ponto, cujos papéis são p1 e p2 é uma versão melhor que uma classe Linha associada a Ponto onde o extremo da associação com Ponto possui cardinalidade 2 e encontra-se ordenado? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356117-cc583a00-e024-11ea-96f2-03aa1534bcba.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem17
 
@@ -168,6 +202,8 @@ No âmbito da UFG, cada estudante possui um computador, que não é compartilhad
 
 ![image](https://user-images.githubusercontent.com/1735792/90356160-f14cad00-e024-11ea-8f6d-0b93369d02ae.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem18
 
 Se na UFG cada aluno possui um computador, então da esquerda para a direita a associação UFG reflete este cenário. Contudo, isto não é suficiente para deduzir que todo computador possui um “aluno-dono”, o que justifica a cardinalidade do lado esquerdo. Nos domicílios dos estudantes, contudo, o cenário é diferente. Um aluno pode estar associado a vários computadores e um computador pode estar associado a vários alunos. Convém lembrar que alguns alunos podem compartilhar um mesmo computador fora da UFG.
@@ -178,6 +214,8 @@ Modele expressões aritméticas como sendo sequências ordenadas de elementos qu
 
 ![image](https://user-images.githubusercontent.com/1735792/90356221-1f31f180-e025-11ea-9799-940e6e4b9afc.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem19
 
 Não cabe assegurar, via estrutura, que as sentenças são válidas. Este tipo de verificação é melhor realizado por software, não por um modelo. Sentenças aritméticas, válidas ou não, podem ser registradas conforme o modelo acima.
@@ -187,6 +225,8 @@ Não cabe assegurar, via estrutura, que as sentenças são válidas. Este tipo d
 Uma classe Associação possui uma associação que parte dela para ela mesma. Em ambos os extremos a cardinalidade é 1. Em um deles o papel é para, enquanto no outro é de. O nome da associação é Relação. Outra classe, denominada de Classe, possui uma associação que também parte dela para ela mesma. Os papéis são, à semelhança do caso anterior, para e de. Neste última associação, contudo, o nome é Associação e nenhuma cardinalidade foi fornecida. Quais destas classes, com a respectiva associação representa um modelo mais consistente? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356359-b303bd80-e025-11ea-8d73-27380ff0e5b3.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem20
 
@@ -203,6 +243,8 @@ Uma imagem é um conjunto de pixels, cada um deles possui uma determinada posiç
 
 ![image](https://user-images.githubusercontent.com/1735792/90356594-7389a100-e026-11ea-898b-4396e9da3493.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem21
 
 ### Diretor
@@ -211,6 +253,8 @@ Estabeleça relações entre as classes Diretor, Vice-diretor, Docente, Funcion�
 
 ![image](https://user-images.githubusercontent.com/1735792/90356643-9451f680-e026-11ea-81f8-ff201db6d138.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem22
 
 No modelo acima, diretor, vice-diretor e demais elementos fornecidos foram tratados como casos particulares de cargo. Embora não seja natural tratar um aluno como ocupante de um cargo em uma instituição de ensino, este modelo permite relacionar um ser humano com vários “cargos”, o que é uma situação típica.
@@ -218,6 +262,8 @@ No modelo acima, diretor, vice-diretor e demais elementos fornecidos foram trata
 ### Um presidente nomeia ministros e este seus respectivos assessores.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356680-b3508880-e026-11ea-81a9-f89ffbda16dc.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem23
 
@@ -233,6 +279,8 @@ Para que não haja dúvida, dado um aluno e um arquivo associados, teremos os at
 
 ![image](https://user-images.githubusercontent.com/1735792/90356726-dd09af80-e026-11ea-8baa-59c421cf2ea5.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
+
 #imagem24
 
 ### Objetos e mensagens
@@ -240,6 +288,8 @@ Para que não haja dúvida, dado um aluno e um arquivo associados, teremos os at
 Em um sistema orientado a objetos, objetos cooperam uns com os outros através da troca de mensagens.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356747-f27ed980-e026-11ea-97f4-b4bd72df03b8.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem25
 
@@ -250,5 +300,7 @@ O modelo acima é interpretado da seguinte forma: dada uma instância obj de Obj
 A associação, contudo, não permite descreve qual a mensagem, o que pode ser uma informação de interesse e não apenas quais são os objetos que recebem mensagem de determinado objeto. Em conseqüência, o modelo abaixo parece mais completo.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356763-075b6d00-e027-11ea-87d2-e344d905f6c7.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="400">
 
 #imagem26
