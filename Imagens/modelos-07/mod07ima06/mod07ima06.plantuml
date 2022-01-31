@@ -8,5 +8,5 @@ circle " " as d
 a <|-- b
 a "n"-right- c
 c -- d
-d -left- b
+d -left-o b
 @enduml
