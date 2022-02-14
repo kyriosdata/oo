@@ -1,13 +1,10 @@
 @startuml mod03ima04
 object "Grafo" as gr
 object "Aresta" as ar
-object "Nó" as no
-circle " " as p1
-circle " " as p2
+object "N?" as no
+
 left to right direction
 gr --->"umaAresta" ar
 ar "*"----"1 \n origem" no
-ar "*"-left- p1
-p1 ---- p2 
-p2 -right- "1 destino"no
+ar "*"--- "1 destino"no
 @enduml

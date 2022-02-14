@@ -1,18 +1,14 @@
 @startuml mod02ima09
-skinparam linetype ortho
 object "Caixeiro-viajante" as ca
 object "Viagem" as vi
 object "Cidade" as ci
 object "Armazém" as ar
 object "Lista de pedidos" as li
-circle " " as p1
-circle " " as p2
+
 left to right direction
 ca"1" --- "*"vi
 vi"*" ---- " * \n {ordered}"ci : Percorre
 ci"1" ---- "*"ar : Possui
-vi"1" --right-- p1
-p1 ---- "*"li
-li"*" ---- p2
-p2 --left-- "1"ar
+vi"1" ----"*" li
+li"*" ---- "1"ar
 @enduml

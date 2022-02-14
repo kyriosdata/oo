@@ -1,14 +1,8 @@
 @startuml mod04ima06
-skinparam linetype ortho
 object "Pilha" as pi 
 object "Elemento" as el 
-circle " " as p1
-circle " " as p2
-circle " " as p3
+
 left to right direction
 pi ----> "topo" el  
-el -left- p1
-p1 -down- p2
-p2 -right- p3
-p3 -up->"0..1 \n anterior" el
+el "0..1 anterior"--> el
 @enduml

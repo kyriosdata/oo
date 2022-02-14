@@ -1,11 +1,8 @@
 @startuml mod03ima05
 rectangle "Lanchonete" as la
 rectangle "Funcionário" as fu
-circle " " as p1
-circle " " as p2
+
 left to right direction
 la "emprega"----"2..* \n empregado" fu
-la "0..1"-left- p1
-p1 ---- p2 : Gerência
-p2 -right- "0..1 \n gerente"fu
+la "0..1"-- "0..1 \n gerente"fu :Gerência
 @enduml

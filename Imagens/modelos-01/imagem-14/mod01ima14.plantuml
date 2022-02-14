@@ -2,11 +2,8 @@
 skinparam ClassAttributeIconSize 0
 object "Usuário" as o1
 object "Diretório" as o2
-circle " " as p1
-circle " " as p2
+
 left to right direction
 o1 --- o2 : Dono
-o1 -right- p1
-p1 --- p2 : Autorizado a usar
-p2 --left- o2
+o1 -- o2 : Autorizado a usar
 @enduml

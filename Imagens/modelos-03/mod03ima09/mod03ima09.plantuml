@@ -1,11 +1,8 @@
 @startuml mod03ima09
 rectangle "Período" as pe
 rectangle "Data" as da
-circle " " as p1
-circle " " as p2
+
 left to right direction
-pe "*"----"1 \n final" da
-pe "*"-left- p1
-p1 ---- p2
-p2 -right- "1 \n inicial" da
+da "1 \n final" ---- "*" pe
+da "1 \n inicial" ---- "*" pe
 @enduml

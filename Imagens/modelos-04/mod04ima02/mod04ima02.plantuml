@@ -1,14 +1,8 @@
 @startuml mod04ima02 
-skinparam linetype ortho
 object "Árvore" as ar 
 object "Elemento" as el 
-circle " " as p1
-circle " " as p2
-circle " " as p3
+
 left to right direction
 ar ----> "1 \n" el  
-el "ancestral \n 0..1"-left- p1
-p1 -down- p2
-p2 -right- p3
-p3 -up-" * \n descendentes" el
+el "ancestral \n 0..1"--- " * \n descendentes" el
 @enduml
