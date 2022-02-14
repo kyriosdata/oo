@@ -1,11 +1,7 @@
 @startuml mod01ima07
 object "País" as pa
 object "Cidade" as ci
-circle " " as p1
-circle " "  as p2
 left to right direction
 pa"0..1"--->"1 \n capital"ci: "Capital"
-pa "1" --right- p1
-p1 --- p2 : contém
-p2 --left->"*"ci
+pa "1" --->"*" ci : contém
 @enduml
