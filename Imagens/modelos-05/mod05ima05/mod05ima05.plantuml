@@ -28,11 +28,4 @@ p4 -up- p5
 (p4,p5) .. ca
 p5 -left- co
 co -left-o fe
-
-
-
-
-
-
-
 @enduml
