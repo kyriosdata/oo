@@ -1,12 +1,6 @@
 @startuml mod07ima06
-skinparam Linetype ortho
 object "   A   " as a
 object "   B   " as b
-circle " " as c
-circle " " as d
-
 a <|-- b
-a "n"-right- c
-c -- d
-d -left-o b
+a "n"-- b
 @enduml

@@ -1,24 +1,16 @@
 @startuml mod07ima14
+left to right direction
 object "cidade" as ci
 object "Viagem" as vi
 object "Papel" as pa
 object "Passageiro" as ps
 object "Ônibus" as on
 object "Motorista" as mo
-circle " " as a
-circle " " as b
-circle " " as c
-circle " " as d
-
-left to right direction
-ci "destino"--- vi
-vi "n"---"passageiros\nn" pa
+ci"destino" --- vi
+ci "origem" --- vi
+vi"n" --- "motorista\n1"pa
+vi"n" --- "passageiros\nn"pa
 pa <|-- ps
-on -left- vi :"n\n\n1"
-mo -left-|> pa
-ci "origem"-left- a
-a -- b
-b -right- vi
-vi "n"-left- c
-c -- d
-d -right-"motorista\n1" pa
+pa <|-right- mo
+on --|> vi
+@endtuml

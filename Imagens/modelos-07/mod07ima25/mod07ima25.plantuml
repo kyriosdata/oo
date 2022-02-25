@@ -1,13 +1,4 @@
 @startuml mod07ima25
-skinparam linetype ortho
 rectangle "Objeto" as ob
-circle " " as p1
-circle " " as p2
-circle " " as p3
-left to right direction
- 
-ob "para"-left- p1
-p1 -down-"Mensagem" p2
-p2 -right- p3
-p3 -up-"de" ob
+ob "para"-- "de" ob : Mensagem
 @enduml
