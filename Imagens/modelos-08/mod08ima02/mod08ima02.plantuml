@@ -1,15 +1,10 @@
 @startuml mod08ima02
+skinparam ClassAttributeIconSize 0
 skinparam Linetype ortho
 object "Software" as so
 object "Versão" as ve
 object "Revisão" as re
-circle " " as p1
-circle " " as p2
-
 so -right-"n" ve
-ve "1"-right- p1
-p1 "+anterior"--down-"+próximo" p2
-p2 -left-"0..1" re
-re -up-|> ve
-
+re --|> ve
+ve "1\n+anterior"---"0..1\n+próximo" re
 @enduml

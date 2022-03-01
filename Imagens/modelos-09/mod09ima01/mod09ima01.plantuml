@@ -1,4 +1,5 @@
 @startuml mod09ima01
+
 skinparam ClassAttributeIconSize 0
 skinparam Linetype ortho
 allow_mixing
@@ -41,7 +42,6 @@ circle "b" as b
 
 file "Há outros tipos de\n trabalhadores. Cada\num deles herda de Trabalhador." as ha
 
-
 left to right direction
 pr "0..1" --- "*" it
 it "1..*" ---* pe
@@ -63,13 +63,9 @@ pa "1..*" -left-o no
 cc --|> pa
 ch --|> pa
 dn --|> pa
-
-od -left- a
-a -- b
-b -right-"executada por" tr
+od -up- tr : executada por
 od --"emitida por" tr
 ga2 -left-|> tr 
 ha -[#White]- ga2
-
 
 @enduml
