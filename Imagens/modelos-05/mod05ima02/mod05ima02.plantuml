@@ -1,0 +1,18 @@
+@startuml mod05ima02
+rectangle "Teclado" as te
+rectangle "Computador" as co 
+rectangle "Placa-mãe" as pl
+rectangle "Mouse" as mo
+rectangle "Memória" as me
+rectangle "CPU" as cp
+rectangle "Dispositivo" as di
+left to right direction
+te --|> di
+pl --|>di
+cp --|>di
+me --|>di
+mo --|>di
+di --o co
+cp --o pl
+cp --> me : Acessa
+@enduml

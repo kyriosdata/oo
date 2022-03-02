@@ -1,0 +1,12 @@
+@startuml mod05ima08
+skinparam ClassAttributeIconSize 0
+object "Pessoa" as pe
+object "Automóvel" as au
+au : - marca
+au : - modelo
+au : - ano
+note "Naturalmente um\ncarro é dirigido por uma\núnica pessoa por vez." as na
+left to right direction
+pe "*"--"*" au : Dirige
+(pe,au) .. na
+@enduml

@@ -1,0 +1,10 @@
+@startuml mod03ima04
+object "Grafo" as gr
+object "Aresta" as ar
+object "N?" as no
+
+left to right direction
+gr --->"umaAresta" ar
+ar "*"----"1 \n origem" no
+ar "*"--- "1 destino"no
+@enduml

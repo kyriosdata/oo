@@ -1,0 +1,31 @@
+@startuml mod05ima05
+allow_mixing
+skinparam classAttributeIconSize 0
+object "Dança" as da
+da : - horaInicio
+da : - horaFim
+object "Música" as mu
+object "Festa" as fe
+object "Convite" as co
+Object "Pessoa" as pe
+circle " " as p1
+circle " " as p2
+circle " " as p3
+circle " " as p4
+circle " " as p5
+note "Cada convidado pode ou não levar acompanhate." as ca
+skinparam linetype ortho
+left to right direction
+pe "mulher"-left- p1
+p1 -down- p2
+p2 -right- p3
+p3 -up-"homem" pe
+da -- mu
+da -right- p2
+co ---"convidado \n 1" pe 
+pe "acompanhante 0..1" -right- p4
+p4 -up- p5
+(p4,p5) .. ca
+p5 -left- co
+co -left-o fe
+@enduml

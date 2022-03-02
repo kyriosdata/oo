@@ -1,0 +1,16 @@
+@startuml mod03ima06
+allow_mixing
+skinparam ClassAttributeIconSize 0
+object "Prestação" as pr 
+pr : - data
+pr : - valor 
+rectangle "Carnê" as ca 
+rectangle "Compra" as co 
+object "ItemCompra" as it 
+it : - quantidade 
+rectangle "Produto" as po
+pr -up-* ca 
+ca -left- co
+co *-left- it
+it "*"--"1" po
+@enduml

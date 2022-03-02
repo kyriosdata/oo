@@ -29,3 +29,5 @@ Crie um modelo orientado a objetos para refletir o seguinte domínio:
 1. Cada rádio possui uma identificação única e a alocação de um rádio a um colaborador é estabelecida pela escala.
 
 ![image](https://user-images.githubusercontent.com/1735792/90525187-5d263700-e145-11ea-99ff-2b141cc148c6.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-10/mod10ima01/mod10ima01.png" width="720">

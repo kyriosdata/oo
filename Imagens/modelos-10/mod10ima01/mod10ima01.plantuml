@@ -1,0 +1,56 @@
+@startuml mod10ima01
+skinparam ClassAttributeIconSize 0
+
+object "Ocorrencia" as oc
+object "Pessoa" as pe
+object "Trabalhador" as tr
+object "Funcionário" as fu
+object "Venda" as ve
+ve : - data
+ve : - hora
+object "Centro de Venda" as ce
+object "Parque" as pa
+object "Calendário" as ca
+object "Data" as da
+object "Visitante" as vi
+object "Criança" as cr
+object "Parente" as pr
+object "Pai" as pi
+object "Outro" as ou
+object "Posto" as po
+object "Polícia" as pl
+object "Justiça" as ju
+object "Escala" as es
+object "Rádio" as rd
+object "Bilhete" as bi
+object "TocaAporB" as to
+to : - data
+to : - hora
+to : - diferença
+
+
+
+
+oc "*"--"1..*" pe : Envolve
+pe "1"--"0..1" tr
+tr <|--- fu
+fu "1"--"*" ve
+ve "*"--"1" ce
+pa o-right-"*" pe : Direção
+ca -- pa
+ca -right->"*"da : Aberto em
+pe "1"-right-"0..1"vi : ____  
+cr --|> vi
+cr "*"--"acompanhante *"vi
+vi <|-- pr
+pr <|-- pi
+pr <|-right- ou 
+po o-right- tr
+ju -right-|> tr
+(ju,tr)--pl
+fu "1"-right-"*"es : ____  
+es "1"-right-"*"rd : ____  
+bi "*"-right-"1"ve
+bi "a"-- to
+bi "b"--to
+to "*"-right-"1"ce

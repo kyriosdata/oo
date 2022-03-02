@@ -1,0 +1,8 @@
+@startuml mod07ima23
+rectangle "Presidente" as pr
+rectangle "Ministro" as mi
+rectangle "Assessor" as ass
+left to right direction
+pr "1"--> mi : Nomeia
+mi "1"--> ass : Nomeia
+@enduml

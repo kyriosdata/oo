@@ -1,0 +1,15 @@
+@startuml mod04ima03
+
+object "Árvore" as ar 
+object "Elemento" as el 
+object "Árvore" as ar2 
+object "Elemento" as el2
+
+left to right direction
+ar -->"0..1 \n raíz" el
+el "filho 0..1"--- "0..1 pai" el
+ar2 -->"0..1 \n raíz" el2
+el2 "irmão 0..1"---"0..1 irmão" el2
+el -[#White]- ar2
+@enduml
+

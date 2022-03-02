@@ -1,0 +1,9 @@
+@startuml mod02ima03
+skinparam classAttributeIconSize 0
+object "Círculo" as ce
+ce : - x 
+ce : - y 
+ce : - raio
+ce : -----
+ce : + transladar (dx, dy)
+@enduml

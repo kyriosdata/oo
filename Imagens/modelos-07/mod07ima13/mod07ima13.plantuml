@@ -1,0 +1,8 @@
+@startuml mod07ima13
+object "Ônibus" as on
+object "Viagem" as vi
+object "Passageiro" as pa
+left to right direction
+on "1"--"n" vi
+vi "n"--"n" pa
+@enduml

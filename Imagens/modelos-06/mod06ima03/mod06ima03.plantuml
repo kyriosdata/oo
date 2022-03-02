@@ -1,0 +1,15 @@
+@startuml mod06ima03
+skinparam ClassAttributeIconSize 0
+object "Jogador" as jo
+object "Partida" as pa
+object "Lance" as la
+object "Peça" as pe
+object "Posição" as po
+po : - x
+po : - y
+jo <-down- la
+pa *--right--"{sequence}" la
+la -right-> pe
+la -down->"origem" po
+la -- po : destino
+@enduml

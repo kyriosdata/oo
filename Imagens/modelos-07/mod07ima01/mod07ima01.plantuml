@@ -1,0 +1,15 @@
+@startuml mod07ima01
+skinparam Linetype ortho
+object "Configuração cartas" as co
+object "Carta" as ca
+object "Jogador" as jo
+object "MãoJogador" as mã
+object "Monte" as mo
+object "Rodada" as ro
+co o-right- ca
+mã -up-|> co
+mo -up-|> co
+jo -down- ro
+(jo,ro) .. mã
+ro --- mo
+@enduml

@@ -1,0 +1,7 @@
+@startuml mod01ima07
+object "País" as pa
+object "Cidade" as ci
+left to right direction
+pa"0..1"--->"1 \n capital"ci: "Capital"
+pa "1" --->"*" ci : contém
+@enduml

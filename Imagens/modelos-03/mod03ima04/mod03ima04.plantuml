@@ -1,0 +1,15 @@
+@startuml mod03ima04
+skinparam Linetype ortho
+allow_mixing
+rectangle "Armário" as ar
+rectangle "Prateleira" as pr
+rectangle "Compartimento" as co
+rectangle "CD" as cd
+rectangle "Livro" as li
+note "2, 4, 7 ou mais de 7 instâncias de \n C para um dado compartimento" as ou
+left to right direction
+ar *--"1..*"pr
+pr *-- co
+co -left- cd : Guarda
+(co, cd) .. ou
+co --"0...3"li : Garda 

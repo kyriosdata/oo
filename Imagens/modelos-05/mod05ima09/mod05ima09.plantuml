@@ -1,0 +1,5 @@
+@startuml
+object "Funcionário" as fu 
+left to right direction
+fu "gerente \n 0..1"--- " * \n gerenciado" fu
+@enduml

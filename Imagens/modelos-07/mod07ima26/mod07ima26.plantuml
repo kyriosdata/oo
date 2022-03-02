@@ -1,0 +1,8 @@
+@startuml mod07ima26
+allow_mixing
+rectangle "Mensagem" as me
+rectangle "Objeto" as ob
+left to right direction
+ob "para"---"de" ob
+(ob,ob) .. me
+@enduml

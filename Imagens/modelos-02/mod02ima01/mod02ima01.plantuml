@@ -1,0 +1,6 @@
+@startuml mod02ima01
+object "Pessoa" as pe
+object "Hábito" as ha
+left to right direction
+pe"1" --- "n"ha
+@enduml

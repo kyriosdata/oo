@@ -1,0 +1,9 @@
+@startuml mod01ima04
+skinparam nodesep 5
+object "Texto" as o1
+object "Parágrafo" as o2
+object "Sentença" as o3
+left to right direction
+o1 o-- o2 
+o2 o-- o3
+@enduml

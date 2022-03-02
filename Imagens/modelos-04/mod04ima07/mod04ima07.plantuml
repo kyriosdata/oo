@@ -1,0 +1,9 @@
+@startuml mod04ima07
+object "Lista duplamente \n encadeada" as li 
+object "Elemento" as el 
+
+left to right direction
+li ----> "primeiro" el  
+el "anterior 1"--- "1 próximo" el
+li ---->"último" el
+@enduml

@@ -1,0 +1,8 @@
+@startuml mod04ima06
+object "Pilha" as pi 
+object "Elemento" as el 
+
+left to right direction
+pi ----> "topo" el  
+el "0..1 anterior"--> el
+@enduml

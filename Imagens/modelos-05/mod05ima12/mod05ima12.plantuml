@@ -1,0 +1,12 @@
+@startuml mod05ima12
+object "Avaliação" as av
+object "Questão" as qu
+object "Aluno" as al
+object "Prova" as pr
+object "Resposta" as re
+left to right direction
+av o-->"1..*"qu
+av "1"--"*" pr
+al "1"--"*" pr
+pr "1"*-->"1..*"re
+@enduml

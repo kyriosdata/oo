@@ -1,0 +1,13 @@
+@startuml mod01ima10
+skinparam linetype ortho
+object "Janela" as o1
+object "Elemento de interação" as o2
+object "Botão" as o3
+object "Menu" as o4
+object "Barra de rolagem" as o5
+o3 -left-|> o2
+o4 -right-|> o2
+o5 -up-|> o2
+left to right direction
+o1 *-- o2
+@enduml

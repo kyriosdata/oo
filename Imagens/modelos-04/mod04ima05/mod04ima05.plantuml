@@ -1,0 +1,8 @@
+@startuml mod04ima05
+object "FIFO" as fi 
+object "Elemento" as el 
+
+left to right direction
+fi ----> "primeiro" el  
+el "anterior 0..1"--->"0..1 próximo" el
+@enduml

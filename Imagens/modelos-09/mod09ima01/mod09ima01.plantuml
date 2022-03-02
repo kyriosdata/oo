@@ -1,0 +1,71 @@
+@startuml mod09ima01
+
+skinparam ClassAttributeIconSize 0
+skinparam Linetype ortho
+allow_mixing
+
+object "Prato" as pr
+pr : - preço
+object "ItemPedido" as it
+it : -quantidade
+it : -devolvido
+it : -obsevação
+object "Pedido" as pe
+pe : -dia
+pe : -horário
+pe : -horaEntrega
+object "domicílio" as do
+do : -endereço
+object "Cardápio" as ca
+object "Dia da semana" as di
+object "Bebida" as be
+object "pessoa" as pes
+object "Cliente" as cl
+cl : - entrada
+cl : - saída
+Object "Mesa" as me
+object "Região" as re
+object "Garçom" as ga
+object "Rota" as ro
+object "Entregador" as en
+object "Nota Fiscal" as no
+object "Pagamento" as pa
+object "Cartão de crédito" as cc
+object "Cheque" as ch
+object "Dinheiro" as dn
+
+object "Ordem" as od
+object "Trabalhador" as tr
+object "Garçom" as ga2
+circle "a" as a
+circle "b" as b
+
+file "Há outros tipos de\n trabalhadores. Cada\num deles herda de Trabalhador." as ha
+
+left to right direction
+pr "0..1" --- "*" it
+it "1..*" ---* pe
+pe --- do
+pr -left-o ca
+di  -left-"*"  pr : 1..7
+be -left- "*" it : 0..1
+pes "1"--"*"cl
+cl "1"--"*"me
+me -left-o re
+pe -left-"0..1\n" me : *
+cl -- pe
+pe "*"-left-"0..1" ga : colhe
+ga "1..*"-left-o re
+do -left-o ro
+ro -left-"1\n" en : *
+no --"1..*" pe : 0..1 
+pa "1..*" -left-o no
+cc --|> pa
+ch --|> pa
+dn --|> pa
+od -up- tr : executada por
+od --"emitida por" tr
+ga2 -left-|> tr 
+ha -[#White]- ga2
+
+@enduml

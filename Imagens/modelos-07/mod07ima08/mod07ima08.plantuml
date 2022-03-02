@@ -1,0 +1,8 @@
+@startuml mod07ima08
+object "Software" as so
+object "Versão" as ve
+object "Revisão" as re
+so -right-"n" ve
+ve "1 +anterior" --- "0..1 + próximo" re
+ve -down-|> re
+@enduml

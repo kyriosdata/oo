@@ -1,0 +1,15 @@
+@startuml mod02ima04
+skinparam classAttributeIconSize 0
+object "Círculo" as ce
+object "Ponto" as po
+left to right direction
+ce : - raio
+ce : - centro : Ponto
+ce : -----
+ce : + transladar (dx, dy)
+po : - x
+po : - y
+po : -----
+po : + transladar (dx, dy)
+ce *--> "1"po
+@enduml

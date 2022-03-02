@@ -1,0 +1,14 @@
+@startuml mod03ima03
+skinparam classAttributeIconSize 0 
+object "janela" as o1
+object "JanelaComVidro" as o2
+object "Janela" as o3
+object "Vidro" as o4
+o1 : -area 
+o2 : -areavidro 
+o3 : -area 
+o4 : -area
+left to right direction
+o1 <|--o2
+o2 -[#White]- o3
+o3 o-- "0..1"o4

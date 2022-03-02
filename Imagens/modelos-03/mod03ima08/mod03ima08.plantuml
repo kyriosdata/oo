@@ -1,0 +1,6 @@
+@startuml mod03ima08
+skinparam ClassAttributeIconSize 0
+object "Preço" as pr 
+pr : - valor 
+pr : - moeda
+@enduml

@@ -1,0 +1,15 @@
+@startuml mod05ima01
+skinparam linetype ortho
+object "Teclado" as te
+object "Computador" as co 
+object "Placa-mãe" as pl
+object "Mouse" as mo
+object "Memória" as me
+object "CPU" as cp
+left to right direction
+te --o co
+mo --o co
+co o-- pl
+cp --o pl
+cp --> me : Acessa
+@enduml

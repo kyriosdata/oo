@@ -1,0 +1,11 @@
+@startuml mod07ima10
+allow_mixing
+file "Dada uma mesa, há todo um conjunto de\nclientes que la sentaram" as da
+object "pessoa" as pe
+object "mesa" as me
+file "Dada uma pessoa, sabe-se quais\nas mesas ocupadas por ela." as da2
+left to right direction
+pe "n"<--"n" me
+(pe,me) .down. da
+da2 .right. pe
+@enduml

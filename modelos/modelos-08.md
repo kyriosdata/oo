@@ -2,6 +2,10 @@
 
 ![image](https://user-images.githubusercontent.com/1735792/90353452-9dd66100-e01c-11ea-9339-57ca3d9ff83e.png)
 
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-08/mod08ima01/mod08ima01.png" width="600">
+
+#imagem 01
+
 O diagrama informa que para uma instância da classe B há uma instância de A, via a associação que é uma agregação, da qual B é membro. A composição diz que, para uma instância de B tem-se que esta é parte de uma instância de A e, portanto, sugere que uma instância de B pode ser parte de uma instância de A e membro de outra, ao mesmo tempo. Para ressaltar que uma instância de B pode estar associada a uma instância de A por uma associação ou, exclusivamente por outra, a cardinalidade destas associações do lado da classe A deveria ser 0..1.
 
 ### Marque os itens abaixo que sugerem a quebra do princípio de substituição de Liskov.
@@ -25,6 +29,10 @@ Dos itens acima, claramente: (a) um livro não se comporta como uma biblioteca p
 Analise cada um dos itens abaixo. Entenda cada item como um cenário. Para cada um deles, verifique se o modelo abaixo o contempla, ou seja, se o cenário pode ocorrer dado o modelo fornecido. Também entenda que a palavra “revisão” deve ser interpretada como uma instância criada a partir da classe Revisão e a palavra “versão” como uma instância criada a partir da classe Versão. Por último, “software” é uma instância criada a partir da classe Software.
 
 ![image](https://user-images.githubusercontent.com/1735792/90354870-ec85fa00-e020-11ea-88b5-191ec0652cd2.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-08/mod08ima02/mod08ima02.png" width="500">
+
+#imagem 02
 
 (a) Há softwares e nenhum deles possui uma revisão.
 (b) Há revisão sem software.
@@ -50,6 +58,10 @@ Um dos padrões de projeto orientado a objetos é conhecido por Adapter. Quando 
 Tratando FolhaPagamento como uma destas partes, a parte estável, SistemasEsporte como a partil volátil, abstratamente representando os sistemas existentes na empresa de materiais esportivos, InterfaceExigida como o conjunto de requisições da folha de pagamento com o propósito de obter as informações necessárias (bem estável conforme o enunciado) e, por último, Adaptador como uma abstração para os possíveis e vários adaptadores a serem produzidos para cada mudança nos sistemas que lidam com os materiais esportivos, teremos o seguinte modelo como resultado:
 
 ![image](https://user-images.githubusercontent.com/1735792/90354963-37a00d00-e021-11ea-9447-5f78e4e69447.png)
+
+<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-08/mod08ima03/mod08ima03.png" width="800">
+
+#imagem 03
 
 Observação: (a) a seta de Adaptador para InterfaceExigida deve ser tracejada, com a mesma ponta de ceta, desta forma, indica-se implementação, ou seja, que a classe Adaptador implementa tal interface; (b) em vez da composição de Adaptador para SistemasEsporte o melhor seria um simples associação, pois Adaptador faz uso do SistemasEsporte. 
 

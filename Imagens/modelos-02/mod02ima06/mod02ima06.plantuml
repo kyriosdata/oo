@@ -1,0 +1,6 @@
+@startuml mod02ima06
+object "Mamífero" as ma
+object "Elefante" as el
+left to right direction
+ma <|-- el
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+allow_mixing
+skinparam ClassAttributeIconSize 0
+rectangle "Disco" as di
+rectangle "Arquivo" as ar
+rectangle "Usuário" as us
+object "Permissão" as pe
+pe : - leitura : Boolean
+pe : - escrita : Boolean
+pe : - execuão : Boolean
+left to right direction
+di *--> ar
+ar -- us
+(ar,us) .. pe
+@enduml

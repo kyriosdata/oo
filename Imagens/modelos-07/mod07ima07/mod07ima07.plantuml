@@ -1,0 +1,6 @@
+@startuml mod07ima07
+object "   A   " as a
+object "   B   " as b
+a <|-- b
+a o-- b
+@enduml

@@ -1,0 +1,8 @@
+@startuml mod04ima02 
+object "Árvore" as ar 
+object "Elemento" as el 
+
+left to right direction
+ar ----> "1 \n" el  
+el "ancestral \n 0..1"--- " * \n descendentes" el
+@enduml

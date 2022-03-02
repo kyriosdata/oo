@@ -1,0 +1,10 @@
+@startuml mod07ima12
+object "Fila" as fi
+object "Cliente" as cl
+object "Fila" as fi2
+object "Cliente" as cl2
+left to right direction
+fi o---> cl
+cl -[#white]- fi2
+fi2 o--->"{ordered}" cl2
+@enduml

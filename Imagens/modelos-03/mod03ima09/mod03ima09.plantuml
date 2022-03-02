@@ -1,0 +1,8 @@
+@startuml mod03ima09
+rectangle "Período" as pe
+rectangle "Data" as da
+
+left to right direction
+da "1 \n final" ---- "*" pe
+da "1 \n inicial" ---- "*" pe
+@enduml

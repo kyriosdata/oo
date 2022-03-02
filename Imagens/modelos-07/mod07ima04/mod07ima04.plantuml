@@ -1,0 +1,12 @@
+@startuml mod07ima04
+allowmixing
+object "Pessoa" as pe
+object "Usuário" as us
+file "Associação" as ass
+file "Herança" as he
+
+pe -down- us
+(pe,us) .left. ass
+us -up-|> pe
+(us,pe) .right. he
+@enduml

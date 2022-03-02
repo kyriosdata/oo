@@ -1,0 +1,7 @@
+@startuml mod05ima10
+object "Pessoa" as pe
+object "Comitê" as co
+left to right direction
+pe "*"---"*" co : Membro de
+pe "*"--- "*" co : Presidência
+@enduml

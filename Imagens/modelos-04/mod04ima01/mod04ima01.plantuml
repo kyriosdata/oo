@@ -1,0 +1,7 @@
+@startuml mod04ima01
+allow_mixing
+object "Array" as ar 
+object "Elemento" as el 
+left to right direction
+ar"índice" ----> "elementos \n * \n {ordered}"el 
+@enduml

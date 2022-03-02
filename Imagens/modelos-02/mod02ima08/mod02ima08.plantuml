@@ -1,0 +1,10 @@
+@startuml mod02ima08
+object "Caixeiro-viajante" as ca
+object "Viagem" as vi
+object "Cidade" as ci
+object "Armazém" as ar
+left to right direction
+ca"1" --- "*"vi
+vi"*" --- " * \n {ordered}"ci : Percorre
+ci"1" --- "*"ar : Possui
+@enduml

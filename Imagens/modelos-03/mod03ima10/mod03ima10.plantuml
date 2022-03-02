@@ -1,0 +1,11 @@
+@startuml mod03ima10
+skinparam ClassAttributeIconSize 0
+rectangle "Floresta" as fl 
+rectangle "Árvore" as ar 
+rectangle "Folha" as fo 
+rectangle "TipoFolha" as ti 
+left to right direction
+fl "1..*" o--- "1..*" ar 
+ar *---"1..*" fo
+fo "*"---"1" ti
+@enduml
