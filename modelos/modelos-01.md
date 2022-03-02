@@ -4,15 +4,14 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![image](https://user-images.githubusercontent.com/1735792/90348459-6e1f5d00-e00c-11ea-82e1-3519f87a994f.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-01/mod01ima01.png" width="100">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/imagem01.plantuml)
 
 
 ### Um projeto de software pode empregar várias linguagens de programação.
 
 ![image](https://user-images.githubusercontent.com/1735792/90348882-f7835f00-e00d-11ea-9a99-6d169cc18671.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-02/mod01ima02.png" width="300">
-
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-02/mod01ima02.plantuml)
 
 ### Toda escola possui um endereço.
 
@@ -20,7 +19,7 @@ Embora alguns especulem a definição de endereço como atributo da classe Escol
 
 ![image](https://user-images.githubusercontent.com/1735792/90348478-87280e00-e00c-11ea-957e-c708d8e1ae12.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-03/mod01ima03.png" width="200">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
 
 
 ### Um texto é uma combinação de parágrafos que, por sua vez, são combinações de sentenças.
