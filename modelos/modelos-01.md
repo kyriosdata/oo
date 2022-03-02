@@ -28,7 +28,7 @@ Talvez você imagine que uma composição seja mais apropriada, por ressaltar qu
 
 ![image](https://user-images.githubusercontent.com/1735792/90348499-a45cdc80-e00c-11ea-851c-6931da0c433d.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-04/mod01ima04.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-04/mod01ima04.plantuml)
 
 
 ### Em um país há várias cidades.
