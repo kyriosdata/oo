@@ -4,8 +4,7 @@ O diagrama abaixo não apresenta as cardinalidades nos extremos das agregações
 
 ![image](https://user-images.githubusercontent.com/1735792/90349351-ec313300-e00f-11ea-9f00-26ffdff821f5.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima01/mod03ima01.png" width="250">
-
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima01/mod03ima01.plantuml)
 #imagem 01
 
 ### Toda cadeira possui um proprietário (mulher ou homem).
@@ -14,7 +13,7 @@ O modelo abaixo não é explícito quanto ao sexo da pessoa. Dado o fato de que 
 
 ![image](https://user-images.githubusercontent.com/1735792/90349370-fe12d600-e00f-11ea-86b2-d4356f2377c4.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima02/mod03ima02.png" width="250">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima02/mod03ima02.plantuml)
 
 #imagem 02
 
@@ -26,7 +25,7 @@ Uma janela com vidro pode ser interpretada como uma especialização de uma jane
 
 ![image](https://user-images.githubusercontent.com/1735792/90349424-2c90b100-e010-11ea-8419-dc8340c5bb87.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima03/mod03ima03.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima03/mod03ima03.plantuml)
 
 #imagem 03
 
@@ -38,7 +37,7 @@ No modelo acima Armário é uma composição de Prateleira, ou seja, não existe
 
 ![image](https://user-images.githubusercontent.com/1735792/90349445-4500cb80-e010-11ea-89e8-986a9cafeb91.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima04/mod03ima04.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima04/mod03ima04.plantuml)
 
 #imagem 04
 
@@ -48,7 +47,7 @@ Um funcionário pode desempenhar o papel de gerente de uma lanchonete. Cada func
 
 ![image](https://user-images.githubusercontent.com/1735792/90349460-534ee780-e010-11ea-9a6a-7fb0713f5c99.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima05/mod03ima05.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima05/mod03ima05.plantuml)
 
 #imagem 05
 
@@ -58,7 +57,7 @@ Todo carnê de prestações refere-se a uma determinada compra, que pode incluir
 
 ![image](https://user-images.githubusercontent.com/1735792/90349507-7ed1d200-e010-11ea-9315-58c56f4690cc.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima06/mod03ima06.png" width="350">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima06/mod03ima06.plantuml)
 
 #imagem 06
 
@@ -68,7 +67,7 @@ Não queremos confusão com os lingüistas e, dessa forma, podemos estar assumin
 
 ![image](https://user-images.githubusercontent.com/1735792/90349536-9a3cdd00-e010-11ea-8ef4-90a7a978d6c6.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima07/mod03ima07.png" width="350">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima07/mod03ima07.plantuml)
 
 #imagem 07
 
@@ -76,7 +75,7 @@ Não queremos confusão com os lingüistas e, dessa forma, podemos estar assumin
 
 ![image](https://user-images.githubusercontent.com/1735792/90349549-a7f26280-e010-11ea-9c57-da33ad9f2698.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima08/mod03ima08.png" width="90">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima08/mod03ima08.plantuml)
 
 #imagem 08
 
@@ -86,7 +85,7 @@ Abaixo este cenário foi modelado com o emprego de associações. Também poder�
 
 ![image](https://user-images.githubusercontent.com/1735792/90349588-c9ebe500-e010-11ea-9ef9-00771f3f58ac.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima09/mod03ima09.png" width="250">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima09/mod03ima09.plantuml)
 
 #imagem 09
 
@@ -98,6 +97,6 @@ Se uma árvore pode participar de mais de uma floresta, então Floresta não é 
 
 ![image](https://user-images.githubusercontent.com/1735792/90349612-df610f00-e010-11ea-8df5-890bfea16c8b.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-03/mod03ima10/mod03ima10.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima10/mod03ima10.plantuml)
 
 #imagem 10
