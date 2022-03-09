@@ -37,8 +37,6 @@ object "Dinheiro" as dn
 object "Ordem" as od
 object "Trabalhador" as tr
 object "Garçom" as ga2
-circle "a" as a
-circle "b" as b
 
 file "Há outros tipos de\n trabalhadores. Cada\num deles herda de Trabalhador." as ha
 

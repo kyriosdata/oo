@@ -2,5 +2,5 @@
 object "   A   " as a
 object "   B   " as b
 a <|-- b
-a "n"-- b
+a "n"--o b
 @enduml

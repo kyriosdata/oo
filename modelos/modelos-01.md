@@ -28,7 +28,7 @@ Talvez você imagine que uma composição seja mais apropriada, por ressaltar qu
 
 ![image](https://user-images.githubusercontent.com/1735792/90348499-a45cdc80-e00c-11ea-851c-6931da0c433d.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-04/mod01ima04.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-04/mod01ima04.plantuml)
 
 
 ### Em um país há várias cidades.
@@ -37,7 +37,7 @@ Dado um país temos zero ou mais cidades correspondentes. Em sentido inverso, da
 
 ![image](https://user-images.githubusercontent.com/1735792/90348517-c8b8b900-e00c-11ea-992a-0b427807c5c7.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-05/mod01ima05.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-01/imagem-05/mod01ima05.plantuml)
 
 
 ### Uma das cidades de um país é a capital.
@@ -46,7 +46,7 @@ Dado um país necessariamente teremos uma cidade correspondente que é a capital
 
 ![image](https://user-images.githubusercontent.com/1735792/90348527-dc641f80-e00c-11ea-8d39-ffdba159a1bd.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-06/mod01ima06.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-06/mod01ima06.plantuml)
 
 
 ### Em um país há várias cidades e uma delas é a capital.
@@ -55,7 +55,8 @@ Esta informação é uma combinação das anteriores, contudo, foi modelado de f
 
 ![image](https://user-images.githubusercontent.com/1735792/90348568-ef76ef80-e00c-11ea-80f7-2222dc5eaac3.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-07/mod01ima07.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-07/mod01ima07.plantuml)
+
 
 
 ### Um projeto envolve várias pessoas.
@@ -64,7 +65,8 @@ A agregação (losango) indica que pessoas fazem parte de projetos. Neste exempl
 
 ![image](https://user-images.githubusercontent.com/1735792/90348582-04538300-e00d-11ea-97ee-c99de7c690b8.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-08/mod01ima08.png" width="200">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-08/mod01ima08.plantuml)
+
 
 
 ### Uma curva pode ser definida como uma coleção de pontos ordenados.
@@ -73,7 +75,8 @@ O modelo informa que toda curva está associada a pelo menos dois pontos ordenad
 
 ![image](https://user-images.githubusercontent.com/1735792/90348904-1a157800-e00e-11ea-83d7-d3694fc5b167.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-09/mod01ima09.png" width="200">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-09/mod01ima09.plantuml)
+
 
 
 ### Uma janela gráfica (interface com o usuário) compreende vários elementos de interação.
@@ -82,7 +85,8 @@ Por exemplo, botões, menus e barras de rolagem. Embora uma instância de Janela
 
 ![image](https://user-images.githubusercontent.com/1735792/90348659-598f9480-e00d-11ea-97a8-647248262808.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-10/mod01ima10.png" width="400">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-10/mod01ima10.plantuml)
+
 
 
 ### Um arquivo possui permissões de acesso.
@@ -91,7 +95,8 @@ Cada permissão está associada a um grupo (de usuários). Conforme o diagrama, 
 
 ![image](https://user-images.githubusercontent.com/1735792/90348676-6dd39180-e00d-11ea-8b4d-f0a4867f9073.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-11/mod01ima11.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-11/mod01ima11.plantuml)
+
 
 
 ### Pessoas trabalham para empresas por um determinado salário e intervalo de tempo.
@@ -100,7 +105,8 @@ Conforme o modelo, uma empresa oferece vários empregos, cada um deles ocupado e
 
 ![image](https://user-images.githubusercontent.com/1735792/90348702-8348bb80-e00d-11ea-8a05-033d0664fe2b.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-12/mod01ima12.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-12/mod01ima12.plantuml)
+
 
 
 ### Uma pessoa (empregado) trabalha para uma empresa (empregador).
@@ -109,7 +115,8 @@ No modelo abaixo, ao lado do papel empregado e empregador há o símbolo +. Isto
 
 ![image](https://user-images.githubusercontent.com/1735792/90348743-9b203f80-e00d-11ea-9349-c093178a6f35.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-13/mod01ima13.png" width="450">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-13/mod01ima13.plantuml)
+
 
 
 ### Um usuário é o “dono” de um diretório. Cada diretório pode ser consultado por usuários autorizados.
@@ -118,5 +125,5 @@ Dada uma instância de Usuário temos instâncias de Diretório que são proprie
 
 ![image](https://user-images.githubusercontent.com/1735792/90348812-b2f7c380-e00d-11ea-85d7-d38b7759696d.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-01/imagem-14/mod01ima14.png" width="500">
-%imagem-14
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-14/mod01ima14.plantuml)
+

@@ -4,7 +4,7 @@ Sequência de elementos homogêneos. Observe que o índice do array é suficient
 
 ![image](https://user-images.githubusercontent.com/1735792/90349760-526a8580-e011-11ea-9ec2-a3a4498686c0.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima01/mod04ima01.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima01/mod04ima01.plantuml)
 
 
 #imagem 01
@@ -15,7 +15,7 @@ Toda árvore possui um elemento denominado raiz, conforme o modelo abaixo. Em co
 
 ![image](https://user-images.githubusercontent.com/1735792/90349790-66ae8280-e011-11ea-86ef-cd2b01dce508.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima02/mod04ima02.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima02/mod04ima02.plantuml)
 
 #imagem 02
 
@@ -25,7 +25,7 @@ Nesta proposta observe que cada elemento pode ou não possuir um ancestral (pai)
 
 ![image](https://user-images.githubusercontent.com/1735792/90349819-82198d80-e011-11ea-9bc9-f0d77c4099b2.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima03/mod04ima03.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima03/mod04ima03.plantuml)
 
 #imagem 03
 
@@ -35,7 +35,7 @@ Um grafo dirigido pode ser modelado como abaixo. Para cada aresta tem-se um nó 
 
 ![image](https://user-images.githubusercontent.com/1735792/90349841-92316d00-e011-11ea-81eb-c19eeb63c6fe.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima04/mod03ima04.png" width="400">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima04/mod04ima04.plantuml)
 
 #imagem 04
 
@@ -45,7 +45,7 @@ A fila FIFO (first-in first-out) pode ser modelada conforme abaixo. Observe a pr
 
 ![image](https://user-images.githubusercontent.com/1735792/90349860-a1b0b600-e011-11ea-9907-ab044c52dc6f.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima05/mod04ima05.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima05/mod04ima05.plantuml)
 
 #imagem 05
 
@@ -55,7 +55,7 @@ A estrutura de pilha permite o acesso somente ao elemento do topo da pilha. Dado
 
 ![image](https://user-images.githubusercontent.com/1735792/90349873-b12fff00-e011-11ea-9980-b58218479f58.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima06/mod04ima06.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima06/mod04ima06.plantuml)
 
 #imagem 06
 
@@ -65,6 +65,6 @@ Uma lista duplamente encadeada apenas permite, dado um determinado elemento, a d
 
 ![image](https://user-images.githubusercontent.com/1735792/90349891-c1e07500-e011-11ea-9cb1-f962e1dd7eab.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-04/mod04ima07/mod04ima07.png" width="400">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-04/mod04ima07/mod04ima07.plantuml)
 
 #imagem 07

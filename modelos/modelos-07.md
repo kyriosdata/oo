@@ -4,7 +4,7 @@ Em um jogo de cartas há dois tipos de conjuntos delas: um conhecido por “mont
 
 ![image](https://user-images.githubusercontent.com/1735792/90355034-7c2ba880-e021-11ea-87b6-828a52d5a688.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima01/mod07ima01.png" width="720">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima01/mod07ima01.plantuml)
 
 #imagem01
 
@@ -14,7 +14,7 @@ Quais das associações abaixo é mais adequada para representar que um círculo
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima02/mod07ima02.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima02/mod07ima02.plantuml)
 
 #imagem02
 
@@ -25,7 +25,7 @@ Quais dos modelos abaixo é mais adequado para representar o fato de que um cír
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima03/mod07ima03.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima03/mod07ima03.plantuml)
 
 #imagem03
 
@@ -39,7 +39,7 @@ Quais dos relacionamentos entre as classes abaixo é o mais adequado? Justifique
 
 ![image](https://user-images.githubusercontent.com/1735792/90355289-518e1f80-e022-11ea-9e61-048030399b9f.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima04/mod07ima04.png" width="720">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima04/mod07ima04.plantuml)
 
 #imagem04
 
@@ -49,7 +49,7 @@ Uma possibilidade. Um usuário representa um papel dentre todo um conjunto deles
 
 ![image](https://user-images.githubusercontent.com/1735792/90355446-bea1b500-e022-11ea-9206-684460d7b66e.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima05/mod07ima05.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima05/mod07ima05.plantuml)
 
 #imagem05
 
@@ -59,7 +59,7 @@ Abaixo segue um diagrama contendo duas classes e dois relacionamentos.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355517-f6a8f800-e022-11ea-87ef-5bf37eaa9f99.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima06/mod07ima06.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima06/mod07ima06.plantuml)
 
 #imagem06
 
@@ -76,7 +76,7 @@ Prática de programação e Programação podem ser as classes referenciadas, re
 
 ![image](https://user-images.githubusercontent.com/1735792/90355758-b0a06400-e023-11ea-9374-0de53bb4cd9b.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima07/mod07ima07.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima07/mod07ima07.plantuml)
 
 #imagem07
 
@@ -86,7 +86,7 @@ Seja uma revisão um caso particular de versão de um produto de software. Todo 
 
 ![image](https://user-images.githubusercontent.com/1735792/90355800-d463aa00-e023-11ea-9ba4-6f077e0c3e83.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima08/mod07ima08.png" width="720">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima08/mod07ima08.plantuml)
 
 #imagem08
 
@@ -100,7 +100,7 @@ O diagrama de objetos abaixo pode ser útil na compreensão deste modelo. Observ
 
 ![image](https://user-images.githubusercontent.com/1735792/90355840-efceb500-e023-11ea-951b-decc2a4353c5.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima09/mod07ima09.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima09/mod07ima09.plantuml)
 
 #imagem09
 
@@ -116,7 +116,7 @@ Clientes de um restaurante sentam-se em mesas. Em geral, um ou mais clientes com
 
 ![image](https://user-images.githubusercontent.com/1735792/90355884-18ef4580-e024-11ea-928e-a7560d1d35de.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima10/mod07ima10.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima10/mod07ima10.plantuml)
 
 #imagem10
 
@@ -130,7 +130,7 @@ Em restaurantes, mesas são ocupadas por pessoas ao longo do tempo. O modelo aba
 
 ![image](https://user-images.githubusercontent.com/1735792/90355935-3d4b2200-e024-11ea-8bd8-b055714fb981.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima11/mod07ima11.png" width="500">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima11/mod07ima11.plantuml)
 
 #imagem11
 
@@ -142,7 +142,7 @@ Alguém estava preocupado, em uma grande agência bancária de Goiânia, com um 
 
 ![image](https://user-images.githubusercontent.com/1735792/90355972-5eac0e00-e024-11ea-8d0f-f79b09f52c2e.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima12/mod07ima12.png" width="1200">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima12/mod07ima12.plantuml)
 
 #imagem12
 
@@ -154,7 +154,7 @@ Ao longo de sua vida útil um ônibus transporta um grande número de passageiro
 
 ![image](https://user-images.githubusercontent.com/1735792/90356025-813e2700-e024-11ea-934b-478d653db07e.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima13/mod07ima13.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima13/mod07ima13.plantuml)
 
 #imagem13
 
@@ -162,7 +162,7 @@ Para cada ônibus podem existir várias viagens. Para cada viagem temos exatamen
 
 ![image](https://user-images.githubusercontent.com/1735792/90356054-961aba80-e024-11ea-90a3-786ecd2e0b70.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima14/mod07ima14.png" width="1000">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima14/mod07ima14.plantuml)
 
 #imagem14
 
@@ -172,7 +172,7 @@ Ao longo de um ano há muitos dias que são feriados, enquanto outros referem-se
 
 ![image](https://user-images.githubusercontent.com/1735792/90356081-aa5eb780-e024-11ea-9831-7c4f42f3b45a.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima15/mod07ima15.png" width="1000">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima15/mod07ima15.plantuml)
 
 #imagem15
 
@@ -180,7 +180,7 @@ O modelo acima apenas registra, para um dado calendário de um certo ano, quais 
 
 ![image](https://user-images.githubusercontent.com/1735792/90356096-b8143d00-e024-11ea-973e-d049b3af4144.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima16/mod07ima16.png" width="1000">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima16/mod07ima16.plantuml)
 
 #imagem16
 
@@ -190,7 +190,7 @@ Uma classe Linha com duas composições para uma classe Ponto, cujos papéis sã
 
 ![image](https://user-images.githubusercontent.com/1735792/90356117-cc583a00-e024-11ea-96f2-03aa1534bcba.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima17/mod07ima17.png" width="1000">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima17/mod07ima17.plantuml)
 
 #imagem17
 
@@ -202,7 +202,7 @@ No âmbito da UFG, cada estudante possui um computador, que não é compartilhad
 
 ![image](https://user-images.githubusercontent.com/1735792/90356160-f14cad00-e024-11ea-8f6d-0b93369d02ae.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima18/mod07ima18.png" width="600">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima18/mod07ima18.plantuml)
 
 #imagem18
 
@@ -214,7 +214,7 @@ Modele expressões aritméticas como sendo sequências ordenadas de elementos qu
 
 ![image](https://user-images.githubusercontent.com/1735792/90356221-1f31f180-e025-11ea-9799-940e6e4b9afc.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima19/mod07ima19.png" width="600">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima19/mod07ima19.plantuml)
 
 #imagem19
 
@@ -226,7 +226,7 @@ Uma classe Associação possui uma associação que parte dela para ela mesma. E
 
 ![image](https://user-images.githubusercontent.com/1735792/90356359-b303bd80-e025-11ea-8d73-27380ff0e5b3.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima20/mod07ima20.png" width="800">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima20/mod07ima20.plantuml)
 
 #imagem20
 
@@ -243,7 +243,7 @@ Uma imagem é um conjunto de pixels, cada um deles possui uma determinada posiç
 
 ![image](https://user-images.githubusercontent.com/1735792/90356594-7389a100-e026-11ea-898b-4396e9da3493.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima21/mod07ima21.png" width="720">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima21/mod07ima21.plantuml)
 
 #imagem21
 
@@ -253,7 +253,7 @@ Estabeleça relações entre as classes Diretor, Vice-diretor, Docente, Funcion�
 
 ![image](https://user-images.githubusercontent.com/1735792/90356643-9451f680-e026-11ea-81f8-ff201db6d138.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima22/mod07ima22.png" width="720">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima22/mod07ima22.plantuml)
 
 #imagem22
 
@@ -263,7 +263,7 @@ No modelo acima, diretor, vice-diretor e demais elementos fornecidos foram trata
 
 ![image](https://user-images.githubusercontent.com/1735792/90356680-b3508880-e026-11ea-81a9-f89ffbda16dc.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima23/mod07ima23.png" width="1000">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima23/mod07ima23.plantuml)
 
 #imagem23
 
@@ -279,7 +279,7 @@ Para que não haja dúvida, dado um aluno e um arquivo associados, teremos os at
 
 ![image](https://user-images.githubusercontent.com/1735792/90356726-dd09af80-e026-11ea-8baa-59c421cf2ea5.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima24/mod07ima24.png" width="1200">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima24/mod07ima24.plantuml)
 
 #imagem24
 
@@ -289,7 +289,7 @@ Em um sistema orientado a objetos, objetos cooperam uns com os outros através d
 
 ![image](https://user-images.githubusercontent.com/1735792/90356747-f27ed980-e026-11ea-97f4-b4bd72df03b8.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima25/mod07ima25.png" width="300">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima25/mod07ima25.plantuml)
 
 #imagem25
 
@@ -301,6 +301,6 @@ A associação, contudo, não permite descreve qual a mensagem, o que pode ser u
 
 ![image](https://user-images.githubusercontent.com/1735792/90356763-075b6d00-e027-11ea-87d2-e344d905f6c7.png)
 
-<img src="https://github.com/marcuspadilha/oo/blob/master/Imagens/modelos-07/mod07ima26/mod07ima26.png" width="600">
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima26/mod07ima26.plantuml)
 
 #imagem26

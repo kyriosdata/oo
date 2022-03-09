@@ -12,3 +12,4 @@ left to right direction
 o1 <|--o2
 o2 -[#White]- o3
 o3 o-- "0..1"o4
+@enduml
