@@ -5,7 +5,6 @@ O diagrama abaixo não apresenta as cardinalidades nos extremos das agregações
 ![image](https://user-images.githubusercontent.com/1735792/90349351-ec313300-e00f-11ea-9f00-26ffdff821f5.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima01/mod03ima01.plantuml)
-#imagem 01
 
 ### Toda cadeira possui um proprietário (mulher ou homem).
 
@@ -14,8 +13,6 @@ O modelo abaixo não é explícito quanto ao sexo da pessoa. Dado o fato de que 
 ![image](https://user-images.githubusercontent.com/1735792/90349370-fe12d600-e00f-11ea-86b2-d4356f2377c4.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima02/mod03ima02.plantuml)
-
-#imagem 02
 
 ### Há janelas com vidros, outras sem.
 
@@ -27,8 +24,6 @@ Uma janela com vidro pode ser interpretada como uma especialização de uma jane
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima03/mod03ima03.plantuml)
 
-#imagem 03
-
 ### Armário
 
 Todo armário possui várias prateleiras. Cada uma delas divididas em compartimentos. Em cada compartimento são armazenados objetos de dois tipos: livros e CDs. Cada compartimento pode guardar no máximo 3 livros, enquanto deve guardar 2, 4, 7, ou mais de 7 CDs.
@@ -39,8 +34,6 @@ No modelo acima Armário é uma composição de Prateleira, ou seja, não existe
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima04/mod03ima04.plantuml)
 
-#imagem 04
-
 ### Toda lanchonete possui pelo menos 2 funcionários, é possível que um deles seja gerente.
 
 Um funcionário pode desempenhar o papel de gerente de uma lanchonete. Cada funcionário, além da possibilidade de estar ligado à lanchonete via Gerência, é empregado da lanchonete.
@@ -48,8 +41,6 @@ Um funcionário pode desempenhar o papel de gerente de uma lanchonete. Cada func
 ![image](https://user-images.githubusercontent.com/1735792/90349460-534ee780-e010-11ea-9a6a-7fb0713f5c99.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima05/mod03ima05.plantuml)
-
-#imagem 05
 
 ### Carnê.
 
@@ -59,8 +50,6 @@ Todo carnê de prestações refere-se a uma determinada compra, que pode incluir
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima06/mod03ima06.plantuml)
 
-#imagem 06
-
 ### Uma frase é uma seqüência de palavras. Cada palavra é uma seqüência de caracteres.
 
 Não queremos confusão com os lingüistas e, dessa forma, podemos estar assumindo que existe frase formada por apenas uma única palavra, conforme o modelo abaixo registra. Tirando este cenário no mínimo sui generis, todas as palavras estão em uma seqüência, assim como as letras correspondentes a cada uma delas.
@@ -69,15 +58,11 @@ Não queremos confusão com os lingüistas e, dessa forma, podemos estar assumin
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima07/mod03ima07.plantuml)
 
-#imagem 07
-
 ### Preço é uma combinação de um valor e uma moeda. Por exemplo, valor 10 e moeda dólar.
 
 ![image](https://user-images.githubusercontent.com/1735792/90349549-a7f26280-e010-11ea-9c57-da33ad9f2698.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima08/mod03ima08.plantuml)
-
-#imagem 08
 
 ### Período é formado por uma data inicial e uma data final.
 
@@ -86,8 +71,6 @@ Abaixo este cenário foi modelado com o emprego de associações. Também poder�
 ![image](https://user-images.githubusercontent.com/1735792/90349588-c9ebe500-e010-11ea-9ef9-00771f3f58ac.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima09/mod03ima09.plantuml)
-
-#imagem 09
 
 ### Florestas
 
@@ -98,5 +81,3 @@ Se uma árvore pode participar de mais de uma floresta, então Floresta não é 
 ![image](https://user-images.githubusercontent.com/1735792/90349612-df610f00-e010-11ea-8df5-890bfea16c8b.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-03/mod03ima10/mod03ima10.plantuml)
-
-#imagem 10
