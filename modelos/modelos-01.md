@@ -4,8 +4,7 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![image](https://user-images.githubusercontent.com/1735792/90348459-6e1f5d00-e00c-11ea-82e1-3519f87a994f.png)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/imagem01.plantuml)
-
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 ### Um projeto de software pode empregar várias linguagens de programação.
 
@@ -21,7 +20,6 @@ Embora alguns especulem a definição de endereço como atributo da classe Escol
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
 
-
 ### Um texto é uma combinação de parágrafos que, por sua vez, são combinações de sentenças.
 
 Talvez você imagine que uma composição seja mais apropriada, por ressaltar que a destruição do texto significa a destruição dos parágrafos e respectivas sentenças e que, em outro sentido, quando se criam as sentenças e os parágrafos o texto está sendo criado. Por outro lado, apesar de não usual, o modelo abaixo permite compartilhar parágrafos e sentenças, possibilidade que desaparece caso seja empregada a composição.
@@ -29,7 +27,6 @@ Talvez você imagine que uma composição seja mais apropriada, por ressaltar qu
 ![image](https://user-images.githubusercontent.com/1735792/90348499-a45cdc80-e00c-11ea-851c-6931da0c433d.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-04/mod01ima04.plantuml)
-
 
 ### Em um país há várias cidades.
 
@@ -39,7 +36,6 @@ Dado um país temos zero ou mais cidades correspondentes. Em sentido inverso, da
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-01/imagem-05/mod01ima05.plantuml)
 
-
 ### Uma das cidades de um país é a capital.
 
 Dado um país necessariamente teremos uma cidade correspondente que é a capital deste país. A figura abaixo ilustra esta informação. O relacionamento é rotulado por Capital, a cardinalidade indica que todo país necessariamente possui uma cidade associada (a capital). No sentido inverso, uma cidade pode ou não ser uma capital e, portanto, nem todas possuem esta relação com país. Desta forma, a cardinalidade é indicada por 0..1. Se a cardinalidade fosse 1, em vez de 0..1, então teríamos um modelo no qual toda cidade é necessariamente capital de algum país.
@@ -47,7 +43,6 @@ Dado um país necessariamente teremos uma cidade correspondente que é a capital
 ![image](https://user-images.githubusercontent.com/1735792/90348527-dc641f80-e00c-11ea-8d39-ffdba159a1bd.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-06/mod01ima06.plantuml)
-
 
 ### Em um país há várias cidades e uma delas é a capital.
 
@@ -57,8 +52,6 @@ Esta informação é uma combinação das anteriores, contudo, foi modelado de f
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-07/mod01ima07.plantuml)
 
-
-
 ### Um projeto envolve várias pessoas.
 
 A agregação (losango) indica que pessoas fazem parte de projetos. Neste exemplo a multiplicidade não é fornecida. Há pelo menos dois casos para serem analisados. Em um deles a multiplicidade não é fornecida por não ser relevante no contexto. Em muitos casos é natural identificar as entidades e associações entre estas, e deixar para momento posterior a identificação precisa de quantas entidades se relacionam com quantas entidades no outro extremo da relação. No outro caso a ser analisado, a multiplicidade não foi fornecida porque está sendo adotada a multiplicidade padrão da UML, ou seja, \*, zero ou mais entidades (ou instâncias). Neste caso a interpretação seria que um projeto pode estar associado a zero ou mais pessoas assim como uma pessoa pode estar associada a zero ou mais projetos.
@@ -66,8 +59,6 @@ A agregação (losango) indica que pessoas fazem parte de projetos. Neste exempl
 ![image](https://user-images.githubusercontent.com/1735792/90348582-04538300-e00d-11ea-97ee-c99de7c690b8.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-08/mod01ima08.plantuml)
-
-
 
 ### Uma curva pode ser definida como uma coleção de pontos ordenados.
 
@@ -77,8 +68,6 @@ O modelo informa que toda curva está associada a pelo menos dois pontos ordenad
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-09/mod01ima09.plantuml)
 
-
-
 ### Uma janela gráfica (interface com o usuário) compreende vários elementos de interação.
 
 Por exemplo, botões, menus e barras de rolagem. Embora uma instância de Janela possa ser interpretada como uma agregação de instâncias de Elemento de interação, convém ressaltar um relacionamento “mais forte” entre instâncias desta classe. Quando uma instância de Janela é criada, as instâncias correspondentes da classe Elemento de interação também são criadas. Quando uma instância de Janela é destruída, naturalmente as instâncias da classe Elemento de interação associadas também são destruídas. Quando objetos apresentam este relacionamento todo/parte com semântica mais rigorosa que aquela da agregação, empregamos uma composição, conforme ilustrado no diagrama. Em tempo, os elementos de interação de uma janela considerados no modelo abaixo incluem botões, menus e barras de rolagem, conforme as classes exibidas.
@@ -86,8 +75,6 @@ Por exemplo, botões, menus e barras de rolagem. Embora uma instância de Janela
 ![image](https://user-images.githubusercontent.com/1735792/90348659-598f9480-e00d-11ea-97a8-647248262808.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-10/mod01ima10.plantuml)
-
-
 
 ### Um arquivo possui permissões de acesso.
 
@@ -97,8 +84,6 @@ Cada permissão está associada a um grupo (de usuários). Conforme o diagrama, 
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-11/mod01ima11.plantuml)
 
-
-
 ### Pessoas trabalham para empresas por um determinado salário e intervalo de tempo.
 
 Conforme o modelo, uma empresa oferece vários empregos, cada um deles ocupado exclusivamente por um empregado. No sentido inverso, uma pessoa pode ocupar vários empregos, cada um deles oferecido por um empregador. Cada instância de Emprego possui informações pertinentes à vaga em questão.
@@ -106,8 +91,6 @@ Conforme o modelo, uma empresa oferece vários empregos, cada um deles ocupado e
 ![image](https://user-images.githubusercontent.com/1735792/90348702-8348bb80-e00d-11ea-8a05-033d0664fe2b.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-12/mod01ima12.plantuml)
-
-
 
 ### Uma pessoa (empregado) trabalha para uma empresa (empregador).
 
@@ -117,8 +100,6 @@ No modelo abaixo, ao lado do papel empregado e empregador há o símbolo +. Isto
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-13/mod01ima13.plantuml)
 
-
-
 ### Um usuário é o “dono” de um diretório. Cada diretório pode ser consultado por usuários autorizados.
 
 Dada uma instância de Usuário temos instâncias de Diretório que são propriedades do usuário em questão. Dado um Diretório, aqueles autorizados (instâncias de Usuário) devem estar ligados pela associação Autorizado-a-usar.
@@ -126,4 +107,3 @@ Dada uma instância de Usuário temos instâncias de Diretório que são proprie
 ![image](https://user-images.githubusercontent.com/1735792/90348812-b2f7c380-e00d-11ea-85d7-d38b7759696d.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-14/mod01ima14.plantuml)
-
