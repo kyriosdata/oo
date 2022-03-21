@@ -1,8 +1,6 @@
 ### Toda disciplina possui um nome.
 
-Observe que nome não é considerado um conceito que mereça o tratamento de classe. Um atributo fornece um detalhe intimamente ligado à classe na qual é definido. Infelizmente não existe um conjunto de diretrizes que, uma vez seguidas, identificam com clareza, se uma determinada informação deve ser tratada como atributo ou como classe. Felizmente, a prática tem mostrado que esta questão torna-se cada vez menor com o aumento da experiência do responsável pela modelagem.
-
-![image](https://user-images.githubusercontent.com/1735792/90348459-6e1f5d00-e00c-11ea-82e1-3519f87a994f.png)
+Observe que nome não é considerado um conceito que mereça o tratamento de classe. Aqui, um simples atributo parece suficiente e razoável. Observe que não necessariamente é o caso de um ser humano. Quanto maior a experiência do responsável pela modelagem, a identificação se determinada informação deve ser tratada como requisito ou classe, será mais facilmente esclarecida.
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
