@@ -6,8 +6,6 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ### Um projeto de software pode empregar várias linguagens de programação.
 
-![image](https://user-images.githubusercontent.com/1735792/90348882-f7835f00-e00d-11ea-9a99-6d169cc18671.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-02/mod01ima02.plantuml)
 
 ### Toda escola possui um endereço.
