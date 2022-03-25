@@ -7,7 +7,6 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
-
 # imagem 01
 
 ### Um projeto de software pode empregar várias linguagens de programação.
@@ -28,7 +27,7 @@ Embora alguns especulem a definição de endereço como atributo da classe Escol
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/marcuspadilha/oo/blob/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
 
 # imagem 03
 
