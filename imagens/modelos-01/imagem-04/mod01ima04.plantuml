@@ -2,7 +2,7 @@
 
 
 
-skinparam class {
+skinparam object {
     BackgroundColor White
     ArrowColor Black
     BorderColor #505050
