@@ -1,8 +1,18 @@
 @startuml mod01ima11
-object "Permissão" as o1
-object "Grupo" as o2
-object "Usuário" as o3
-object "Arquivo" as o4
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Permissão" as o1
+class "Grupo" as o2
+class "Usuário" as o3
+class "Arquivo" as o4
 left to right direction
 o1"*" -- "1"o2: Permissão
 o2 o-- o3

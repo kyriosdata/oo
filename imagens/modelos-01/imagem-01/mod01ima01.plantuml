@@ -1,5 +1,18 @@
 @startuml mod01ima01
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
 skinparam classAttributeIconSize 0
-object Disciplina
-Disciplina : - nome
+class Disciplina {
+    nome
+}
 @enduml
+

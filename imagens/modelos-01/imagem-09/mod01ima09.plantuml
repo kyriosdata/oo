@@ -1,6 +1,15 @@
 @startuml mod01ima09
-object "Curva" as o1
-object "Ponto" as o2
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Curva" as o1
+class "Ponto" as o2
 left to right direction
 o1 o--->"2..*\n{ordered}"o2
 @enduml
