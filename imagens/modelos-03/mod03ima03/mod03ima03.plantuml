@@ -1,9 +1,18 @@
 @startuml mod03ima03
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam classAttributeIconSize 0 
-object "janela" as o1
-object "JanelaComVidro" as o2
-object "Janela" as o3
-object "Vidro" as o4
+class "janela" as o1
+class "JanelaComVidro" as o2
+class "Janela" as o3
+class "Vidro" as o4
 o1 : -area 
 o2 : -areavidro 
 o3 : -area 

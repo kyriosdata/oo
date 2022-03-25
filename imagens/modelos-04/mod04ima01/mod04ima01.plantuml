@@ -1,7 +1,16 @@
 @startuml mod04ima01
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
-object "Array" as ar 
-object "Elemento" as el 
+class "Array" as ar 
+class "Elemento" as el 
 left to right direction
 ar"índice" ----> "elementos \n * \n {ordered}"el 
 @enduml

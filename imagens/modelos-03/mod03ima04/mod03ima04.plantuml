@@ -1,11 +1,20 @@
 @startuml mod03ima04
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam Linetype ortho
 allow_mixing
-rectangle "Armário" as ar
-rectangle "Prateleira" as pr
-rectangle "Compartimento" as co
-rectangle "CD" as cd
-rectangle "Livro" as li
+class "Armário" as ar
+class "Prateleira" as pr
+class "Compartimento" as co
+class "CD" as cd
+class "Livro" as li
 note "2, 4, 7 ou mais de 7 instâncias de \n C para um dado compartimento" as ou
 left to right direction
 ar *--"1..*"pr

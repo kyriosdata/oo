@@ -1,8 +1,17 @@
 @startuml mod02ima08
-object "Caixeiro-viajante" as ca
-object "Viagem" as vi
-object "Cidade" as ci
-object "Armazém" as ar
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Caixeiro-viajante" as ca
+class "Viagem" as vi
+class "Cidade" as ci
+class "Armazém" as ar
 left to right direction
 ca"1" --- "*"vi
 vi"*" --- " * \n {ordered}"ci : Percorre

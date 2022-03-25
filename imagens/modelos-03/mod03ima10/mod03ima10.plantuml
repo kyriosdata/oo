@@ -1,9 +1,18 @@
 @startuml mod03ima10
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-rectangle "Floresta" as fl 
-rectangle "Árvore" as ar 
-rectangle "Folha" as fo 
-rectangle "TipoFolha" as ti 
+class "Floresta" as fl 
+class "Árvore" as ar 
+class "Folha" as fo 
+class "TipoFolha" as ti 
 left to right direction
 fl "1..*" o--- "1..*" ar 
 ar *---"1..*" fo

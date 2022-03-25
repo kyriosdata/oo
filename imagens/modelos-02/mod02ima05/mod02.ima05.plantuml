@@ -1,6 +1,15 @@
 @startuml mod02ima05
-object "Usuário" as us
-object "Pessoa" as pe
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Usuário" as us
+class "Pessoa" as pe
 left to right direction
 us --|> pe
 @enduml
