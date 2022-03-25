@@ -6,6 +6,8 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 01
 
 ### Um projeto de software pode empregar várias linguagens de programação.
@@ -13,6 +15,8 @@ Observe que nome não é considerado um conceito que mereça o tratamento de cla
 ![image](https://user-images.githubusercontent.com/1735792/90348882-f7835f00-e00d-11ea-9a99-6d169cc18671.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-02/mod01ima02.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 02
 
@@ -24,6 +28,8 @@ Embora alguns especulem a definição de endereço como atributo da classe Escol
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-03/mod01ima03.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 03
 
 ### Um texto é uma combinação de parágrafos que, por sua vez, são combinações de sentenças.
@@ -33,6 +39,8 @@ Talvez você imagine que uma composição seja mais apropriada, por ressaltar qu
 ![image](https://user-images.githubusercontent.com/1735792/90348499-a45cdc80-e00c-11ea-851c-6931da0c433d.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-04/mod01ima04.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 04
 
@@ -44,6 +52,8 @@ Dado um país temos zero ou mais cidades correspondentes. Em sentido inverso, da
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-01/imagem-05/mod01ima05.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 05
 
 ### Uma das cidades de um país é a capital.
@@ -53,6 +63,8 @@ Dado um país necessariamente teremos uma cidade correspondente que é a capital
 ![image](https://user-images.githubusercontent.com/1735792/90348527-dc641f80-e00c-11ea-8d39-ffdba159a1bd.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-06/mod01ima06.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 06
 
@@ -64,6 +76,8 @@ Esta informação é uma combinação das anteriores, contudo, foi modelado de f
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-07/mod01ima07.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 07
 
 ### Um projeto envolve várias pessoas.
@@ -73,6 +87,8 @@ A agregação (losango) indica que pessoas fazem parte de projetos. Neste exempl
 ![image](https://user-images.githubusercontent.com/1735792/90348582-04538300-e00d-11ea-97ee-c99de7c690b8.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-08/mod01ima08.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 08
 
@@ -84,6 +100,8 @@ O modelo informa que toda curva está associada a pelo menos dois pontos ordenad
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-09/mod01ima09.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 09
 
 ### Uma janela gráfica (interface com o usuário) compreende vários elementos de interação.
@@ -93,6 +111,8 @@ Por exemplo, botões, menus e barras de rolagem. Embora uma instância de Janela
 ![image](https://user-images.githubusercontent.com/1735792/90348659-598f9480-e00d-11ea-97a8-647248262808.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-10/mod01ima10.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 10
 
@@ -104,6 +124,8 @@ Cada permissão está associada a um grupo (de usuários). Conforme o diagrama, 
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-11/mod01ima11.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 11
 
 ### Pessoas trabalham para empresas por um determinado salário e intervalo de tempo.
@@ -113,6 +135,8 @@ Conforme o modelo, uma empresa oferece vários empregos, cada um deles ocupado e
 ![image](https://user-images.githubusercontent.com/1735792/90348702-8348bb80-e00d-11ea-8a05-033d0664fe2b.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-12/mod01ima12.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 12
 
@@ -124,6 +148,8 @@ No modelo abaixo, ao lado do papel empregado e empregador há o símbolo +. Isto
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-13/mod01ima13.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
+
 # imagem 13
 
 ### Um usuário é o “dono” de um diretório. Cada diretório pode ser consultado por usuários autorizados.
@@ -133,5 +159,7 @@ Dada uma instância de Usuário temos instâncias de Diretório que são proprie
 ![image](https://user-images.githubusercontent.com/1735792/90348812-b2f7c380-e00d-11ea-85d7-d38b7759696d.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-14/mod01ima14.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-01/mod01ima01.plantuml)
 
 # imagem 14
