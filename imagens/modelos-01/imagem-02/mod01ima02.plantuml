@@ -1,4 +1,5 @@
 @startuml mod01ima02
+
 hide circle
 hide methods
 hide empty members
@@ -8,7 +9,8 @@ skinparam class {
     ArrowColor Black
     BorderColor #505050
 }
-class "Projeto" as o1
-Class "Linguagem de programação" as o2
+
+object "Projeto" as o1
+object "Linguagem de programação" as o2
 o1 - o2 : Faz uso 
 @enduml
