@@ -1,4 +1,15 @@
 @startuml mod01ima05
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
 object "País" as pa
 object "Cidade" as ci
 left to right direction
