@@ -1,4 +1,15 @@
 @startuml mod01ima04
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
 skinparam nodesep 5
 object "Texto" as o1
 object "Parágrafo" as o2
