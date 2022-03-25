@@ -1,4 +1,15 @@
 @startuml mod01ima06
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
 skinparam SequenceMessageAlignment true
 object "País" as pa
 object "Cidade" as ci
