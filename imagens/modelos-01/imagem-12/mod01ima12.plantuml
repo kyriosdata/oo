@@ -12,7 +12,7 @@ skinparam classAttributeIconSize 0
 class "Pessoa" as o1
 class "Emprego" as o2
 class "Empresa" as o3
-o2 : -Salário \n -Início \n -Fim
+o2 : Salário \n Início \n Fim
 left to right direction
 o1"1 \n empregado" --- "*"o2: Permissão
 o2"*" --- "empregador \n 1"o3

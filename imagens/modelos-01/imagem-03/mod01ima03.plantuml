@@ -10,7 +10,7 @@ skinparam class {
     BorderColor #505050
 }
 
-object "Escola" as o1
-object "Endereço" as o2
+class "Escola" as o1
+class "Endereço" as o2
 o1->o2
 @enduml

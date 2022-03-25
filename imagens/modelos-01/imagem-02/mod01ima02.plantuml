@@ -10,7 +10,7 @@ skinparam class {
     BorderColor #505050
 }
 
-object "Projeto" as o1
-object "Linguagem de programação" as o2
+class "Projeto" as o1
+class "Linguagem de programação" as o2
 o1 - o2 : Faz uso 
 @enduml
