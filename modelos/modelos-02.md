@@ -6,7 +6,9 @@ Talvez nenhum hábito. Todo hábito está associado a uma pessoa, ou seja, confo
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima01/mod02ima01.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima01/mod02ima01.plantuml)
 
+IMAGEM 01
 
 ### Uma pessoa possui um nome, idade e hábitos. Um hábito possui uma descrição.
 
@@ -14,7 +16,9 @@ Talvez nenhum hábito. Todo hábito está associado a uma pessoa, ou seja, confo
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima02/mod02ima02.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima02/mod02ima02.plantuml)
 
+IMAGEM 02
 
 ### Um círculo é descrito por uma posição (x,y), correspondente ao centro e um valor para o raio, além da possibilidade de ser transladado de um deslocamento em x e outro em y.
 
@@ -22,7 +26,9 @@ Talvez nenhum hábito. Todo hábito está associado a uma pessoa, ou seja, confo
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima03/mod02ima03.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima03/mod02ima03.plantuml)
 
+IMAGEM 03
 
 ### Um círculo é descrito por um ponto, correspondente ao centro, e um valor para o raio. O círculo é transladado de um deslocamento em x e outro em y. (Alternativa para o modelo acima.)
 
@@ -30,6 +36,9 @@ Talvez nenhum hábito. Todo hábito está associado a uma pessoa, ou seja, confo
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima04/mod02ima04.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima04/mod02ima04.plantuml)
+
+IMAGEM 04
 
 ### Um usuário de um sistema computacional é uma pessoa.
 
@@ -39,6 +48,9 @@ Embora o modelo abaixo permita que uma instância de Usuário seja tratada como 
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima05/mod02.ima05.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima05/mod02.ima05.plantuml)
+
+IMAGEM 05
 
 ### Um elefante é um mamífero.
 
@@ -46,7 +58,9 @@ Embora o modelo abaixo permita que uma instância de Usuário seja tratada como 
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima05/mod02.ima05.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima06/mod02ima06.plantuml)
 
+IMAGEM 06
 
 ### Um contêiner contém contêineres e objetos.
 
@@ -54,7 +68,9 @@ Embora o modelo abaixo permita que uma instância de Usuário seja tratada como 
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima07/mod02ima07.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima07/mod02ima07.plantuml)
 
+IMAGEM 07
 
 Observe que um contêiner agrega vários elementos. Ou seja, uma instância de Contêiner está associada, possivelmente, a vários objetos da classe Elemento. Estes objetos "fazem parte" (agregação) do contêiner em questão. Adicionalmente, o que é um Elemento? Um Elemento é herdado por Objeto e por Contêiner. Ou seja, quando se fala em um Elemento estamos falando ou de um Objeto ou de um Contêiner. Quando são reunidos vários objetos Elemento em um Contêiner, portanto, o que se tem "lá dentro" são instâncias de Objeto e/ou instâncias de Contêiner. 
 
@@ -66,7 +82,9 @@ Um caixeiro-viajante faz uso de uma lista de cidades pelas quais terá que perco
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima08/mod02ima08.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima08/mod02ima08.plantuml)
 
+IMAGEM 08
 
 ### Caixeiro-viajante e lista de pedidos.
 
@@ -76,7 +94,9 @@ Falta ao modelo acima informação pertinente aos pedidos colhidos em cada armaz
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima09/mod02ima09.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima09/mod02ima09.plantuml)
 
+IMAGEM 09
 
 ### Cliente e fornecedor envolvem-se em transações econômicas.
 
@@ -84,3 +104,6 @@ Falta ao modelo acima informação pertinente aos pedidos colhidos em cada armaz
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-02/mod02ima10/mod02ima10.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-02/mod02ima10/mod02ima10.plantuml)
+
+IMAGEM 10
