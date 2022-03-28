@@ -10,9 +10,9 @@ skinparam class {
 }
 skinparam classAttributeIconSize 0
 class "Círculo" as ce
-ce : - x 
-ce : - y 
-ce : - raio
+ce :  x 
+ce :  y 
+ce :  raio
 ce : -----
 ce : + transladar (dx, dy)
 @enduml
