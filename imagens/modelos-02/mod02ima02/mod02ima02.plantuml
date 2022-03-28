@@ -11,7 +11,7 @@ skinparam class {
 skinparam classAttributeIconSize 0
 class "Pessoa" as pe
 class "Hábito" as ha
-pe : nome \n idade \nhábitos
+pe :  nome \n idade \nhábitos
 ha : descrição \n pessoa
 left to right direction
 pe"1" --- "n"ha
