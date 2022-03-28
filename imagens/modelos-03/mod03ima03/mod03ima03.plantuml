@@ -13,10 +13,10 @@ class "janela" as o1
 class "JanelaComVidro" as o2
 class "Janela" as o3
 class "Vidro" as o4
-o1 : -area 
-o2 : -areavidro 
-o3 : -area 
-o4 : -area
+o1 : area 
+o2 : areavidro 
+o3 : area 
+o4 : area
 left to right direction
 o1 <|--o2
 o2 -[#White]- o3

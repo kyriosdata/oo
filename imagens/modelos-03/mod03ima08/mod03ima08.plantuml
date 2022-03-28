@@ -10,6 +10,6 @@ skinparam class {
 }
 skinparam ClassAttributeIconSize 0
 class "Preço" as pr 
-pr : - valor 
-pr : - moeda
+pr : valor 
+pr : moeda
 @enduml
