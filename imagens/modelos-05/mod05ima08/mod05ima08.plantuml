@@ -11,9 +11,9 @@ skinparam class {
 skinparam ClassAttributeIconSize 0
 class "Pessoa" as pe
 class "Automóvel" as au
-au : - marca
-au : - modelo
-au : - ano
+au : marca
+au : modelo
+au : ano
 note "Naturalmente um\ncarro é dirigido por uma\núnica pessoa por vez." as na
 left to right direction
 pe "*"--"*" au : Dirige

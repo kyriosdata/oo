@@ -17,8 +17,8 @@ class "Pedido" as pe
 class "Item" as it
 class "Bebida" as be
 class "Detalhe" as de 
-de : - descrição 
-de : - acompanhamento 
+de : descrição 
+de : acompanhamento 
 
 left to right direction
 la --"*" sa : Serve

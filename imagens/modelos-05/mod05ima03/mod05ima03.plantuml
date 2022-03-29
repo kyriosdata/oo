@@ -16,9 +16,9 @@ class "Lugar" as lu
 class "Avião" as av
 class "Aeroporto" as ae 
 class "Operação" as op
-op : -tipo 
-op : -data 
-op : -hora
+op : tipo 
+op : data 
+op : hora
 class "Vôo" as vo
 class "Piloto" as pi
 class "Tripulação" as tr
