@@ -1,20 +1,29 @@
 @startuml mod05ima03
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
 skinparam classAttributeIconSize 0
-object "Passageiro" as pa
+class "Passageiro" as pa
 pa : -bilhete
-rectangle "Lugar" as lu
-rectangle "Avião" as av
-rectangle "Aeroporto" as ae 
-object "Operação" as op
+class "Lugar" as lu
+class "Avião" as av
+class "Aeroporto" as ae 
+class "Operação" as op
 op : -tipo 
 op : -data 
 op : -hora
-rectangle "Vôo" as vo
-rectangle "Piloto" as pi
-rectangle "Tripulação" as tr
-rectangle "Aeromoça" as aa
-rectangle "Co-piloto" as co
+class "Vôo" as vo
+class "Piloto" as pi
+class "Tripulação" as tr
+class "Aeromoça" as aa
+class "Co-piloto" as co
 left to right direction
 
 pa "0..1"--"1" lu

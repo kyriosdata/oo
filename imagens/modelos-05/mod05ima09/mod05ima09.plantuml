@@ -1,5 +1,14 @@
 @startuml
-object "Funcionário" as fu 
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Funcionário" as fu 
 left to right direction
 fu "gerente \n 0..1"--- " * \n gerenciado" fu
 @enduml

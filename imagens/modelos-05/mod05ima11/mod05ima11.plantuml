@@ -1,10 +1,19 @@
 @startuml mod05ima11
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-object "Nota Fiscal" as no
-object "Item" as it
+class "Nota Fiscal" as no
+class "Item" as it
 it : - quantidade
 it : - preçoUnitário
-object "Produto" as pr
+class "Produto" as pr
 left to right direction
 no *-- it
 it -- pr 

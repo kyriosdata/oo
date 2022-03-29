@@ -1,6 +1,15 @@
 @startuml mod05ima10
-object "Pessoa" as pe
-object "Comitê" as co
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Pessoa" as pe
+class "Comitê" as co
 left to right direction
 pe "*"---"*" co : Membro de
 pe "*"--- "*" co : Presidência
