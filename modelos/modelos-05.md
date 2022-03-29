@@ -4,12 +4,19 @@
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima01/mod05ima01.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima01/mod05ima01.plantuml)
+
+IMAGEM 01
 
 O modelo acima pode ser “trabalhado”, resultando naquele abaixo onde podemos acrescentar outros dispositivos à medida que se fizer necessário. No modelo abaixo optamos por não representar outros compartimentos de uma classe, ou seja, aquele dos atributos e das operações (métodos). São formas alternativas, que devem ser empregadas conforme a necessidade. Para este caso, por exemplo, nem atributos nem operações fazem falta.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352466-d9bbf700-e019-11ea-8583-87c6688e6595.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima02/mod05ima02.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima02/mod05ima02.plantuml)
+
+IMAGEM 02
 
 ### Aeroporto
 
@@ -20,6 +27,10 @@ Para o caso acima é fácil observar alguns elementos principais a serem conside
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima03/mod05ima03.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima03/mod05ima03.plantuml)
+
+IMAGEM 03
+
 
 ### Lanchonete
 
@@ -28,6 +39,10 @@ Em lanchonetes são servidos vários tipos de sanduíche, alguns com vários tip
 ![image](https://user-images.githubusercontent.com/1735792/90352519-05d77800-e01a-11ea-8314-ef70ed358574.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima04/mod05ima04.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima04/mod05ima04.plantuml)
+
+IMAGEM 04
 
 
 ### Festa
@@ -38,11 +53,19 @@ Em uma festa convencional homens dançam com mulheres. Cada dança está associa
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima05/mod05ima05.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima05/mod05ima05.plantuml)
+
+IMAGEM 05
+
 ### Um trabalhador pode ser um açougueiro, um padeiro, um professor e um advogado.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352630-4afbaa00-e01a-11ea-92dd-29d11799adbe.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima06/mod05ima06.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima06/mod05ima06.plantuml)
+
+IMAGEM 06
 
 ### Pagamento
 
@@ -52,11 +75,19 @@ Uma determinada tarefa desempenhada por um trabalhador pode ser paga por hora, p
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima07/mod05ima07.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima07/mod05ima07.plantuml)
+
+IMAGEM 07
+
 ### Pessoas dirigem automóveis, cada um deles de uma determinada marca, modelo e ano.
 
 ![image](https://user-images.githubusercontent.com/1735792/90352722-86967400-e01a-11ea-84c1-ee2c6fc56bc4.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima08/mod05ima08.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima08/mod05ima08.plantuml)
+
+IMAGEM 08
 
 ### Empregados
 
@@ -66,6 +97,10 @@ Uma empresa possui empregados organizados hierarquicamente onde gerentes gerenci
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima09/mod05ima09.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima09/mod05ima09.plantuml)
+
+IMAGEM 09
+
 ### Presidência de comitê
 
 Pessoas podem ser membros de comitês. Cada comitê necessariamente possui dois ou três presidentes.
@@ -73,6 +108,10 @@ Pessoas podem ser membros de comitês. Cada comitê necessariamente possui dois 
 ![image](https://user-images.githubusercontent.com/1735792/90352774-afb70480-e01a-11ea-952a-a333b2738959.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima10/mod05ima10.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima10/mod05ima10.plantuml)
+
+IMAGEM 10
 
 ### Nota fiscal
 
@@ -82,6 +121,10 @@ Uma nota fiscal contém vários itens, cada um descreve um produto, a quantidade
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima11/mod05ima11.plantuml)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima11/mod05ima11.plantuml)
+
+IMAGEM 11
+
 
 ### Avaliação
 
@@ -90,4 +133,8 @@ Em um dado sistema acadêmico, avaliação é o nome que se dá a um conjunto de
 ![image](https://user-images.githubusercontent.com/1735792/90352843-ea20a180-e01a-11ea-80cf-e67641828eae.png)
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-05/mod05ima12/mod05ima12.plantuml)
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-05/mod05ima12/mod05ima12.plantuml)
+
+IMAGEM 12
 
