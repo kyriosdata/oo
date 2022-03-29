@@ -8,6 +8,11 @@ skinparam class {
     ArrowColor Black
     BorderColor #505050
 }
+skinparam note {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
 class "Pessoa" as pe
 class "Automóvel" as au
