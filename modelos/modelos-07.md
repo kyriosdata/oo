@@ -103,29 +103,18 @@ A versão à esquerda apenas agrupa clientes em uma fila, o que é pouco para or
 ### Ônibus
 
 Ao longo de sua vida útil um ônibus transporta um grande número de passageiros. Represente os passageiros transportados por um ônibus para cada uma de suas viagens.
+
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima13/mod07ima13.plantuml)
 
 Para cada ônibus podem existir várias viagens. Para cada viagem temos exatamente um único ônibus. Cada viagem envolve vários passageiros. Se desejarmos saber qual a origem, o destino, o horário de partida e chegada e o motorista pode ser que o modelo resultante se pareça com aquele abaixo.
 
-![image](https://user-images.githubusercontent.com/1735792/90356054-961aba80-e024-11ea-90a3-786ecd2e0b70.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima14/mod07ima14.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-07/mod07ima14/mod07ima14.plantuml)
-
-IMAGEM 14
 
 ### Feriados
 
 Ao longo de um ano há muitos dias que são feriados, enquanto outros referem-se a acontecimentos relevantes (seja uma data de aniversário ou outro).
 
-![image](https://user-images.githubusercontent.com/1735792/90356081-aa5eb780-e024-11ea-9831-7c4f42f3b45a.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima15/mod07ima15.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-07/mod07ima15/mod07ima15.plantuml)
-
-IMAGEM 15
 
 O modelo acima apenas registra, para um dado calendário de um certo ano, quais os feriados e datas relevantes. Não é possível, contudo, registrar o acontecimento relevante ou de quem é o aniversário, por exemplo. O modelo abaixo, por outro lado, já permite um número maior de informações que podem ser úteis ao contexto considerado.
 
