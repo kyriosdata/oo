@@ -37,13 +37,7 @@ Uma possibilidade. Um usuário representa um papel dentre todo um conjunto deles
 
 Abaixo segue um diagrama contendo duas classes e dois relacionamentos.
 
-![image](https://user-images.githubusercontent.com/1735792/90355517-f6a8f800-e022-11ea-87ef-5bf37eaa9f99.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima06/mod07ima06.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 06
 
 As classes A e B representam com mais fidelidade qual par de itens abaixo, respectivamente?
 
@@ -56,25 +50,13 @@ As classes A e B representam com mais fidelidade qual par de itens abaixo, respe
 
 Prática de programação e Programação podem ser as classes referenciadas, respectivamente, por A e B no diagrama abaixo? (Assuma que programação refere-se a um esforço de desenvolvimento de código, ou seja, trata-se de uma prática de programação, que pode envolver várias atividades de desenvolvimento.) Justifique.
 
-![image](https://user-images.githubusercontent.com/1735792/90355758-b0a06400-e023-11ea-9374-0de53bb4cd9b.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima07/mod07ima07.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 07
 
 ### Revisão
 
 Seja uma revisão um caso particular de versão de um produto de software. Todo software pode estar relacionado a várias versões (pelo menos uma). Para cada versão podem existir revisões subseqüentes, uma após a outra, em uma seqüência bem definida. Este cenário é modelado adequadamente pelo diagrama abaixo? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355800-d463aa00-e023-11ea-9ba4-6f077e0c3e83.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima08/mod07ima08.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 08
 
 Segundo este modelo, um software pode estar associado a várias versões. Contudo, pode existir software sem versão e, portanto, a cardinalidade deve ser ajustada.
 
@@ -84,13 +66,7 @@ O modelo contempla a situação de uma versão ser sucedida por uma seqüência 
 
 O diagrama de objetos abaixo pode ser útil na compreensão deste modelo. Observe que uma instância de Software está ligado a três versões identificadas por v1, v2 e v3. Estas ligações são instâncias da associação entre as classes Software e Versão, exibida na figura anterior.
 
-![image](https://user-images.githubusercontent.com/1735792/90355840-efceb500-e023-11ea-951b-decc2a4353c5.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima09/mod07ima09.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 09
 
 Se observarmos as instâncias v32 e v21 veremos que estas não participam de ligações onde desempenham o papel de anterior. Naturalmente, sempre teremos, em determinado instante de tempo, a última revisão para determinada versão. Ao observarmos o diagrama de classe veremos que uma revisão também é uma versão e, portanto, pode existir ou não uma instância de Revisão que sucede uma determinada versão. As instâncias citadas, v32 e v21, são exemplos de versões, pois são instâncias de Revisão, para as quais não há sucessores.
 
@@ -102,13 +78,7 @@ A instância v21 possui uma versão que a precede: v2. Esta ligação é “expl
 
 Clientes de um restaurante sentam-se em mesas. Em geral, um ou mais clientes compartilham uma mesma mesa. Dada uma mesa é desejado conhecer todos os clientes que já fizeram uso desta mesa. Comente o modelo abaixo para representar este cenário.
 
-![image](https://user-images.githubusercontent.com/1735792/90355884-18ef4580-e024-11ea-928e-a7560d1d35de.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima10/mod07ima10.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 10
 
 Se tratarmos pessoa como cliente e, conforme o enunciado, estivermos interessado em conhecer aqueles que tiveram o privilégio de se sentar à mesa de interesse, então o modelo esta completo. Se observarmos a nota ligada à classe Pessoa, contudo, seremos obrigados a reconhecer que a associação deve ser bidirecional, pois também gostaríamos de obter todas as mesas ocupadas por determinada pessoa.
 
