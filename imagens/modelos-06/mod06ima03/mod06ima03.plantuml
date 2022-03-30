@@ -8,17 +8,22 @@ skinparam class {
     ArrowColor Black
     BorderColor #505050
 }
-skinparam ClassAttributeIconSize 0
+skinparam LineType ortho
+
 class "Jogador" as jo
 class "Partida" as pa
 class "Lance" as la
 class "Peça" as pe
 class "Posição" as po
-po : - x
-po : - y
-jo <-down- la
-pa *--right--"{sequence}" la
+class po {
+    x
+    y
+}
+
+jo <-down-"{Sequence}" la
+pa *-right- la
 la -right-> pe
+
+la --> "destino" po 
 la -down->"origem" po
-la -- po : destino
 @enduml
