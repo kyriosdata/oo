@@ -4,23 +4,11 @@ Em um jogo de cartas há dois tipos de conjuntos delas: um conhecido por “mont
 
 ![image](https://user-images.githubusercontent.com/1735792/90355034-7c2ba880-e021-11ea-87b6-828a52d5a688.png)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima01/mod07ima01.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 01
-
 ### Círculo (pergunta 1)
 
 Quais das associações abaixo é mais adequada para representar que um círculo, além de outras propriedades, não exibidas, possui um ponto como centro? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima02/mod07ima02.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 02
 
 ### Círculo (pergunta 2)
 
@@ -28,11 +16,6 @@ Quais dos modelos abaixo é mais adequado para representar o fato de que um cír
 
 ![image](https://user-images.githubusercontent.com/1735792/90355082-ad0bdd80-e021-11ea-9c79-20931e4818c5.png)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima03/mod07ima03.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 03
 
 A segunda versão oferece maior independência entre entidades distintas. Observe que na primeira versão é necessário conhecer como se move um ponto para que o círculo seja deslocado. Na segunda versão, sabe-se que para mover um círculo basta mover o centro deste círculo, cujo conhecmento correspondente para tal é melhor depositado na classe Ponto, em vez da classe Círculo, que entende de círculos.
 
@@ -42,25 +25,13 @@ Observe ainda que esta idéia não escala. Para um triângulo teríamos três pa
 
 Quais dos relacionamentos entre as classes abaixo é o mais adequado? Justifique.
 
-![image](https://user-images.githubusercontent.com/1735792/90355289-518e1f80-e022-11ea-9e61-048030399b9f.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima04/mod07ima04.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 04
 
 Seria interessante afirmar que a herança está definitivamente errada e a associação está definitivamente correta. Contudo, a resposta depende do cenário em questão. Cenário omitido nos deixa apenas com especulações.
 
 Uma possibilidade. Um usuário representa um papel dentre todo um conjunto deles que um ser humano (pessoa) pode desempenhar. Por exemplo, usuário e aluno podem ser papéis desempenhados por uma pessoa ao longo de sua vida. Se empregarmos a herança, então “confundimos” o papel com a pessoa. De fato, todo usuário é uma pessoa, contudo, tratar João da Silva Sauro como usuário e termos dificuldade de dissociar a pessoa do papel de usuário que este desempenha não parece elegante. O diagrama abaixo apresenta um modelo compatível com esta perpsectiva.
 
-![image](https://user-images.githubusercontent.com/1735792/90355446-bea1b500-e022-11ea-9206-684460d7b66e.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima05/mod07ima05.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 05
 
 ### Herança e agregação
 
