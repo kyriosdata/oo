@@ -1,7 +1,22 @@
 @startuml mod07ima04
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+skinparam file {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allowmixing
-object "Pessoa" as pe
-object "Usuário" as us
+class "Pessoa" as pe
+class "Usuário" as us
 file "Associação" as ass
 file "Herança" as he
 

@@ -1,21 +1,30 @@
 @startuml mod07ima02
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
 class "Círculo" as ci1
 class ci1{
-    - raio
-    - x
-    - y
+    raio
+    x
+    y
     + move()
 }
 class "Círculo" as ci2
 class ci2{
-    - raio
+    raio
     + move()
     }
 class "Ponto" as po
 class po{
-    - x
-    - y
+    x
+    y
     + move()
 }
 left to right direction

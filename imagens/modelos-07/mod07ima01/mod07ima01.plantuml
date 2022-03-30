@@ -1,11 +1,20 @@
 @startuml mod07ima01
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam Linetype ortho
-object "Configuração cartas" as co
-object "Carta" as ca
-object "Jogador" as jo
-object "MãoJogador" as mã
-object "Monte" as mo
-object "Rodada" as ro
+class "Configuração cartas" as co
+class "Carta" as ca
+class "Jogador" as jo
+class "MãoJogador" as mã
+class "Monte" as mo
+class "Rodada" as ro
 co o-right- ca
 mã -up-|> co
 mo -up-|> co
