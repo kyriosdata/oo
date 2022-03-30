@@ -88,13 +88,7 @@ A realidade, contudo, é um pouco diferente do que o enunciado estabelece. Por e
 
 Em restaurantes, mesas são ocupadas por pessoas ao longo do tempo. O modelo abaixo adequadamente reflete este fato? Justifique.
 
-![image](https://user-images.githubusercontent.com/1735792/90355935-3d4b2200-e024-11ea-8bd8-b055714fb981.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima11/mod07ima11.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 11
 
 Veja que uma pessoa pode ocupar mesas e que uma mesa pode ser ocupada por pessoas. Esta ocupação ocorre em determinada data e, portanto, o modelo permite estabelecer um histórico, ao longo do tempo, de quem ocupou qual mesa. Com a identificação do tempo em que a ocupação ocorreu, pode-se estabelecer uma ordem das ocupações e, com algum esforço, até especular quais foram os grupos (pessoas) que se sentaram a mesa em determinada data.
 
@@ -102,27 +96,14 @@ Veja que uma pessoa pode ocupar mesas e que uma mesa pode ser ocupada por pessoa
 
 Alguém estava preocupado, em uma grande agência bancária de Goiânia, com um modelo que refletisse as filas que lá eram freqüentes. Neste momento surge um funcionário! Extrovertido, logo tratou de apresentar os dois modelos seguintes. Explicou ambos e concluiu que o segundo é superior. Qual o argumento que o funcionário provavelmente utilizou para convencer seus ouvintes?
 
-![image](https://user-images.githubusercontent.com/1735792/90355972-5eac0e00-e024-11ea-8d0f-f79b09f52c2e.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima12/mod07ima12.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 12
 
 A versão à esquerda apenas agrupa clientes em uma fila, o que é pouco para organizar de forma justa o atendimento. Para tal é preciso estabelecer uma seqüência de atendimento e, neste caso, precisamos de ordenar nos clientes, conforme a versão fornecida à direita.
 
 ### Ônibus
 
 Ao longo de sua vida útil um ônibus transporta um grande número de passageiros. Represente os passageiros transportados por um ônibus para cada uma de suas viagens.
-
-![image](https://user-images.githubusercontent.com/1735792/90356025-813e2700-e024-11ea-934b-478d653db07e.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima13/mod07ima13.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 13
 
 Para cada ônibus podem existir várias viagens. Para cada viagem temos exatamente um único ônibus. Cada viagem envolve vários passageiros. Se desejarmos saber qual a origem, o destino, o horário de partida e chegada e o motorista pode ser que o modelo resultante se pareça com aquele abaixo.
 
@@ -130,7 +111,7 @@ Para cada ônibus podem existir várias viagens. Para cada viagem temos exatamen
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima14/mod07ima14.plantuml)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-07/mod07ima14/mod07ima14.plantuml)
 
 IMAGEM 14
 
@@ -142,7 +123,7 @@ Ao longo de um ano há muitos dias que são feriados, enquanto outros referem-se
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima15/mod07ima15.plantuml)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-07/mod07ima15/mod07ima15.plantuml)
 
 IMAGEM 15
 
