@@ -1,4 +1,5 @@
 @startuml mod07ima15hide circle
+hide circle
 hide methods
 hide empty members
 
