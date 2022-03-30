@@ -1,10 +1,19 @@
 @startuml mod06ima03
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-object "Jogador" as jo
-object "Partida" as pa
-object "Lance" as la
-object "Peça" as pe
-object "Posição" as po
+class "Jogador" as jo
+class "Partida" as pa
+class "Lance" as la
+class "Peça" as pe
+class "Posição" as po
 po : - x
 po : - y
 jo <-down- la
