@@ -1,8 +1,17 @@
 @startuml mod07ima10
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
 file "Dada uma mesa, há todo um conjunto de\nclientes que la sentaram" as da
-object "pessoa" as pe
-object "mesa" as me
+class "pessoa" as pe
+class "mesa" as me
 file "Dada uma pessoa, sabe-se quais\nas mesas ocupadas por ela." as da2
 left to right direction
 pe "n"<--"n" me

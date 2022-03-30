@@ -1,11 +1,20 @@
 @startuml mod07ima09
-rectangle "v1:\nVersão" as v1
-rectangle ": Software" as so
-rectangle "v2:\nVersão" as v2
-rectangle "v21:\nRevisão" as v21
-rectangle "v3:\nVersão" as v3
-rectangle "v31:\nRevisão" as v31
-rectangle "v32:\nRevisão" as v32
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "v1:\nVersão" as v1
+class ": Software" as so
+class "v2:\nVersão" as v2
+class "v21:\nRevisão" as v21
+class "v3:\nVersão" as v3
+class "v31:\nRevisão" as v31
+class "v32:\nRevisão" as v32
 left to right direction
 v1 -right-so
 so -- v2
