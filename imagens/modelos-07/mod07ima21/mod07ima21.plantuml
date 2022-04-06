@@ -1,8 +1,18 @@
 @startuml mod07ima21
-rectangle "Imagem" as im
-rectangle "Pixel" as pi
-rectangle "Cor" as co
-rectangle "Ponto" as po
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Imagem" as im
+class "Pixel" as pi
+class "Cor" as co
+class "Ponto" as po
 left to right direction
 im *-left-> pi
 pi *-->"1" co

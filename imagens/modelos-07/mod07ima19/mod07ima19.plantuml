@@ -1,8 +1,18 @@
 @startuml mod07ima19
-rectangle "Expressão" as ex
-rectangle "Elemento" as el
-rectangle "Operador" as op
-rectangle "Operando" as on
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Expressão" as ex
+class "Elemento" as el
+class "Operador" as op
+class "Operando" as on
 left to right direction
 ex "1"---"{ordered}" el
 op -right-|> el

@@ -1,4 +1,14 @@
 @startuml mod07ima25
-rectangle "Objeto" as ob
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Objeto" as ob
 ob "para"-- "de" ob : Mensagem
 @enduml
