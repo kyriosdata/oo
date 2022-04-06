@@ -118,23 +118,13 @@ Ao longo de um ano há muitos dias que são feriados, enquanto outros referem-se
 
 O modelo acima apenas registra, para um dado calendário de um certo ano, quais os feriados e datas relevantes. Não é possível, contudo, registrar o acontecimento relevante ou de quem é o aniversário, por exemplo. O modelo abaixo, por outro lado, já permite um número maior de informações que podem ser úteis ao contexto considerado.
 
-![image](https://user-images.githubusercontent.com/1735792/90356096-b8143d00-e024-11ea-973e-d049b3af4144.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima16/mod07ima16.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 16
 
 ### Linha
 
 Uma classe Linha com duas composições para uma classe Ponto, cujos papéis são p1 e p2 é uma versão melhor que uma classe Linha associada a Ponto onde o extremo da associação com Ponto possui cardinalidade 2 e encontra-se ordenado? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356117-cc583a00-e024-11ea-96f2-03aa1534bcba.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima17/mod07ima17.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
 
 IMAGEM 17
 
@@ -144,13 +134,7 @@ As duas propostas são equivalentes. Contudo, caso seja interesse ressaltar que 
 
 No âmbito da UFG, cada estudante possui um computador, que não é compartilhado com nenhum outro estudante. Fora da UFG, contudo, nem todos os alunos têm computador, enquanto alguns possuem vários computadores.
 
-![image](https://user-images.githubusercontent.com/1735792/90356160-f14cad00-e024-11ea-8f6d-0b93369d02ae.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima18/mod07ima18.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 18
 
 Se na UFG cada aluno possui um computador, então da esquerda para a direita a associação UFG reflete este cenário. Contudo, isto não é suficiente para deduzir que todo computador possui um “aluno-dono”, o que justifica a cardinalidade do lado esquerdo. Nos domicílios dos estudantes, contudo, o cenário é diferente. Um aluno pode estar associado a vários computadores e um computador pode estar associado a vários alunos. Convém lembrar que alguns alunos podem compartilhar um mesmo computador fora da UFG.
 
@@ -158,13 +142,7 @@ Se na UFG cada aluno possui um computador, então da esquerda para a direita a a
 
 Modele expressões aritméticas como sendo sequências ordenadas de elementos que são operadores ou operandos.
 
-![image](https://user-images.githubusercontent.com/1735792/90356221-1f31f180-e025-11ea-9799-940e6e4b9afc.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima19/mod07ima19.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 19
 
 Não cabe assegurar, via estrutura, que as sentenças são válidas. Este tipo de verificação é melhor realizado por software, não por um modelo. Sentenças aritméticas, válidas ou não, podem ser registradas conforme o modelo acima.
 
@@ -173,12 +151,6 @@ Não cabe assegurar, via estrutura, que as sentenças são válidas. Este tipo d
 Uma classe Associação possui uma associação que parte dela para ela mesma. Em ambos os extremos a cardinalidade é 1. Em um deles o papel é para, enquanto no outro é de. O nome da associação é Relação. Outra classe, denominada de Classe, possui uma associação que também parte dela para ela mesma. Os papéis são, à semelhança do caso anterior, para e de. Neste última associação, contudo, o nome é Associação e nenhuma cardinalidade foi fornecida. Quais destas classes, com a respectiva associação representa um modelo mais consistente? Justifique.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356359-b303bd80-e025-11ea-8d73-27380ff0e5b3.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima20/mod07ima20.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 20
 
 Nomes são relevantes. Sabemos que uma associação é um relacionamento entre classes. Desta forma, de imediato, a versão mais à direita do modelo acima parece mais consistente. Contudo, apenas para associações unidirecionais, dado que os papéis são `de` e `para`. Associações bidirecionais com tais papéis não seriam adequadas.
 
@@ -191,37 +163,19 @@ unidirecionais.
 
 Uma imagem é um conjunto de pixels, cada um deles possui uma determinada posição e uma cor. Faça a modelagem de uma imagem. Em tempo, um pixel (picture element) é a menor unidade exibida em um monitor.
 
-![image](https://user-images.githubusercontent.com/1735792/90356594-7389a100-e026-11ea-898b-4396e9da3493.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima21/mod07ima21.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 21
 
 ### Diretor
 
 Estabeleça relações entre as classes Diretor, Vice-diretor, Docente, Funcionário e Aluno sabendo-se que, diretor e vice-diretor são docentes. Caso considere apropriado, acrescente outras classes. Um docente também pode ser funcionário e, possivelmente, também aluno.
 
-![image](https://user-images.githubusercontent.com/1735792/90356643-9451f680-e026-11ea-81f8-ff201db6d138.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima22/mod07ima22.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 22
 
 No modelo acima, diretor, vice-diretor e demais elementos fornecidos foram tratados como casos particulares de cargo. Embora não seja natural tratar um aluno como ocupante de um cargo em uma instituição de ensino, este modelo permite relacionar um ser humano com vários “cargos”, o que é uma situação típica.
 
 ### Um presidente nomeia ministros e este seus respectivos assessores.
 
-![image](https://user-images.githubusercontent.com/1735792/90356680-b3508880-e026-11ea-81a9-f89ffbda16dc.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima23/mod07ima23.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 23
 
 Em um cenário mais realístico pode ser necessário indicar, por exemplo, a data da nomeação, entre outras. Uma classe associativa pode registrar a informação data de nomeação, caso seja necessário.
 
@@ -233,25 +187,13 @@ Um disco pode ser interpretado como uma composição de arquivos. Entre um usuá
 
 Para que não haja dúvida, dado um aluno e um arquivo associados, teremos os atributos leitura, escrita e execução, conforme o diagrama abaixo.
 
-![image](https://user-images.githubusercontent.com/1735792/90356726-dd09af80-e026-11ea-8baa-59c421cf2ea5.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima24/mod07ima24.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 24
 
 ### Objetos e mensagens
 
 Em um sistema orientado a objetos, objetos cooperam uns com os outros através da troca de mensagens.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356747-f27ed980-e026-11ea-97f4-b4bd72df03b8.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima25/mod07ima25.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 25
 
 Uma mensagem é, necessariamente, um relacionamento direcionado de um objeto para outro. Para que exista uma mensagem é necessário a existência de um objeto que envia a mensagem. Para que esta possa ser enviada, é preciso a existência do objeto destino. Observe que a origem e o destino podem ser distintos. Não necessariamente precisam ser o mesmo objeto, nem o modelo acima sugere que seja o mesmo objeto, apesar de muitos se enganarem.
 
@@ -260,10 +202,3 @@ O modelo acima é interpretado da seguinte forma: dada uma instância obj de Obj
 A associação, contudo, não permite descreve qual a mensagem, o que pode ser uma informação de interesse e não apenas quais são os objetos que recebem mensagem de determinado objeto. Em conseqüência, o modelo abaixo parece mais completo.
 
 ![image](https://user-images.githubusercontent.com/1735792/90356763-075b6d00-e027-11ea-87d2-e344d905f6c7.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-07/mod07ima26/mod07ima26.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-06/mod06ima01/mod06ima01.plantuml)
-
-IMAGEM 26
-
