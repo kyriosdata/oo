@@ -1,10 +1,6 @@
 ### Comente o diagrama abaixo
 
-![image](https://user-images.githubusercontent.com/1735792/90353452-9dd66100-e01c-11ea-9339-57ca3d9ff83e.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-08/mod08ima01/mod08ima01.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-08/mod08ima01/mod08ima01.plantuml)
 
 O diagrama informa que para uma instância da classe B há uma instância de A, via a associação que é uma agregação, da qual B é membro. A composição diz que, para uma instância de B tem-se que esta é parte de uma instância de A e, portanto, sugere que uma instância de B pode ser parte de uma instância de A e membro de outra, ao mesmo tempo. Para ressaltar que uma instância de B pode estar associada a uma instância de A por uma associação ou, exclusivamente por outra, a cardinalidade destas associações do lado da classe A deveria ser 0..1.
 
@@ -30,10 +26,6 @@ Analise cada um dos itens abaixo. Entenda cada item como um cenário. Para cada 
 
 ![image](https://user-images.githubusercontent.com/1735792/90354870-ec85fa00-e020-11ea-88b5-191ec0652cd2.png)
 
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-08/mod08ima02/mod08ima02.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-08/mod08ima02/mod08ima02.plantuml)
-
 (a) Há softwares e nenhum deles possui uma revisão.
 (b) Há revisão sem software.
 (c) Há versão sem revisão.
@@ -57,11 +49,7 @@ Uma empresa de grande tradição no ramo de materiais esportivos, com milhares d
 Um dos padrões de projeto orientado a objetos é conhecido por Adapter. Quando duas partes precisam de interagir e uma delas sofre freqüentes mudanças, pode-se empregar o padrão Adapter para encapsutar a parte volátil e oferecer uma interface estável para uso da outra parte.
 Tratando FolhaPagamento como uma destas partes, a parte estável, SistemasEsporte como a partil volátil, abstratamente representando os sistemas existentes na empresa de materiais esportivos, InterfaceExigida como o conjunto de requisições da folha de pagamento com o propósito de obter as informações necessárias (bem estável conforme o enunciado) e, por último, Adaptador como uma abstração para os possíveis e vários adaptadores a serem produzidos para cada mudança nos sistemas que lidam com os materiais esportivos, teremos o seguinte modelo como resultado:
 
-![image](https://user-images.githubusercontent.com/1735792/90354963-37a00d00-e021-11ea-9447-5f78e4e69447.png)
-
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-08/mod08ima03/mod08ima03.plantuml)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcuspadilha/oo/master/imagens/modelos-08/mod08ima03/mod08ima03.plantuml)
 
 Observação: (a) a seta de Adaptador para InterfaceExigida deve ser tracejada, com a mesma ponta de ceta, desta forma, indica-se implementação, ou seja, que a classe Adaptador implementa tal interface; (b) em vez da composição de Adaptador para SistemasEsporte o melhor seria um simples associação, pois Adaptador faz uso do SistemasEsporte. 
 
