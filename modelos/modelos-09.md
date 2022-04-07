@@ -35,5 +35,3 @@ Modelo o seguinte cenário:
 1. As bebidas são servidas por garçons que só servem bebidas e não coletam pedidos.
 
 ![image](https://user-images.githubusercontent.com/1735792/90523311-1b948c80-e143-11ea-9769-08799b34ce7e.png)
-
-![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-09/mod09ima01/mod09ima01.plantuml)
