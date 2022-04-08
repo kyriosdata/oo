@@ -1,9 +1,18 @@
 @startuml mod05ima12
-object "Avaliação" as av
-object "Questão" as qu
-object "Aluno" as al
-object "Prova" as pr
-object "Resposta" as re
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Avaliação" as av
+class "Questão" as qu
+class "Aluno" as al
+class "Prova" as pr
+class "Resposta" as re
 left to right direction
 av o-->"1..*"qu
 av "1"--"*" pr

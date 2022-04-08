@@ -1,7 +1,16 @@
 @startuml mod07ima13
-object "Ônibus" as on
-object "Viagem" as vi
-object "Passageiro" as pa
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Ônibus" as on
+class "Viagem" as vi
+class "Passageiro" as pa
 left to right direction
 on "1"--"n" vi
 vi "n"--"n" pa

@@ -1,14 +1,23 @@
 @startuml mod03ima06
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
 skinparam ClassAttributeIconSize 0
-object "Prestação" as pr 
-pr : - data
-pr : - valor 
-rectangle "Carnê" as ca 
-rectangle "Compra" as co 
-object "ItemCompra" as it 
-it : - quantidade 
-rectangle "Produto" as po
+class "Prestação" as pr 
+pr :  data
+pr :  valor 
+class "Carnê" as ca 
+class "Compra" as co 
+class "ItemCompra" as it 
+it :  quantidade 
+class "Produto" as po
 pr -up-* ca 
 ca -left- co
 co *-left- it

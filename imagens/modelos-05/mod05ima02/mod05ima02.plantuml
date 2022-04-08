@@ -1,11 +1,20 @@
 @startuml mod05ima02
-rectangle "Teclado" as te
-rectangle "Computador" as co 
-rectangle "Placa-mãe" as pl
-rectangle "Mouse" as mo
-rectangle "Memória" as me
-rectangle "CPU" as cp
-rectangle "Dispositivo" as di
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Teclado" as te
+class "Computador" as co 
+class "Placa-mãe" as pl
+class "Mouse" as mo
+class "Memória" as me
+class "CPU" as cp
+class "Dispositivo" as di
 left to right direction
 te --|> di
 pl --|>di

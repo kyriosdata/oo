@@ -1,7 +1,16 @@
 @startuml mod07ima11
-object "Pessoa" as pe
-object "Mesa" as me
-object "Data" as da
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Pessoa" as pe
+class "Mesa" as me
+class "Data" as da
 left to right direction
 pe "n"--"n" me
 (pe,me) ... da

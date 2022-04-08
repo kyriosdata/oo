@@ -1,7 +1,16 @@
 @startuml mod07ima08
-object "Software" as so
-object "Versão" as ve
-object "Revisão" as re
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Software" as so
+class "Versão" as ve
+class "Revisão" as re
 so -right-"n" ve
 ve "1 +anterior" --- "0..1 + próximo" re
 ve -down-|> re

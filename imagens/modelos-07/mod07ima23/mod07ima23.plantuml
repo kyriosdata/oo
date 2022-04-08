@@ -1,7 +1,17 @@
 @startuml mod07ima23
-rectangle "Presidente" as pr
-rectangle "Ministro" as mi
-rectangle "Assessor" as ass
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Presidente" as pr
+class "Ministro" as mi
+class "Assessor" as ass
 left to right direction
 pr "1"--> mi : Nomeia
 mi "1"--> ass : Nomeia

@@ -1,6 +1,15 @@
 @startuml mod03ima09
-rectangle "Período" as pe
-rectangle "Data" as da
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Período" as pe
+class "Data" as da
 
 left to right direction
 da "1 \n final" ---- "*" pe

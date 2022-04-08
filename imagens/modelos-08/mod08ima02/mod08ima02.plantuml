@@ -1,9 +1,18 @@
 @startuml mod08ima02
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
 skinparam Linetype ortho
-object "Software" as so
-object "Versão" as ve
-object "Revisão" as re
+class "Software" as so
+class "Versão" as ve
+class "Revisão" as re
 so -right-"n" ve
 re --|> ve
 ve "1\n+anterior"---"0..1\n+próximo" re

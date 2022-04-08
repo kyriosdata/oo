@@ -1,10 +1,24 @@
 @startuml mod05ima08
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+skinparam note {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-object "Pessoa" as pe
-object "Automóvel" as au
-au : - marca
-au : - modelo
-au : - ano
+class "Pessoa" as pe
+class "Automóvel" as au
+au : marca
+au : modelo
+au : ano
 note "Naturalmente um\ncarro é dirigido por uma\núnica pessoa por vez." as na
 left to right direction
 pe "*"--"*" au : Dirige

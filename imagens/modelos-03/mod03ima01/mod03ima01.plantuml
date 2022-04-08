@@ -1,10 +1,19 @@
 @startuml mod03ima01
-rectangle "Casa" as ca
-rectangle "Quarto" as qu
-rectangle "Banheiro" as ba
-rectangle "Sala" as sa
-rectangle "Garagem" as ga
-rectangle "Área" as ar
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Casa" as ca
+class "Quarto" as qu
+class "Banheiro" as ba
+class "Sala" as sa
+class "Garagem" as ga
+class "Área" as ar
 ca o-down- qu
 ca o-left- ba
 ca o-right- sa

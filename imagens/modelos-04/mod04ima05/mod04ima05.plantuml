@@ -1,6 +1,15 @@
 @startuml mod04ima05
-object "FIFO" as fi 
-object "Elemento" as el 
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "FIFO" as fi 
+class "Elemento" as el 
 
 left to right direction
 fi ----> "primeiro" el  

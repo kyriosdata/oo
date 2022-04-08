@@ -1,12 +1,21 @@
 @startuml mod02ima10
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam classAttributeIconSize 0 
-object "Cliente" as cl
-object "Transação" as tr
-object "Fornecedor" as fo
-cl : - transações[] : Transação
-tr : - cliente : Cliente
-tr : - fornecedor : Fornecedor
-fo : - transações[] : Transação
+class "Cliente" as cl
+class "Transação" as tr
+class "Fornecedor" as fo
+cl :  transações[] : Transação
+tr :  cliente : Cliente
+tr :  fornecedor : Fornecedor
+fo :  transações[] : Transação
 left to right direction
 cl"1" --- "n"tr
 tr"n" --- "1"fo

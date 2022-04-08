@@ -1,6 +1,15 @@
 @startuml mod07ima06
-object "   A   " as aa
-object "   B   " as bb
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "   A   " as aa
+class "   B   " as bb
 left to right direction
 aa "1" o-- bb
 aa *-- bb

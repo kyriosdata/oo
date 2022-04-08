@@ -1,6 +1,15 @@
 @startuml mod06ima01
-object "Partida" as pa
-object "Tabuleiro" as ta
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Partida" as pa
+class "Tabuleiro" as ta
 left to right direction
 pa o--> ta 
 @enduml

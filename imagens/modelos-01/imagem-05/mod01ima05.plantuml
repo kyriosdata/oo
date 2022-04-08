@@ -1,6 +1,17 @@
 @startuml mod01ima05
-object "País" as pa
-object "Cidade" as ci
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "País" as pa
+class "Cidade" as ci
 left to right direction
 pa"1" o-- "*"ci: "Contém"
 @enduml

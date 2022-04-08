@@ -1,6 +1,15 @@
 @startuml mod03ima08
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-object "Preço" as pr 
-pr : - valor 
-pr : - moeda
+class "Preço" as pr 
+pr : valor 
+pr : moeda
 @enduml

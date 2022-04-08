@@ -1,15 +1,24 @@
 @startuml mod05ima04
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
 skinparam classAttributeIconSize 0
-object "Lanchonete" as la
-object "Sanduíche" as sa
-object "Garçonete" as ga
-object "Pedido" as pe
-rectangle "Item" as it
-object "Bebida" as be
-object "Detalhe" as de 
-de : - descrição 
-de : - acompanhamento 
+class "Lanchonete" as la
+class "Sanduíche" as sa
+class "Garçonete" as ga
+class "Pedido" as pe
+class "Item" as it
+class "Bebida" as be
+class "Detalhe" as de 
+de : descrição 
+de : acompanhamento 
 
 left to right direction
 la --"*" sa : Serve

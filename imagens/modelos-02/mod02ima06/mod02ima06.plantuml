@@ -1,6 +1,15 @@
 @startuml mod02ima06
-object "Mamífero" as ma
-object "Elefante" as el
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Mamífero" as ma
+class "Elefante" as el
 left to right direction
 ma <|-- el
 @enduml

@@ -1,29 +1,38 @@
 @startuml mod10ima01
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
 
-object "Ocorrencia" as oc
-object "Pessoa" as pe
-object "Trabalhador" as tr
-object "Funcionário" as fu
-object "Venda" as ve
+class "Ocorrencia" as oc
+class "Pessoa" as pe
+class "Trabalhador" as tr
+class "Funcionário" as fu
+class "Venda" as ve
 ve : - data
 ve : - hora
-object "Centro de Venda" as ce
-object "Parque" as pa
-object "Calendário" as ca
-object "Data" as da
-object "Visitante" as vi
-object "Criança" as cr
-object "Parente" as pr
-object "Pai" as pi
-object "Outro" as ou
-object "Posto" as po
-object "Polícia" as pl
-object "Justiça" as ju
-object "Escala" as es
-object "Rádio" as rd
-object "Bilhete" as bi
-object "TocaAporB" as to
+class "Centro de Venda" as ce
+class "Parque" as pa
+class "Calendário" as ca
+class "Data" as da
+class "Visitante" as vi
+class "Criança" as cr
+class "Parente" as pr
+class "Pai" as pi
+class "Outro" as ou
+class "Posto" as po
+class "Polícia" as pl
+class "Justiça" as ju
+class "Escala" as es
+class "Rádio" as rd
+class "Bilhete" as bi
+class "TocaAporB" as to
 to : - data
 to : - hora
 to : - diferença

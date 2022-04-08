@@ -1,7 +1,16 @@
 @startuml mod03ima07
-rectangle "Frase" as fr
-rectangle "Palavra" as pa
-rectangle "Letra" as le
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Frase" as fr
+class "Palavra" as pa
+class "Letra" as le
 
 left to right direction
 fr o---"1..* \n {ordered}"pa

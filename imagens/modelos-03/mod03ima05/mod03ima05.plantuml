@@ -1,6 +1,15 @@
 @startuml mod03ima05
-rectangle "Lanchonete" as la
-rectangle "Funcionário" as fu
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Lanchonete" as la
+class "Funcionário" as fu
 
 left to right direction
 la "emprega"----"2..* \n empregado" fu

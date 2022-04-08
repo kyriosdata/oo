@@ -1,10 +1,19 @@
 @startuml mod05ima06
-object "Professor" as pr
-object "Trabalhador" as tr
-object "Profissão" as po
-object "Advogado" as ad
-object "Açougueiro" as aç
-object "Padeiro" as pa
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Professor" as pr
+class "Trabalhador" as tr
+class "Profissão" as po
+class "Advogado" as ad
+class "Açougueiro" as aç
+class "Padeiro" as pa
 
 pr -down-|> po
 po -left--o tr : Desempenha

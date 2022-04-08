@@ -1,11 +1,21 @@
 @startuml
-rectangle "Diretor" as di
-rectangle "Funcionário" as fu
-rectangle "Docente" as do
-rectangle "Cargo" as ca
-rectangle "Pessoa" as pe
-rectangle "Vice-diretor" as vi
-rectangle "Aluno" as al
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Diretor" as di
+class "Funcionário" as fu
+class "Docente" as do
+class "Cargo" as ca
+class "Pessoa" as pe
+class "Vice-diretor" as vi
+class "Aluno" as al
 left to right direction
 di -right-|> do
 vi -left-|> do

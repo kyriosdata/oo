@@ -1,7 +1,16 @@
 @startuml mod01ima13
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam ClassAttributeIconSize 0
-object "Pessoa" as o1
-object "Empresa" as o2
+class "Pessoa" as o1
+class "Empresa" as o2
 left to right direction
 o1"+ empregado" ----- "+ empregador"o2
 @enduml

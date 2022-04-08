@@ -1,10 +1,19 @@
 @startuml mod01ima10
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam linetype ortho
-object "Janela" as o1
-object "Elemento de interação" as o2
-object "Botão" as o3
-object "Menu" as o4
-object "Barra de rolagem" as o5
+class "Janela" as o1
+class "Elemento de interação" as o2
+class "Botão" as o3
+class "Menu" as o4
+class "Barra de rolagem" as o5
 o3 -left-|> o2
 o4 -right-|> o2
 o5 -up-|> o2

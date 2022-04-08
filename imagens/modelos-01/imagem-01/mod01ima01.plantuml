@@ -10,8 +10,10 @@ skinparam class {
     BorderColor #505050
 }
 
+skinparam classAttributeIconSize 0
 class Disciplina {
     nome
-} 
+}
 
 @enduml
+

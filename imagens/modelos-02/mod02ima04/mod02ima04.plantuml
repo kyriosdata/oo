@@ -1,14 +1,23 @@
 @startuml mod02ima04
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam classAttributeIconSize 0
-object "Círculo" as ce
-object "Ponto" as po
+class "Círculo" as ce
+class "Ponto" as po
 left to right direction
-ce : - raio
-ce : - centro : Ponto
+ce :  raio
+ce :  centro : Ponto
 ce : -----
 ce : + transladar (dx, dy)
-po : - x
-po : - y
+po :  x
+po :  y
 po : -----
 po : + transladar (dx, dy)
 ce *--> "1"po

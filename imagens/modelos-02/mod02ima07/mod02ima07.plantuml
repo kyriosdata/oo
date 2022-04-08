@@ -1,8 +1,17 @@
 @startuml mod02ima07
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 skinparam linetype ortho
-object "Contêiner" as co
-object "Elemento" as el
-object "Objeto" as ob
+class "Contêiner" as co
+class "Elemento" as el
+class "Objeto" as ob
 left to right direction
 co o-- el
 el <|-- ob

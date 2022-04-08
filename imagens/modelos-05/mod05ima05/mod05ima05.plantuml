@@ -1,13 +1,22 @@
 @startuml mod05ima05
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
 allow_mixing
 skinparam classAttributeIconSize 0
-object "Dança" as da
+class "Dança" as da
 da : - horaInicio
 da : - horaFim
-object "Música" as mu
-object "Festa" as fe
-object "Convite" as co
-Object "Pessoa" as pe
+class "Música" as mu
+class "Festa" as fe
+class "Convite" as co
+class "Pessoa" as pe
 circle " " as p1
 circle " " as p2
 circle " " as p3

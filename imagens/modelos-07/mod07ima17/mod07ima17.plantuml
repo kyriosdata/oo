@@ -1,8 +1,18 @@
 @startuml mod07ima17
-rectangle "Linha" as li
-rectangle "Ponto" as po
-rectangle "Linha" as ln
-rectangle "Ponto" as pn
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class "Linha" as li
+class "Ponto" as po
+class "Linha" as ln
+class "Ponto" as pn
 left to right direction
 li "1"*-->"p2" po
 li "1"*-->"p1" po

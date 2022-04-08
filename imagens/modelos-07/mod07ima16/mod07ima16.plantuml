@@ -1,8 +1,18 @@
 @startuml mod07ima16
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
 skinparam ClassAttributeIconSize 0
-object "Calendário" as ca
+class "Calendário" as ca
 ca : - ano
-object "Evento" as ev
+class "Evento" as ev
 ev : -dia
 ev : - descrição
 left to right direction

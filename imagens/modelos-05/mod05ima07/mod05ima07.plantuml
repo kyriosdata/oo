@@ -1,10 +1,19 @@
 @startuml mod05ima07
-object "Trbalhador" as tr
-object "Tarefa" as ta
-object "Hora" as ho
-object "Pagamento" as pa
-object "Contrato" as co
-object "Mensal" as me
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+class "Trbalhador" as tr
+class "Tarefa" as ta
+class "Hora" as ho
+class "Pagamento" as pa
+class "Contrato" as co
+class "Mensal" as me
 left to right direction
 tr -- ta : Desempenha
 ta -right-"1" pa
