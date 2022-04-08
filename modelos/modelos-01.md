@@ -38,6 +38,8 @@ Esta informação é uma combinação das anteriores, contudo, foi modelado de f
 
 ![image](https://user-images.githubusercontent.com/1735792/90348568-ef76ef80-e00c-11ea-80f7-2222dc5eaac3.png)
 
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-07/mod01ima07.plantuml)
+
 ### Um projeto envolve várias pessoas.
 
 A agregação (losango) indica que pessoas fazem parte de projetos. Neste exemplo a multiplicidade não é fornecida. Há pelo menos dois casos para serem analisados. Em um deles a multiplicidade não é fornecida por não ser relevante no contexto. Em muitos casos é natural identificar as entidades e associações entre estas, e deixar para momento posterior a identificação precisa de quantas entidades se relacionam com quantas entidades no outro extremo da relação. No outro caso a ser analisado, a multiplicidade não foi fornecida porque está sendo adotada a multiplicidade padrão da UML, ou seja, \*, zero ou mais entidades (ou instâncias). Neste caso a interpretação seria que um projeto pode estar associado a zero ou mais pessoas assim como uma pessoa pode estar associada a zero ou mais projetos.
@@ -79,4 +81,3 @@ No modelo abaixo, ao lado do papel empregado e empregador há o símbolo +. Isto
 Dada uma instância de Usuário temos instâncias de Diretório que são propriedades do usuário em questão. Dado um Diretório, aqueles autorizados (instâncias de Usuário) devem estar ligados pela associação Autorizado-a-usar.
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/kyriosdata/oo/master/imagens/modelos-01/imagem-14/mod01ima14.plantuml)
-

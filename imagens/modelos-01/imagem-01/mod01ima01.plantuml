@@ -14,5 +14,6 @@ skinparam classAttributeIconSize 0
 class Disciplina {
     nome
 }
+
 @enduml
 
