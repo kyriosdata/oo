@@ -12,5 +12,6 @@
 - [T08](topicos/08.md) (data limite: **dd/mm/aaaa 23h59min59s**)
 - [T09](topicos/09.md) (data limite: **dd/mm/aaaa 23h59min59s**)
 - [T10](topicos/10.md) (data limite: **dd/mm/aaaa 23h59min59s**)
+- [T11](topicos/11.md) (data limite: **dd/mm/aaaa 23h59min59s**)
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
