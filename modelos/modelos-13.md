@@ -1,6 +1,6 @@
 ### Os Sertões
 
-Euclides da Cunha é o autor do famoso e scular livro "Os Sertões".
+Euclides da Cunha é o autor do famoso e secular livro "Os Sertões".
 Para muitos, esta é a maior obra da literatura brasileira.
 Modele, de forma orientada a objetos, o excerto desta obra, transcrito
 abaixo:
