@@ -10,7 +10,7 @@ Modelo o seguinte cenário:
 
 1. Pedidos podem ser coletados por um dos garçons ou pela telefonista.
 
-1. O pedido pode ser atendido imediatamente, cenário mais comum, ou ser servido no dia e horário especificados, em uma mesa ou entregue em determinado domicílio.
+1. A produção de um pedido pode ser ocorrer imediatamente após registrado, cenário mais comum, ou ser servido no dia e horário especificados, ou seja, ser agendado para ser servido em instante futuro, em uma mesa ou entregue em determinado domicílio.
 
 1. Toda entrega à domicílio é realizada por um entregador, identificado conforme o conjunto de pedidos a serem entregues, o momento em que devem ser entregues e a disponibilidade deles, com o propósito de minimizar os custos através de uma rota menor. Cada entregador, no momento em que sai para um conjunto de entregas, recebe uma rota contendo a descrição de cada entrega e o endereço correspondente.
 
