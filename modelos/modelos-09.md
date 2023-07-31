@@ -12,8 +12,9 @@ Modelo o seguinte cenário:
 
 1. A produção de um pedido pode ser ocorrer imediatamente após registrado, cenário mais comum, ou ser servido no dia e horário especificados, ou seja, ser agendado para ser servido em instante futuro, em uma mesa ou entregue em determinado domicílio.
 
-1. Toda entrega à domicílio é realizada por um entregador, identificado conforme o conjunto de pedidos a serem entregues, o momento em que devem ser entregues e a disponibilidade deles, com o propósito de minimizar os custos através de uma rota menor. Cada entregador, no momento em que sai para um conjunto de entregas, recebe uma rota contendo a descrição de cada entrega e o endereço correspondente.
-
+1. Toda entrega à domicílio é realizada por um entregador. Um entregador, em geral, "sai" para atender um ou mais pedidos.
+2. A identificação dos pedidos a serem atendidos por um entregador é feita conforme o conjunto de pedidos a serem entregues, o momento em que devem ser entregues, a disponibilidade deles e a capacidade de transporte do entregador. Esta identificação visa minimizar os custos e otimizar o tempo de entrega médio.
+3. Cada entregador recebe um conjunto de entregas, a rota (ordem entre os endereços) e a descrição de cada entrega.
 1. Pedidos são contabilizados para que uma nota seja posteriormente emitida para pagamento, via cartão de crédito, cheque ou dinheiro.
 
 1. A nota emitida e entregue ao cliente contém o período de permanência do cliente(s) no restaurante, bem como o tempo médio de atendimento do pedido.
