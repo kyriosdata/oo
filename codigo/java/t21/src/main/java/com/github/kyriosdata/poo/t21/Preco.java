@@ -26,8 +26,19 @@ public class Preco extends Object {
         return moeda;
     }
 
+    public static Preco reais(double valor) {
+        return new Preco(valor, Moeda.REAL);
+    }
+
+    @Override
+    public String toString() {
+        return "Preco{" +
+                "valor=" + valor +
+                ", moeda=" + moeda +
+                '}';
+    }
+
     public static void main(String[] args) {
-        Preco preco = new Preco(12.2, Moeda.REAL);
-        System.out.println(preco.toString());
+        System.out.println(Preco.reais(10));
     }
 }
