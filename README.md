@@ -23,6 +23,6 @@
 - [T19](topicos/19.md) (data limite: **31/07/2023 23h59min59s**)
 - [T20](topicos/20.md) (data limite: **31/07/2023 23h59min59s**)
 - [T21](topicos/21.md)
-- Documento para registro da avaliação [aqui]. Faça uma cópia (google drive), preencha e acrescente no seu repositório o arquivo **avaliacao-1.pdf** contendo as suas respostas.
+- Documento para registro da avaliação [aqui](https://docs.google.com/document/d/1Igpry9MrUTsSjO3m7H58TzAEz8VoD4qRdD18OLn1sd4/edit?usp=sharing). Faça uma cópia (google drive), preencha e acrescente no seu repositório o arquivo **avaliacao-1.pdf** contendo as suas respostas.
 
 <img src="https://github.com/kyriosdata/oo/raw/master/media/flyier-poo.png" width="350">
