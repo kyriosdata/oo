@@ -2,6 +2,7 @@ package com.github.kyriosdata.poo.t21;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Cardapio {
 
@@ -16,5 +17,9 @@ public class Cardapio {
         }
 
         return fornecidosNoDia;
+
+        //return pratos.stream().filter(p -> p.servidoEm(dia))
+        //        .collect(Collectors.toSet());
+
     }
 }

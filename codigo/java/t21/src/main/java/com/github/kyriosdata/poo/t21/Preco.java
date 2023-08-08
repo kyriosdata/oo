@@ -41,4 +41,12 @@ public class Preco extends Object {
     public static void main(String[] args) {
         System.out.println(Preco.reais(10));
     }
+
+    public Preco adiciona(Preco valor) {
+        if (moeda != valor.getMoeda()) {
+            throw new IllegalArgumentException("não se soma valores de moedas distintas");
+        }
+
+        return new Preco(valor.getValor() + getValor(), moeda);
+    }
 }
