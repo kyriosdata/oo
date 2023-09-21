@@ -2,9 +2,11 @@
 
 Encapsular o que varia em uma classe, que implementa uma interface.
 Desta forma, quem precisa do comportamento desejado não estará
-dependente de uma implementação específica.
+dependente de uma implementação específica, apenas conhece a 
+interface por meio da qual requisita o comportamento, cuja 
+implementação é desconhecida.
 
-** Princípio
+## Princípio
 
 _Programe para uma interface, não para uma implementação_.
 
