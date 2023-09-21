@@ -1,6 +1,8 @@
 ## Interface (encapsular o que varia)
 
-Encapsular o que varia. 
+Encapsular o que varia em uma classe, que implementa uma interface.
+Desta forma, quem precisa do comportamento desejado não estará
+dependente de uma implementação específica.
 
 ## Cenário
 
