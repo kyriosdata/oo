@@ -4,6 +4,10 @@ Encapsular o que varia em uma classe, que implementa uma interface.
 Desta forma, quem precisa do comportamento desejado não estará
 dependente de uma implementação específica.
 
+** Princípio
+
+_Programe para uma interface, não para uma implementação_.
+
 ## Cenário
 
 Temos uma lista de estudantes que estão matriculados em uma determina
