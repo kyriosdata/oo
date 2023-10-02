@@ -20,6 +20,7 @@ public class BananaSemOrdenacaoTest {
         BananaSemOrdenacao[] bananas = {prata, nanica};
 
         // Ordena as bananas por nome
+        // Ordenação por seleção (menor fica ordenado a cada iteração)
         for (int i = 0; i < bananas.length; i++) {
             for (int j = i + 1; j < bananas.length; j++) {
                 if (bananas[i].getTipo().compareTo(bananas[j].getTipo()) > 0) {
