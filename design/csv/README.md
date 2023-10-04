@@ -20,6 +20,6 @@ de saída não for informado, o arquivo de saída será o mesmo daquele
 de entrada acrescido do sufixo `_out.csv`.
 - Para cada linha do arquivo de entrada, calcula a soma das duas 
 duas primeiras colunas e gera uma linha no arquivo de saída, 
-contendo as mesmas colunas do arquivo de entrada acrescido de uma
+contendo as mesmas colunas da linha de entrada acrescida de uma
 coluna com a soma calculada.
 
