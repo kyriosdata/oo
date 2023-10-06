@@ -18,6 +18,7 @@ public class Main {
         Arrays.stream(bananas).forEach(b -> System.out.println(b.getTipo()));
 
         // Ordena pelo tamanho do nome
+        // Depende de BananaPorTamanhoDoNomeComparator
         Arrays.sort(bananas, new BananaPorTamanhoDoNomeComparator());
         Arrays.stream(bananas).forEach(b -> System.out.println(b.getTipo()));
     }

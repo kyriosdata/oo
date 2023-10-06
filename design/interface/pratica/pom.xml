@@ -11,6 +11,7 @@
     <modules>
         <module>jar</module>
         <module>uso</module>
+        <module>function</module>
     </modules>
 
     <properties>
