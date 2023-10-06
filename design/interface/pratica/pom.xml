@@ -12,6 +12,7 @@
         <module>jar</module>
         <module>uso</module>
         <module>function</module>
+        <module>usa-function</module>
     </modules>
 
     <properties>
