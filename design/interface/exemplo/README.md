@@ -12,7 +12,7 @@ _Programe para uma interface, não para uma implementação_.
 
 ## Cenário
 
-Temos uma lista de estudantes que estão matriculados em uma determina
+Temos uma lista de estudantes que estão matriculados em uma determinada
 discipina. Nosso usuário deseja a possibilidade de ordená-la por 
 vários critérios, por exemplo, nome (ordem alfabética ou inversa), pelo sobrenome, pela idade, 
 pelas notas, ou pela média e por outros critérios. Isto é o que software
