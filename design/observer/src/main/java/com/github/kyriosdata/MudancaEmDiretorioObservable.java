@@ -1,5 +1,6 @@
 package com.github.kyriosdata;
 
+import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
@@ -13,7 +14,10 @@ public class MudancaEmDiretorioObservable {
             new PropertyChangeSupport(this);
 
     public void detectadaMudancaEm(String arquivo) {
-        support.firePropertyChange("arquivo", null, arquivo);
+        PropertyChangeEvent evento = new PropertyChangeEvent("dir",
+                "arquivo",
+                null, arquivo);
+        support.firePropertyChange(evento);
     }
 
     public void registraInteressadoEmMudancas(PropertyChangeListener observer) {
