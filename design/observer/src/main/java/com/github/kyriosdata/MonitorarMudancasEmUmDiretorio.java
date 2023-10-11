@@ -6,9 +6,9 @@ import java.util.Map;
 
 import static java.nio.file.StandardWatchEventKinds.*;
 
-public class Main {
+public class MonitorarMudancasEmUmDiretorio {
     public static void main(String[] args) throws Exception {
-        Path diretorio = Paths.get("c:/tmp");
+        Path diretorio = Paths.get(args[0]);
         WatchService watcher = FileSystems.getDefault().newWatchService();
 
         diretorio.register(watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY);
